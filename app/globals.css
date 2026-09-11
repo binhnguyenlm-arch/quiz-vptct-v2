@@ -15,3 +15,32 @@ button:disabled{cursor:not-allowed;opacity:.5;filter:none}.topicActions a{displa
 .functionGuide{background:#f1f6fa;border:1px solid #dbe5ed;border-radius:7px;padding:13px 17px;margin:18px 0;text-align:left}.functionGuide summary{font-size:13px;color:var(--navy);font-weight:700;cursor:pointer}.functionGuide p,.functionGuide li{font-size:13px;line-height:1.8;color:var(--muted)}.functionGuide ol{padding-left:20px;margin:12px 0}.functionGuide li{margin:7px 0}.modeGuide{margin:24px 0 35px;padding:24px;background:white;border:1px solid var(--line);border-radius:9px}.modeGuide h2{font-size:21px;color:var(--navy);margin-bottom:18px}.modeGuide>div{display:grid;grid-template-columns:1fr 1fr;gap:30px}.modeGuide h3{font-size:15px;margin-bottom:8px}.modeGuide p{font-size:13px;color:var(--muted)}@media(max-width:760px){.modeGuide>div{grid-template-columns:1fr;gap:22px}.modeGuide{padding:20px}.functionGuide{padding:12px 14px}}
 .modeGuide .encouragement{color:var(--navy);font-weight:700;margin-bottom:9px}
 .nameField{display:block;font-size:14px;font-weight:700;margin:24px 0 6px}.nameField input{display:block;width:min(100%,460px);font:inherit;font-weight:400;border:1px solid #b9cbd8;border-radius:6px;padding:12px;margin-top:9px}.namePreview{font-size:12px!important}.examPackages{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.examPackages button{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid #d6e0e9;background:white;border-radius:8px;color:var(--navy);text-align:left}.examPackages button[aria-pressed=true]{border:2px solid var(--navy);background:#edf5fb;padding:19px}.examPackages b{font-size:22px}.examPackages span{font-size:14px}.examPackages small{font-size:11px}.examTimer{padding:10px 20px;border:1px solid #c8d6e2;border-radius:8px;background:white;font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--navy);text-align:center}.examTimer small{display:block;font-size:10px;font-weight:400}.examTimer.urgent{background:#fff0f2;color:#b52138;border-color:#e4aeb7}.examError{background:#fff2f0;border:1px solid #edc3bc;padding:18px;border-radius:8px;margin:18px 0;color:#9b2633;font-size:13px}.congratulations{padding:24px;background:#fff8e6;border:1px solid #e9d5a7;border-radius:10px;margin:22px 0}.congratulations h2{font-size:22px;line-height:1.5;color:#826321}.navigation .primary{width:100%}.practicePanel>.primary{margin:15px 0}.availability .secondary{margin-top:10px}.examPackages button:focus-visible,.nameField input:focus-visible{outline:3px solid #c9983f;outline-offset:3px}@media(max-width:760px){.examPackages{gap:8px}.examPackages button{padding:12px 9px}.examPackages button[aria-pressed=true]{padding:11px 8px}.examPackages b{font-size:18px}.examPackages small{font-size:10px}.examTimer{font-size:23px;padding:7px 12px}.congratulations{padding:18px}.congratulations h2{font-size:19px}}
+
+/* Coordinated gold topic emblems — 2.3 */
+.topicCard{border:1px solid #dce3e9;border-radius:16px;box-shadow:0 10px 30px #102b4410;transition:transform .2s,box-shadow .2s}
+.topicCard:hover{transform:translateY(-3px);box-shadow:0 16px 35px #102b441b}
+.topicCard.red{--deep:#541525;--glow:#873445}.topicCard.blue{--deep:#09263f;--glow:#225476}.topicCard.green{--deep:#10392f;--glow:#29604e}
+.topicTop{min-height:330px;padding:24px 26px 28px;background:radial-gradient(ellipse at 50% 0%,var(--glow),var(--deep) 85%);border-bottom:2px solid #d7b567;isolation:isolate}
+.topicTop:after{content:'';position:absolute;inset:12px;border:1px solid #e9cb8120;border-radius:8px;pointer-events:none;z-index:-1}
+.topicIcon{width:136px;height:136px;border:0;border-radius:50%;overflow:hidden;margin:0 0 20px;background:transparent;box-shadow:0 5px 20px #0002}
+.topicIcon img{width:100%;height:100%;object-fit:cover}
+.topicNumber{font-size:44px;top:27px;right:27px;color:#eed59740;font-weight:500;font-family:Georgia,serif}
+.topicTop h3{font-size:23px;color:#fff7e4;letter-spacing:0;margin-bottom:12px}
+.topicTop p{color:#edf0f3;opacity:1;font-size:14px;line-height:1.7}
+.values{display:flex;flex-direction:column;gap:5px;background:linear-gradient(145deg,#173e58f5,#09263eeb);color:#fff8e7;border-left:3px solid #c82c3c;border-top:1px solid #ddbb6c;padding:16px 18px;border-radius:0 8px 8px 0;box-shadow:0 8px 24px #082c4930;text-shadow:none;letter-spacing:.6px;font-size:14px}
+.values span:first-child,.values span:last-child{color:#f4d487}
+@media(max-width:1100px){.topicTop{padding:23px 20px;min-height:356px}.topicTop h3{font-size:20px}.values{font-size:11px;padding:12px}}
+@media(max-width:760px){.topicTop{min-height:0;padding:24px}.topicIcon{width:110px;height:110px;margin-bottom:19px}.topicTop h3{font-size:23px}.topicTop p{font-size:14px}.values{font-size:8px;gap:1px;padding:6px 9px;top:9px;right:10px;letter-spacing:.3px}.topicCard:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.topicCard{transition:none}}
+.green .topicIcon{background:#fff}.green .topicIcon img{object-fit:contain;clip-path:polygon(0 17%,35% 17%,35% 0,100% 0,100% 100%,0 100%)}
+.green .topicIcon{background:transparent}.green .topicIcon img{object-fit:cover;clip-path:none}
+
+/* Maritime imagery stays behind home content only. */
+#home>.shell{position:relative;isolation:isolate}
+#home>.shell:before{content:"";position:absolute;z-index:-1;inset:330px -24px 0;pointer-events:none;background:linear-gradient(#f5f7fa 0%,#f5f7fa38 25%,#f5f7fa70 85%,#f5f7fa 100%),url("/port-background.png") center bottom/100% auto no-repeat;opacity:.65}
+#home .modeGuide{background:linear-gradient(100deg,#ffffffed,#ffffffd9),url("/port-background.png") center 65%/cover;border-radius:14px;box-shadow:0 8px 30px #163c5710}
+#home .infoGrid{position:relative;padding:28px 26px 40px;background:#ffffffad;border:1px solid #ffffffd9;border-radius:14px;margin-bottom:32px;overflow:hidden}
+#home .infoGrid:before{content:"";position:absolute;right:30px;bottom:20px;width:180px;height:195px;background:url("/logo-snp.png") center/contain no-repeat;opacity:.045;pointer-events:none}
+#home .infoGrid>article{position:relative}
+@media(max-width:760px){#home>.shell:before{inset:600px -12px 0;background-size:auto 1000px;opacity:.5}#home .infoGrid{padding:22px 20px 28px}#home .modeGuide{background-position:70% center}}
+
