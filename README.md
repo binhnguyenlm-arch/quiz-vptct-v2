@@ -1,4 +1,4 @@
-# VPTCT 2.3 — Giao diện cảng số, cảng xanh
+# VPTCT 2.5 — Ôn tập và kết quả
 
 Nếu cập nhật từ 2.2 đang chạy: upload toàn bộ nội dung gói vào thư mục gốc repo, commit main và chờ Vercel Ready. Giữ nguyên hai biến Supabase hiện tại; không cần chạy lại SQL. Chỉ đọc KET-NOI-SUPABASE.md khi thiết lập một hệ thống mới. Bản này bổ sung Thi thử có tính giờ, chuẩn hóa tên, trộn câu và đáp án, lưu tiến độ và bảng xếp hạng TEST chung bằng Supabase mới. Không tổ chức kỳ thi thật. Không bình luận hoặc chấm sao.
 
@@ -19,4 +19,6 @@ Giữ nguyên nhận diện V2, logo SNP gốc, banner imagegen phong cách ản
 
 Chưa có Admin để thay ngân hàng/gói từ giao diện. Hiện cấu hình bằng lib/mock.ts; khi thay bộ TEST cần phiên bản ngân hàng mới để tách thành tích. Hai chuyên đề chưa có câu hỏi vẫn khóa.
 
-Bản 2.3: biểu tượng vàng kim, quân hiệu đã sửa theo mẫu, mô tả quân sự mới, khẩu hiệu và nền minh họa AI cảng số/cảng xanh. Chưa có trang quản trị. Không thay đổi ngân hàng câu hỏi, phiên bản xếp hạng hoặc dữ liệu thành tích.
+Giao diện trang chủ: biểu tượng vàng kim, quân hiệu đã sửa theo mẫu, mô tả quân sự mới, khẩu hiệu và nền minh họa AI cảng số/cảng xanh. Chưa có trang quản trị. Không thay đổi ngân hàng câu hỏi, phiên bản xếp hạng hoặc dữ liệu thành tích.
+
+Bản 2.5 bổ sung giao diện làm bài và kết quả, nút đến câu chưa trả lời, thống kê nhóm nội dung sau khi hoàn tất. Bao gồm 6 chuyên đề, top 3 và dòng tác giả. Không cần đổi cấu hình Supabase hoặc chạy lại SQL khi cập nhật từ 2.2–2.4.
