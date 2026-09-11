@@ -1,0 +1,2512 @@
+{
+  "title": "100 câu hỏi ôn tập nhận thức chính trị",
+  "notice": "BỘ CÂU HỎI TEST – CHƯA DÙNG CHÍNH THỨC",
+  "version": "1.0",
+  "source_file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+  "scope": "Biên soạn theo tài liệu người dùng cung cấp. Mục tiêu 2025, 2030, 2045 là nội dung Đại hội XIII được tài liệu dẫn, không phải xác nhận kết quả thực tế hoặc cập nhật văn kiện hiện hành.",
+  "review_status": "Chưa được đơn vị thẩm định nội dung chính thức",
+  "question_count": 100,
+  "questions": [
+    {
+      "id": "TEST-CT-001",
+      "number": 1,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, độc lập dân tộc có ý nghĩa thiết thực khi gắn với điều gì?",
+      "options": {
+        "A": "Sự phát triển riêng của đô thị",
+        "B": "Việc hạn chế giao lưu quốc tế",
+        "C": "Sự gia tăng diện tích lãnh thổ",
+        "D": "Hạnh phúc và tự do của nhân dân"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu gắn giá trị của độc lập với việc người dân được hưởng hạnh phúc, tự do.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Sau khi Cách mạng Tháng Tám thành công, với cương vị là người đứng đầu Nhà nước Việt Nam Dân chủ Cộng hòa, Chủ tịch Hồ Chí Minh mong…”",
+        "paragraph_indices": [
+          14
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-002",
+      "number": 2,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Ba nhiệm vụ cấp bách được nêu tại phiên họp đầu tiên của Hội đồng Chính phủ là gì?",
+      "options": {
+        "A": "Xây dựng công nghiệp, thương nghiệp và giao thông",
+        "B": "Cải cách tiền lương, thuế và bảo hiểm",
+        "C": "Phát triển dịch vụ, du lịch và đô thị",
+        "D": "Diệt giặc đói, giặc dốt và giặc ngoại xâm"
+      },
+      "correct_answer": "D",
+      "explanation": "Đoạn này xác định ba nhiệm vụ cấp bách ngay sau khi giành độc lập.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Trong phiên họp đầu tiên của Hội đồng Chính phủ ngày 03/9/1945, Người đã nêu lên những nhiệm vụ cấp bách của chính quyền đó là diệt g…”",
+        "paragraph_indices": [
+          15
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-003",
+      "number": 3,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, nâng cao dân trí trước hết giúp người dân làm gì?",
+      "options": {
+        "A": "Chỉ phục vụ việc nghiên cứu ở trường đại học",
+        "B": "Thay thế hoàn toàn việc đào tạo nghề",
+        "C": "Hiểu quyền lợi, bổn phận và tham gia xây dựng nước nhà",
+        "D": "Tách hoạt động học tập khỏi lao động sản xuất"
+      },
+      "correct_answer": "C",
+      "explanation": "Nâng cao dân trí giúp người dân có kiến thức để tham gia kiến thiết đất nước.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Chủ tịch Hồ Chí Minh nêu rõ, trước đây thực dân Pháp cai trị đã thực hiện chính sách ngu dân để dễ lừa dối, bóc lột dân ta, có tới 95…”",
+        "paragraph_indices": [
+          17
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-004",
+      "number": 4,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Trong nhiệm vụ nâng cao dân trí sau độc lập, yêu cầu ban đầu được nêu là gì?",
+      "options": {
+        "A": "Có kinh nghiệm quản lý doanh nghiệp",
+        "B": "Có bằng đại học",
+        "C": "Thông thạo nhiều ngoại ngữ",
+        "D": "Biết đọc và biết viết chữ quốc ngữ"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu nhấn mạnh biết đọc, biết viết là yêu cầu trước hết.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Chủ tịch Hồ Chí Minh nêu rõ, trước đây thực dân Pháp cai trị đã thực hiện chính sách ngu dân để dễ lừa dối, bóc lột dân ta, có tới 95…”",
+        "paragraph_indices": [
+          17
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-005",
+      "number": 5,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo nội dung về kiến thiết đất nước, cách nào giúp nhân tài ngày càng phát triển?",
+      "options": {
+        "A": "Ưu tiên quan hệ quen biết khi bố trí",
+        "B": "Chờ nhân tài tự phát huy mà không cần bố trí",
+        "C": "Chỉ sử dụng nhân tài ở một ngành",
+        "D": "Lựa chọn, phân phối và sử dụng nhân tài khéo léo"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu coi lựa chọn và sử dụng phù hợp là điều kiện phát triển nhân tài.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Bên cạnh việc nâng cao dân trí, Chủ tịch Hồ Chí Minh cũng chỉ ra nhiệm vụ quan trọng trong kiến thiết đất nước là bồi dưỡng nhân tài.…”",
+        "paragraph_indices": [
+          18
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-006",
+      "number": 6,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Khát vọng được dẫn từ Di chúc của Chủ tịch Hồ Chí Minh gắn xây dựng đất nước với nhiệm vụ nào?",
+      "options": {
+        "A": "Thu hẹp quan hệ với các dân tộc khác",
+        "B": "Chỉ tập trung phát triển một địa phương",
+        "C": "Góp phần xứng đáng vào sự nghiệp cách mạng thế giới",
+        "D": "Tách lợi ích dân tộc khỏi đoàn kết quốc tế"
+      },
+      "correct_answer": "C",
+      "explanation": "Đoạn Di chúc kết hợp xây dựng Việt Nam giàu mạnh với đóng góp quốc tế.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 1; đoạn bắt đầu: “- Trước lúc đi xa, trong Di chúc Người bày tỏ điều mong muốn cuối cùng, cũng là khát vọng tột bậc: “Toàn Đảng, toàn dân ta đoàn kết phấ…”",
+        "paragraph_indices": [
+          20
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-007",
+      "number": 7,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, khát vọng Hồ Chí Minh mang theo khi tìm đường cứu nước là gì?",
+      "options": {
+        "A": "Phát triển thương mại trước rồi mới quan tâm độc lập",
+        "B": "Độc lập cho Tổ quốc, tự do và hạnh phúc cho đồng bào",
+        "C": "Mở rộng lãnh thổ bằng mọi biện pháp",
+        "D": "Tập trung xây dựng đời sống riêng của người lãnh đạo"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu nêu trực tiếp khát vọng độc lập, tự do và hạnh phúc.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 2; đoạn bắt đầu: “- Hồ Chí Minh ngay từ khi ra đi tìm đường cứu nước đã mang khát vọng lớn lao: Độc lập cho Tổ quốc, tự do, hạnh phúc cho đồng bào. Người…”",
+        "paragraph_indices": [
+          23
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-008",
+      "number": 8,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Những nhu cầu nào của người dân được nêu trong mong muốn của Hồ Chí Minh?",
+      "options": {
+        "A": "Được miễn mọi nghĩa vụ với cộng đồng",
+        "B": "Có cơm ăn, áo mặc và được học hành",
+        "C": "Chỉ được bảo đảm việc làm mà không cần học tập",
+        "D": "Có nhà riêng ở đô thị và phương tiện cá nhân"
+      },
+      "correct_answer": "B",
+      "explanation": "Đoạn này nêu các nhu cầu thiết yếu về đời sống và học hành.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 2; đoạn bắt đầu: “- Hồ Chí Minh ngay từ khi ra đi tìm đường cứu nước đã mang khát vọng lớn lao: Độc lập cho Tổ quốc, tự do, hạnh phúc cho đồng bào. Người…”",
+        "paragraph_indices": [
+          23
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-009",
+      "number": 9,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Khi nước nhà độc lập, điều gì trở thành động lực và mục tiêu hành động của Đảng, Chính phủ và Hồ Chí Minh theo tài liệu?",
+      "options": {
+        "A": "Ấm no và hạnh phúc của nhân dân",
+        "B": "Số lượng cơ quan hành chính",
+        "C": "Sự gia tăng thủ tục quản lý",
+        "D": "Quy mô các nghi lễ công cộng"
+      },
+      "correct_answer": "A",
+      "explanation": "Tài liệu xác định đời sống nhân dân là động lực và mục tiêu hành động.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 2; đoạn bắt đầu: “- Khi nước nhà độc lập, khát vọng ấm no, hạnh phúc của nhân dân trở thành động lực và mục tiêu hành động của toàn Đảng, Chính phủ và Ch…”",
+        "paragraph_indices": [
+          24
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-010",
+      "number": 10,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Tài liệu mô tả Đảng và Nhà nước trong quan hệ với nhân dân như thế nào?",
+      "options": {
+        "A": "Vừa là người lãnh đạo, vừa là người phục vụ nhân dân",
+        "B": "Đứng ngoài nhu cầu của nhân dân",
+        "C": "Chỉ thực hiện vai trò lãnh đạo từ xa",
+        "D": "Chỉ quan tâm lợi ích của cơ quan quản lý"
+      },
+      "correct_answer": "A",
+      "explanation": "Nội dung nguồn dùng cách diễn đạt vừa lãnh đạo vừa là người đầy tớ của nhân dân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 2; đoạn bắt đầu: “- Trong quá trình xây dựng đất nước, Người rất coi trọng các chính sách kinh tế nhằm đạt tới sự ổn định và phát triển xã hội, đem lại h…”",
+        "paragraph_indices": [
+          25
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-011",
+      "number": 11,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Việc mở các lớp dạy nghề thích hợp trong lời dặn được dẫn nhằm giúp người dân đạt điều gì?",
+      "options": {
+        "A": "Chỉ học lý luận mà không làm việc",
+        "B": "Phụ thuộc lâu dài vào trợ cấp",
+        "C": "Chuyển tất cả sang một nghề duy nhất",
+        "D": "Dần dần tự lực cánh sinh"
+      },
+      "correct_answer": "D",
+      "explanation": "Dạy nghề phù hợp được gắn với khả năng tự bảo đảm cuộc sống.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 2; đoạn bắt đầu: “- Cả cuộc đời hoạt động của Chủ tịch Hồ Chí Minh hiến dâng trọn vẹn cho cách mạng, “chỉ có một mục đích, là phấn đấu cho quyền lợi Tổ q…”",
+        "paragraph_indices": [
+          26
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-012",
+      "number": 12,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Để hiện thực hóa khát vọng phồn vinh, hạnh phúc, tài liệu yêu cầu xây dựng nền tảng nào?",
+      "options": {
+        "A": "Nền tảng chỉ chú trọng tiêu dùng",
+        "B": "Nền tảng kinh tế vững chắc",
+        "C": "Nền tảng phát triển không cần kế hoạch",
+        "D": "Nền tảng kinh tế phụ thuộc hoàn toàn vào bên ngoài"
+      },
+      "correct_answer": "B",
+      "explanation": "Đoạn này nhấn mạnh nền tảng kinh tế, kế hoạch và sự đồng lòng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Hiện thực khát vọng đất nước phồn vinh, hạnh phúc theo tư tưởng Hồ Chí Minh là phải xây dựng chế độ chính trị dân chủ, tiến bộ, thật…”",
+        "paragraph_indices": [
+          28
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-013",
+      "number": 13,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, thực hiện kế hoạch kiến thiết cần sự đồng lòng của những chủ thể nào?",
+      "options": {
+        "A": "Chính phủ và người dân",
+        "B": "Chỉ các cơ quan trung ương",
+        "C": "Chỉ các nhà đầu tư nước ngoài",
+        "D": "Chỉ người đứng đầu doanh nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Kế hoạch phát triển phải có sự đồng lòng của Chính phủ và người dân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Hiện thực khát vọng đất nước phồn vinh, hạnh phúc theo tư tưởng Hồ Chí Minh là phải xây dựng chế độ chính trị dân chủ, tiến bộ, thật…”",
+        "paragraph_indices": [
+          28
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-014",
+      "number": 14,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Bốn yêu cầu dân sinh được nêu trong phát biểu về kế hoạch kiến thiết là gì?",
+      "options": {
+        "A": "Có ăn, có mặc, có chỗ ở và có học hành",
+        "B": "Có lễ hội, có thi đua, có hội họp và có khen thưởng",
+        "C": "Có du lịch, có giải trí, có xe riêng và có đầu tư",
+        "D": "Có xuất khẩu, có nhập khẩu, có thuế và có tín dụng"
+      },
+      "correct_answer": "A",
+      "explanation": "Bốn yêu cầu tập trung vào nhu cầu cơ bản của người dân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Đất nước giành được độc lập, vấn đề kiến thiết, phát triển kinh tế - xã hội trở nên cấp thiết. Ngày 31/12/1945, Chủ tịch Hồ Chí Minh…”",
+        "paragraph_indices": [
+          29
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-015",
+      "number": 15,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo thư gửi giới công thương được dẫn, sự thịnh vượng của kinh tế quốc dân gắn với điều gì?",
+      "options": {
+        "A": "Việc hạn chế mọi hoạt động kinh doanh",
+        "B": "Sự thịnh vượng trong kinh doanh của công nghiệp và thương nghiệp",
+        "C": "Việc tách doanh nghiệp khỏi công cuộc kiến thiết",
+        "D": "Việc chỉ đầu tư cho cơ quan hành chính"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn gắn kinh tế quốc dân với hoạt động của giới công nghiệp, thương nghiệp.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Trong thư gửi các giới công thương Việt Nam, Người viết: “Trong lúc các giới khác trong quốc dân ra sức hoạt động để giành lấy nền ho…”",
+        "paragraph_indices": [
+          30
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-016",
+      "number": 16,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Trong nội dung về nông nghiệp, tài liệu nhấn mạnh quan hệ nào?",
+      "options": {
+        "A": "Nông dân không tham gia công cuộc kiến thiết",
+        "B": "Nông dân giàu, nông nghiệp thịnh góp phần làm đất nước giàu, thịnh",
+        "C": "Nông nghiệp phát triển không liên quan đời sống quốc gia",
+        "D": "Nông nghiệp chỉ có vai trò trong thời chiến"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu coi nông dân và nông nghiệp là lực lượng quan trọng trong xây dựng đất nước.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Trong thư gửi các giới công thương Việt Nam, Người viết: “Trong lúc các giới khác trong quốc dân ra sức hoạt động để giành lấy nền ho…”",
+        "paragraph_indices": [
+          30
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-017",
+      "number": 17,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, công nghiệp và nông nghiệp cần phát triển như thế nào?",
+      "options": {
+        "A": "Gắn bó với nhau, cùng được phát triển",
+        "B": "Phát triển độc lập, không cần liên kết",
+        "C": "Ưu tiên công nghiệp và dừng phát triển nông nghiệp",
+        "D": "Chỉ phát triển nông nghiệp, không cần công nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nêu hai ngành khăng khít với nhau, tránh phát triển lệch một phía.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Theo Người, “muốn tiến lên chủ nghĩa xã hội thì phải phát triển công nghiệp nhưng đồng thời cũng phải phát triển nông nghiệp, vì hai…”",
+        "paragraph_indices": [
+          31
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-018",
+      "number": 18,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Phương châm nào được tài liệu nêu cùng với tự lực cánh sinh?",
+      "options": {
+        "A": "Chờ viện trợ và hạn chế sản xuất",
+        "B": "Mở rộng chi tiêu và bỏ kế hoạch",
+        "C": "Tăng tiêu dùng và giảm lao động",
+        "D": "Tăng gia sản xuất và thực hành tiết kiệm"
+      },
+      "correct_answer": "D",
+      "explanation": "Tăng gia sản xuất và tiết kiệm là các hành động đi cùng tự lực cánh sinh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 3; đoạn bắt đầu: “- Theo Người, “muốn tiến lên chủ nghĩa xã hội thì phải phát triển công nghiệp nhưng đồng thời cũng phải phát triển nông nghiệp, vì hai…”",
+        "paragraph_indices": [
+          31
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-019",
+      "number": 19,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, xây dựng và bảo vệ đất nước cần kết hợp nguồn lực như thế nào?",
+      "options": {
+        "A": "Coi nội lực và ngoại lực không có liên hệ",
+        "B": "Chỉ sử dụng nội lực và từ chối hợp tác",
+        "C": "Chỉ sử dụng nguồn lực bên ngoài",
+        "D": "Phát huy tối đa nội lực và tranh thủ ngoại lực"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn xác định phát huy nguồn lực bên trong đồng thời tranh thủ nguồn lực bên ngoài.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 4; đoạn bắt đầu: “- Sau ngày nền độc lập ra đời, Chủ tịch Hồ Chí Minh khẳng định: “Tự lúc giành quyền độc lập đến nay, xứ Việt Nam ta vẫn hết sức cố gắng…”",
+        "paragraph_indices": [
+          34
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-020",
+      "number": 20,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Chính sách đối với các nước dân chủ được dẫn trong tài liệu là gì?",
+      "options": {
+        "A": "Chấm dứt mọi hình thức đầu tư quốc tế",
+        "B": "Chỉ hợp tác về nghi lễ",
+        "C": "Mở cửa và hợp tác trong mọi lĩnh vực",
+        "D": "Không tiếp nhận kỹ thuật nước ngoài"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu dẫn chủ trương sẵn sàng mở cửa và hợp tác.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 4; đoạn bắt đầu: “- Người tuyên bố: “Đối với các nước dân chủ, nước Việt Nam sẵn sàng thực thi chính sách mở cửa và hợp tác trong mọi lĩnh vực”, “Nước Vi…”",
+        "paragraph_indices": [
+          35
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-021",
+      "number": 21,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Sử dụng nguồn lực hỗ trợ từ bên ngoài có hiệu quả nhằm mục đích gì theo tài liệu?",
+      "options": {
+        "A": "Thay thế hoàn toàn năng lực trong nước",
+        "B": "Duy trì sự lệ thuộc vào viện trợ",
+        "C": "Chỉ tăng dự trữ mà không phát triển sản xuất",
+        "D": "Bồi bổ lực lượng và tăng khả năng tự lực cánh sinh"
+      },
+      "correct_answer": "D",
+      "explanation": "Ngoại lực cần được sử dụng để phát triển khả năng tự chủ của đất nước.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 4; đoạn bắt đầu: “- Quan điểm của Người trong việc mở cửa, hợp tác quốc tế không chỉ nhằm mục đích nhận được sự giúp đỡ của bạn bè quốc tế, mà thông qua…”",
+        "paragraph_indices": [
+          36
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-022",
+      "number": 22,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, nền kinh tế cần phát triển toàn diện ở những lĩnh vực nào?",
+      "options": {
+        "A": "Chỉ dịch vụ và nhập khẩu hàng tiêu dùng",
+        "B": "Nông nghiệp, công nghiệp, thương nghiệp và dịch vụ",
+        "C": "Chỉ nông nghiệp và hoạt động cứu trợ",
+        "D": "Chỉ công nghiệp và hoạt động hành chính"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn liệt kê bốn lĩnh vực trong yêu cầu phát triển toàn diện.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 4; đoạn bắt đầu: “Người chỉ rõ phải phát triển toàn diện kinh tế từ nông nghiệp, công nghiệp, thương nghiệp tới phát triển dịch vụ, mở rộng giao lưu kinh…”",
+        "paragraph_indices": [
+          38
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-023",
+      "number": 23,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Vì sao tài liệu nhấn mạnh phải có bước đi thích hợp khi xây dựng chủ nghĩa xã hội ở Việt Nam?",
+      "options": {
+        "A": "Vì không cần nghiên cứu lý luận",
+        "B": "Vì chỉ cần dựa vào ý muốn chủ quan",
+        "C": "Vì phải căn cứ điều kiện thực tiễn của đất nước",
+        "D": "Vì có thể sao chép nguyên mẫu mọi nước"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn xuất phát từ thực tiễn một nước nông nghiệp lạc hậu, trải qua chiến tranh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 5; đoạn bắt đầu: “- Công cuộc xây dựng chủ nghĩa xã hội ở Việt Nam được Đảng và Chủ tịch Hồ Chí Minh đặt ra trên cơ sở nhận thức khoa học, đúng đắn lý lu…”",
+        "paragraph_indices": [
+          41
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-024",
+      "number": 24,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Học tập kinh nghiệm của nước khác cần tuân theo cách tiếp cận nào?",
+      "options": {
+        "A": "Chỉ học hình thức tổ chức bên ngoài",
+        "B": "Vận dụng sáng tạo phù hợp đặc điểm Việt Nam",
+        "C": "Loại bỏ việc tổng kết kinh nghiệm trong nước",
+        "D": "Sao chép toàn bộ để tiết kiệm thời gian"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu yêu cầu phân tích đặc điểm đất nước và áp dụng kinh nghiệm sáng tạo.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 5; đoạn bắt đầu: “- Chúng ta phải học tập kinh nghiệm các nước anh em và áp dụng những kinhnghiệm ấy một cách sáng tạo. Chúng ta phải nâng cao sự tu dưỡn…”",
+        "paragraph_indices": [
+          43
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-025",
+      "number": 25,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Tư tưởng Hồ Chí Minh về phát triển đất nước",
+      "question": "Theo tài liệu, hoạch định đường lối đổi mới phải gắn với yêu cầu nào?",
+      "options": {
+        "A": "Chỉ dựa vào kinh nghiệm cá nhân",
+        "B": "Đặt ý chí chủ quan cao hơn thực tiễn",
+        "C": "Nắm bắt thực tiễn, tôn trọng và hành động theo quy luật khách quan",
+        "D": "Giữ cách làm cũ bất kể điều kiện thay đổi"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn liên hệ tư tưởng Hồ Chí Minh với đổi mới tư duy và tôn trọng quy luật khách quan.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 1 • Nội dung 5; đoạn bắt đầu: “Những chỉ dẫn của Chủ tịch Hồ Chí Minh có giá trị chỉ đạo thực tiễn và nghiên cứu lý luận về sự nghiệp xây dựng và phát triển đất nước…”",
+        "paragraph_indices": [
+          44
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-026",
+      "number": 26,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Trong chủ đề Đại hội XIII được tài liệu dẫn, sức mạnh đại đoàn kết toàn dân tộc được kết hợp với sức mạnh nào?",
+      "options": {
+        "A": "Sức mạnh của một ngành kinh tế",
+        "B": "Sức mạnh của một nhóm doanh nghiệp",
+        "C": "Sức mạnh thời đại",
+        "D": "Sức mạnh của riêng khu vực đô thị"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu nêu kết hợp sức mạnh dân tộc và sức mạnh thời đại.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Trong chủ đề Đại hội XIII của Đảng, khát vọng phát triển đất nước được thể hiện như một tuyên ngôn chính trị của Đảng ta: Tăng cường xâ…”",
+        "paragraph_indices": [
+          46
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-027",
+      "number": 27,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo chủ đề Đại hội XIII trong tài liệu, mục tiêu đến giữa thế kỷ XXI là gì?",
+      "options": {
+        "A": "Chỉ phát triển nông nghiệp truyền thống",
+        "B": "Chỉ hoàn thành khôi phục kinh tế sau chiến tranh",
+        "C": "Trở thành nước đang phát triển có thu nhập trung bình thấp",
+        "D": "Trở thành nước phát triển theo định hướng xã hội chủ nghĩa"
+      },
+      "correct_answer": "D",
+      "explanation": "Đây là mục tiêu được nêu trong chủ đề Đại hội XIII, không phải nhận định về kết quả hiện tại.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Trong chủ đề Đại hội XIII của Đảng, khát vọng phát triển đất nước được thể hiện như một tuyên ngôn chính trị của Đảng ta: Tăng cường xâ…”",
+        "paragraph_indices": [
+          46
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-028",
+      "number": 28,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Quan điểm chỉ đạo được dẫn yêu cầu vận dụng chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh như thế nào?",
+      "options": {
+        "A": "Kiên định đồng thời vận dụng, phát triển sáng tạo",
+        "B": "Thay thế hoàn toàn bằng kinh nghiệm nước ngoài",
+        "C": "Vận dụng tùy ý, không có nguyên tắc",
+        "D": "Chỉ ghi nhớ thuật ngữ, không liên hệ thực tiễn"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn đặt kiên định cùng yêu cầu vận dụng và phát triển sáng tạo.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Kiên định và vận dụng, phát triển sáng tạo chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, kiên định mục tiêu độc lập dân tộc và chủ nghĩ…”",
+        "paragraph_indices": [
+          48
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-029",
+      "number": 29,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo quan điểm chỉ đạo trong tài liệu, bảo đảm lợi ích quốc gia - dân tộc dựa trên cơ sở nào?",
+      "options": {
+        "A": "Không cần tuân thủ nguyên tắc quốc tế",
+        "B": "Chỉ dựa vào khả năng tài chính",
+        "C": "Hiến chương Liên hợp quốc, luật pháp quốc tế, bình đẳng và cùng có lợi",
+        "D": "Chỉ lợi ích trước mắt của một nhóm"
+      },
+      "correct_answer": "C",
+      "explanation": "Đoạn này gắn lợi ích quốc gia với các nguyên tắc quốc tế và hợp tác cùng có lợi.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Bảo đảm cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của Hiến chương Liên hợp quốc và luật pháp quốc tế, bình…”",
+        "paragraph_indices": [
+          49
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-030",
+      "number": 30,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Nhiệm vụ nào được xác định là trung tâm trong tài liệu?",
+      "options": {
+        "A": "Bảo đảm quốc phòng, an ninh",
+        "B": "Phát triển kinh tế - xã hội",
+        "C": "Xây dựng Đảng",
+        "D": "Phát triển văn hóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn xác định kinh tế - xã hội là trung tâm trong các nhiệm vụ gắn kết đồng bộ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Bảo đảm cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của Hiến chương Liên hợp quốc và luật pháp quốc tế, bình…”",
+        "paragraph_indices": [
+          49
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-031",
+      "number": 31,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Nhiệm vụ nào được xác định là then chốt trong tài liệu?",
+      "options": {
+        "A": "Xây dựng Đảng",
+        "B": "Phát triển kinh tế - xã hội",
+        "C": "Bảo đảm quốc phòng, an ninh",
+        "D": "Phát triển văn hóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn phân định xây dựng Đảng là then chốt.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Bảo đảm cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của Hiến chương Liên hợp quốc và luật pháp quốc tế, bình…”",
+        "paragraph_indices": [
+          49
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-032",
+      "number": 32,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo tài liệu, phát triển văn hóa giữ vai trò gì?",
+      "options": {
+        "A": "Công việc chỉ thực hiện trong lễ hội",
+        "B": "Nhiệm vụ thay thế phát triển kinh tế",
+        "C": "Hoạt động chỉ phục vụ giải trí",
+        "D": "Nền tảng tinh thần"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn xác định văn hóa là nền tảng tinh thần.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Bảo đảm cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của Hiến chương Liên hợp quốc và luật pháp quốc tế, bình…”",
+        "paragraph_indices": [
+          49
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-033",
+      "number": 33,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo tài liệu, quốc phòng và an ninh là nhiệm vụ như thế nào?",
+      "options": {
+        "A": "Trọng yếu, thường xuyên",
+        "B": "Chỉ thực hiện ở biên giới",
+        "C": "Tạm thời trong từng đợt thi đua",
+        "D": "Chỉ thực hiện khi có chiến tranh"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nêu rõ tính trọng yếu và thường xuyên của nhiệm vụ này.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “-Bảo đảm cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của Hiến chương Liên hợp quốc và luật pháp quốc tế, bình…”",
+        "paragraph_indices": [
+          49
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-034",
+      "number": 34,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Yếu tố nào được tài liệu gắn với tạo động lực mới cho phát triển nhanh và bền vững?",
+      "options": {
+        "A": "Đổi mới sáng tạo và ứng dụng khoa học, công nghệ",
+        "B": "Giảm đầu tư nâng cao chất lượng nhân lực",
+        "C": "Hạn chế trọng dụng nhân tài",
+        "D": "Duy trì nguyên trạng phương thức sản xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nhấn mạnh đổi mới sáng tạo và thành tựu của Cách mạng công nghiệp lần thứ tư.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “- Khơi dậy mạnh mẽ tinh thần yêu nước, ý chí tự cường dân tộc, sức mạnh đại đoàn kết toàn dân tộc và khát vọng phát triển đất nước phồn…”",
+        "paragraph_indices": [
+          50
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-035",
+      "number": 35,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Trong các nguồn lực nội sinh, tài liệu coi nguồn lực nào quan trọng nhất?",
+      "options": {
+        "A": "Nguồn lực khoáng sản",
+        "B": "Nguồn lực tài chính",
+        "C": "Nguồn lực con người",
+        "D": "Nguồn lực đất đai"
+      },
+      "correct_answer": "C",
+      "explanation": "Đoạn này nhấn mạnh vị trí quan trọng nhất của con người trong nguồn lực nội sinh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “- Kết hợp sức mạnh dân tộc với sức mạnh thời đại; nêu cao ý chí độc lập, tự chủ, chủ động, tích cực hội nhập và nâng cao hiệu quả hợp t…”",
+        "paragraph_indices": [
+          51
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-036",
+      "number": 36,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Nhà nước được định hướng xây dựng trong tài liệu có đặc điểm nào?",
+      "options": {
+        "A": "Nhiều tầng nấc để tăng thủ tục",
+        "B": "Tách hoạt động quản lý khỏi nhu cầu người dân",
+        "C": "Tinh gọn, hoạt động hiệu lực và hiệu quả",
+        "D": "Chỉ tập trung mở rộng số lượng cơ quan"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn nêu yêu cầu tinh gọn và hiệu lực, hiệu quả.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “- Tăng cường xây dựng, chỉnh đốn Đảng, tăng cường bản chất giai cấp công nhân của Đảng, nâng cao năng lực lãnh đạo, năng lực cầm quyền…”",
+        "paragraph_indices": [
+          52
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-037",
+      "number": 37,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Đội ngũ cán bộ cấp chiến lược được yêu cầu có những yếu tố nào?",
+      "options": {
+        "A": "Thâm niên cao thay cho năng lực",
+        "B": "Quan hệ rộng thay cho phẩm chất",
+        "C": "Phẩm chất, năng lực và uy tín ngang tầm nhiệm vụ",
+        "D": "Bằng cấp thay cho hiệu quả công việc"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu gắn phẩm chất, năng lực, uy tín với yêu cầu nhiệm vụ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “- Tăng cường xây dựng, chỉnh đốn Đảng, tăng cường bản chất giai cấp công nhân của Đảng, nâng cao năng lực lãnh đạo, năng lực cầm quyền…”",
+        "paragraph_indices": [
+          52
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-038",
+      "number": 38,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo mục tiêu Đại hội XIII được tài liệu dẫn, đến năm 2025 Việt Nam phấn đấu ở trình độ nào?",
+      "options": {
+        "A": "Chỉ dựa vào nông nghiệp tự cung tự cấp",
+        "B": "Đang phát triển, công nghiệp theo hướng hiện đại, vượt mức thu nhập trung bình thấp",
+        "C": "Đang phát triển, công nghiệp hiện đại, thu nhập trung bình cao",
+        "D": "Phát triển, thu nhập cao"
+      },
+      "correct_answer": "B",
+      "explanation": "Đây là mục tiêu cho năm 2025 trong tài liệu, không phải xác nhận kết quả đã đạt.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Mục tiêu cụ thể đến năm 2025, kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước: Là nước đang phát triển, có công nghiệ…”",
+        "paragraph_indices": [
+          54
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-039",
+      "number": 39,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo mục tiêu Đại hội XIII được tài liệu dẫn, đến năm 2030 Việt Nam phấn đấu ở trình độ nào?",
+      "options": {
+        "A": "Đang phát triển, công nghiệp hiện đại, thu nhập trung bình cao",
+        "B": "Phát triển, thu nhập cao",
+        "C": "Đang phát triển, công nghiệp theo hướng hiện đại, thu nhập trung bình thấp",
+        "D": "Không còn hoạt động nông nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn gắn mốc 2030 với công nghiệp hiện đại và thu nhập trung bình cao.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Mục tiêu cụ thể đến năm 2025, kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước: Là nước đang phát triển, có công nghiệ…”",
+        "paragraph_indices": [
+          54
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-040",
+      "number": 40,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo mục tiêu Đại hội XIII được tài liệu dẫn, đến năm 2045 Việt Nam phấn đấu trở thành nước như thế nào?",
+      "options": {
+        "A": "Nước chỉ phát triển dịch vụ",
+        "B": "Nước chỉ phát triển công nghiệp nhẹ",
+        "C": "Nước đang phát triển, thu nhập trung bình thấp",
+        "D": "Nước phát triển, thu nhập cao"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn nêu mục tiêu nước phát triển, thu nhập cao vào năm 2045.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Mục tiêu cụ thể đến năm 2025, kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước: Là nước đang phát triển, có công nghiệ…”",
+        "paragraph_indices": [
+          54
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-041",
+      "number": 41,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Định hướng hoàn thiện thể chế kinh tế trong tài liệu nhằm tạo điều kiện gì?",
+      "options": {
+        "A": "Huy động, phân bổ và sử dụng hiệu quả các nguồn lực",
+        "B": "Chỉ tăng số lượng văn bản quản lý",
+        "C": "Dừng hoạt động đầu tư và kinh doanh",
+        "D": "Phân bổ nguồn lực không cần đánh giá hiệu quả"
+      },
+      "correct_answer": "A",
+      "explanation": "Hoàn thiện thể chế được gắn với môi trường thuận lợi cho nguồn lực và sản xuất kinh doanh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Hoàn thiện toàn diện, đồng bộ thể chế phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa, tạo môi trường thuận lợi để huy độ…”",
+        "paragraph_indices": [
+          57
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-042",
+      "number": 42,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Kinh tế số được định hướng phát triển trên nền tảng nào?",
+      "options": {
+        "A": "Giảm nghiên cứu và chuyển giao công nghệ",
+        "B": "Chỉ tăng số lượng thiết bị văn phòng",
+        "C": "Khoa học, công nghệ và đổi mới sáng tạo",
+        "D": "Chỉ mở rộng bán hàng trực tiếp"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu gắn chuyển đổi số và kinh tế số với nền tảng khoa học, công nghệ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Hoàn thiện toàn diện, đồng bộ thể chế phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa, tạo môi trường thuận lợi để huy độ…”",
+        "paragraph_indices": [
+          57
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-043",
+      "number": 43,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Định hướng giáo dục và đào tạo trong tài liệu gắn với mục tiêu nào?",
+      "options": {
+        "A": "Chỉ tăng số lượng bằng cấp",
+        "B": "Tách đào tạo khỏi nhu cầu nhân lực",
+        "C": "Hạn chế chuyển giao thành tựu khoa học",
+        "D": "Phát triển nhân lực chất lượng cao, thu hút và trọng dụng nhân tài"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn nêu đổi mới giáo dục cùng phát triển nhân lực chất lượng cao.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Tạo đột phá trong đổi mới căn bản, toàn diện giáo dục và đào tạo, phát triển nguồn nhân lực chất lượng cao, thu hút và trọng dụng nhân…”",
+        "paragraph_indices": [
+          58
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-044",
+      "number": 44,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Nền văn hóa Việt Nam được định hướng xây dựng như thế nào?",
+      "options": {
+        "A": "Chỉ giữ hình thức cũ, không tiếp thu cái mới",
+        "B": "Tiên tiến, đậm đà bản sắc dân tộc",
+        "C": "Chỉ tiếp thu bên ngoài, bỏ bản sắc dân tộc",
+        "D": "Tách khỏi phát triển con người"
+      },
+      "correct_answer": "B",
+      "explanation": "Đoạn này gắn văn hóa tiên tiến, bản sắc dân tộc với phát triển con người toàn diện.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Phát triển con người toàn diện và xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc để văn hóa thực sự trở thành sức mạnh…”",
+        "paragraph_indices": [
+          59
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-045",
+      "number": 45,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Theo định hướng quản lý phát triển xã hội, cần không ngừng cải thiện điều gì?",
+      "options": {
+        "A": "Chỉ quy mô bộ máy quản lý",
+        "B": "Chỉ số lượng các cuộc hội họp",
+        "C": "Đời sống vật chất và tinh thần của nhân dân",
+        "D": "Chỉ diện tích trụ sở cơ quan"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn nhấn mạnh an sinh, phúc lợi và cải thiện toàn diện đời sống nhân dân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Quản lý phát triển xã hội có hiệu quả, nghiêm minh, bảo đảm an ninh xã hội, an ninh con người; thực hiện tiến bộ và công bằng xã hội; x…”",
+        "paragraph_indices": [
+          60
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-046",
+      "number": 46,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Trong định hướng tài nguyên và môi trường, mục tiêu hàng đầu được nêu là gì?",
+      "options": {
+        "A": "Chỉ giảm chi phí xử lý chất thải",
+        "B": "Ưu tiên sản lượng bất kể ô nhiễm",
+        "C": "Tăng khai thác bất kể khả năng tái tạo",
+        "D": "Bảo vệ môi trường sống và sức khỏe nhân dân"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu yêu cầu sử dụng tài nguyên hợp lý, tiết kiệm, bền vững vì môi trường và sức khỏe.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Chủ động thích ứng có hiệu quả với biến đổi khí hậu, phòng, chống và giảm nhẹ thiên tai, dịch bệnh; quản lý, khai thác, sử dụng hợp lý,…”",
+        "paragraph_indices": [
+          61
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-047",
+      "number": 47,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Nguy cơ chiến tranh, xung đột cần được ngăn ngừa như thế nào theo tài liệu?",
+      "options": {
+        "A": "Chỉ sau khi xung đột lan rộng",
+        "B": "Chỉ khi có thiệt hại kinh tế",
+        "C": "Chỉ khi nhận được hỗ trợ quốc tế",
+        "D": "Chủ động từ sớm, từ xa"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn nhấn mạnh chủ động phát hiện và xử lý sớm các nhân tố bất lợi.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ của Tổ quốc; bảo vệ Đảng, Nhà nước, nhân dân và…”",
+        "paragraph_indices": [
+          62
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-048",
+      "number": 48,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Đường lối đối ngoại được tài liệu nêu có đặc điểm nào?",
+      "options": {
+        "A": "Chỉ duy trì quan hệ với một đối tác",
+        "B": "Độc lập, tự chủ, đa phương hóa và đa dạng hóa",
+        "C": "Tách khỏi hội nhập quốc tế",
+        "D": "Chỉ hợp tác trong một lĩnh vực duy nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn gắn đường lối này với hội nhập toàn diện, sâu rộng và hiệu quả.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Tiếp tục thực hiện đường lối đối ngoại độc lập, tự chủ, đa phương hoá, đa dạng hoá; chủ động và tích cực hội nhập quốc tế toàn diện, sâ…”",
+        "paragraph_indices": [
+          63
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-049",
+      "number": 49,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Trong định hướng dân chủ, tài liệu nhấn mạnh quyền nào của nhân dân?",
+      "options": {
+        "A": "Quyền thay thế mọi cơ quan quản lý",
+        "B": "Quyền làm chủ và vai trò tự quản",
+        "C": "Quyền không tham gia trách nhiệm cộng đồng",
+        "D": "Quyền chỉ tiếp nhận thông báo"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn yêu cầu phát huy dân chủ, quyền làm chủ và vai trò tự quản.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Thực hành và phát huy rộng rãi dân chủ xã hội chủ nghĩa, quyền làm chủ và vai trò tự quản của nhân dân; phát huy sức mạnh đại đoàn kết…”",
+        "paragraph_indices": [
+          64
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-050",
+      "number": 50,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Khát vọng phát triển trong nội dung Đại hội XIII",
+      "question": "Đột phá chiến lược thứ hai được tài liệu dẫn tập trung vào lĩnh vực nào?",
+      "options": {
+        "A": "Phát triển nguồn nhân lực, nhất là nhân lực chất lượng cao",
+        "B": "Chỉ mở rộng diện tích đô thị",
+        "C": "Chỉ tăng số lượng đầu mối hành chính",
+        "D": "Chỉ tăng khai thác tài nguyên"
+      },
+      "correct_answer": "A",
+      "explanation": "Đoạn này xác định nhân lực chất lượng cao gắn với giáo dục, đãi ngộ nhân tài và khoa học công nghệ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 2; đoạn bắt đầu: “Tại bước đột phá chiến lược thứ hai thể hiện: Phát triển nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; ưu tiên phát triển nguồ…”",
+        "paragraph_indices": [
+          70
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-051",
+      "number": 51,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Theo tài liệu, đạo đức của người cán bộ cách mạng có vai trò gì?",
+      "options": {
+        "A": "Nền tảng để phát huy tài năng, trí tuệ và hoàn thành nhiệm vụ",
+        "B": "Tiêu chí có thể bỏ qua nếu có bằng cấp",
+        "C": "Yếu tố chỉ xem xét khi nghỉ hưu",
+        "D": "Nội dung không liên quan công việc"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn xem đạo đức là nền tảng, tiền đề và cơ sở phát huy tài năng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Tập trung nghiên cứu kỹ các vấn đề đạo đức của người cán bộ cách mạng theo tư tưởng, đạo đức, phong cách Hồ Chí Minh, đây được xem là n…”",
+        "paragraph_indices": [
+          74
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-052",
+      "number": 52,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Bộ tiêu chí đạo đức cán bộ được nêu trong tài liệu là gì?",
+      "options": {
+        "A": "Nhanh, nhiều, mạnh, rộng, linh hoạt",
+        "B": "Cần, kiệm, liêm, chính, chí công vô tư",
+        "C": "Giỏi nói, giỏi viết, giỏi trình bày",
+        "D": "Thâm niên, chức vụ, bằng cấp, quan hệ"
+      },
+      "correct_answer": "B",
+      "explanation": "Đây là bộ tiêu chí đạo đức được tài liệu nêu trực tiếp.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Tập trung nghiên cứu kỹ các vấn đề đạo đức của người cán bộ cách mạng theo tư tưởng, đạo đức, phong cách Hồ Chí Minh, đây được xem là n…”",
+        "paragraph_indices": [
+          74
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-053",
+      "number": 53,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ là gì?",
+      "options": {
+        "A": "Xác định chế độ khen thưởng trước",
+        "B": "Đánh giá đúng cán bộ",
+        "C": "Ưu tiên người có quan hệ quen biết",
+        "D": "Bổ nhiệm trước rồi đánh giá"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn coi đánh giá đúng cán bộ là yêu cầu xuất phát.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Trong công tác cán bộ phải đánh giá đúng cán bộ. Đây là yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ; trong đó, c…”",
+        "paragraph_indices": [
+          76
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-054",
+      "number": 54,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Đánh giá cán bộ cần chú ý những yếu tố nào theo tài liệu?",
+      "options": {
+        "A": "Chỉ khả năng trình bày báo cáo",
+        "B": "Chỉ số năm công tác",
+        "C": "Chỉ quan hệ cá nhân với người đánh giá",
+        "D": "Năng lực, phẩm chất và hiệu quả công việc"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu yêu cầu đánh giá khách quan, toàn diện trên các yếu tố thực chất.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Trong công tác cán bộ phải đánh giá đúng cán bộ. Đây là yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ; trong đó, c…”",
+        "paragraph_indices": [
+          76
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-055",
+      "number": 55,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Người làm công tác cán bộ cần có phẩm chất nào?",
+      "options": {
+        "A": "Chỉ quan tâm thành tích hình thức",
+        "B": "Linh hoạt bỏ qua quy trình khi quen biết",
+        "C": "Công tâm, minh bạch và có đạo đức cách mạng",
+        "D": "Thiên vị người cùng quê"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn yêu cầu công tâm, minh bạch và phẩm chất đạo đức.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Trong công tác cán bộ phải đánh giá đúng cán bộ. Đây là yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ; trong đó, c…”",
+        "paragraph_indices": [
+          76
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-056",
+      "number": 56,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Huấn luyện, đào tạo, bồi dưỡng cán bộ cần hướng đến điều gì?",
+      "options": {
+        "A": "Chỉ nâng cao kỹ năng thuyết trình",
+        "B": "Chỉ bổ sung chứng chỉ",
+        "C": "Phát triển toàn diện cả đức và tài",
+        "D": "Chỉ chuẩn bị cho một lần bổ nhiệm"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn yêu cầu đủ đức, đủ tài, vững lý luận và trong sáng về đạo đức.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Trong công tác cán bộ phải đánh giá đúng cán bộ. Đây là yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ; trong đó, c…”",
+        "paragraph_indices": [
+          76
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-057",
+      "number": 57,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Một đơn vị bố trí cán bộ theo sở trường và yêu cầu vị trí. Cách làm này phù hợp nguyên tắc nào trong tài liệu?",
+      "options": {
+        "A": "Bố trí ngẫu nhiên để bảo đảm bình đẳng",
+        "B": "Ưu tiên người thân quen",
+        "C": "Ưu tiên nơi xuất thân",
+        "D": "Đúng người, đúng việc và công tâm"
+      },
+      "correct_answer": "D",
+      "explanation": "Đây là tình huống vận dụng nguyên tắc sử dụng cán bộ để phát huy tài năng, sở trường.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 1; đoạn bắt đầu: “Trong công tác cán bộ phải đánh giá đúng cán bộ. Đây là yêu cầu xuất phát để tiến hành các mặt khác của công tác cán bộ; trong đó, c…”",
+        "paragraph_indices": [
+          76
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-058",
+      "number": 58,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Theo tài liệu, vì sao vẫn cần xây dựng đội ngũ cán bộ tiên phong, gương mẫu?",
+      "options": {
+        "A": "Vì có thể thay đạo đức bằng thủ tục",
+        "B": "Vì còn một bộ phận thiếu trách nhiệm, thiếu gương mẫu và vi phạm",
+        "C": "Vì mọi cán bộ đều đã hoàn thiện phẩm chất",
+        "D": "Vì chỉ cần tăng số lượng cán bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn nêu cả chuyển biến tích cực và hạn chế còn tồn tại.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 2; đoạn bắt đầu: “Trong những năm qua, việc thực hiện Chỉ thị 05-CT/TW ngày 15/5/2016 của Bộ Chính trị, gắn với việc thực hiện Nghị quyết Trung ương 4 (k…”",
+        "paragraph_indices": [
+          78
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-059",
+      "number": 59,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Đánh giá không đúng cán bộ có thể dẫn tới hệ quả nào theo tài liệu?",
+      "options": {
+        "A": "Luôn làm tăng chất lượng quy hoạch",
+        "B": "Khó quy hoạch, quản lý và sử dụng cán bộ hiệu quả",
+        "C": "Không ảnh hưởng các khâu khác",
+        "D": "Tự động loại bỏ chủ nghĩa cơ hội"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu chỉ ra đánh giá sai gây hệ lụy trong tổ chức và sử dụng cán bộ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Đánh giá cán bộ là khâu có ý nghĩa quan trọng hàng đầu trong công tác cán bộ, làm cơ sở cho việc phân loại, quản lý, sử dụng cán bộ. Đá…”",
+        "paragraph_indices": [
+          82
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-060",
+      "number": 60,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Khi đánh giá kết quả công tác, tài liệu yêu cầu coi trọng điều gì?",
+      "options": {
+        "A": "Số lần xuất hiện trong hội nghị",
+        "B": "Số trang của báo cáo thành tích",
+        "C": "Chất lượng, hiệu quả và sản phẩm thực tế theo nhiệm vụ",
+        "D": "Mức độ gần gũi với người đánh giá"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn nhấn mạnh kết quả thực chất theo chức trách, nhiệm vụ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Đổi mới về tư tưởng, tư duy, phòng, chống chủ nghĩa cá nhân, chủ nghĩa hình thức, chủ nghĩa cơ hội; xóa bỏ quan niệm chủ quan duy ý chí…”",
+        "paragraph_indices": [
+          83
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-061",
+      "number": 61,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Môi trường đánh giá cán bộ nên có đặc điểm nào?",
+      "options": {
+        "A": "Khép kín, chỉ dựa vào ý kiến một người",
+        "B": "Ưu tiên tránh mọi phản biện",
+        "C": "Không cho phép tự phê bình",
+        "D": "Dân chủ, khách quan, công bằng và công khai"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu yêu cầu môi trường dân chủ, phản biện và công khai.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Coi trọng xây dựng môi trường văn hóa dân chủ, phản biện, tự phê bình và phê bình, bình đẳng, khách quan, công bằng, công khai trong đá…”",
+        "paragraph_indices": [
+          84
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-062",
+      "number": 62,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Thông tin đánh giá cán bộ nên được tiếp nhận từ đâu?",
+      "options": {
+        "A": "Nhiều lực lượng, cá nhân, tổ chức và cộng đồng có liên quan",
+        "B": "Chỉ từ thành tích ở một thời điểm",
+        "C": "Chỉ từ bản tự nhận xét",
+        "D": "Chỉ từ một đồng nghiệp thân thiết"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn yêu cầu tổng hợp nhiều nguồn cùng sản phẩm và hiệu quả công tác.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Coi trọng xây dựng môi trường văn hóa dân chủ, phản biện, tự phê bình và phê bình, bình đẳng, khách quan, công bằng, công khai trong đá…”",
+        "paragraph_indices": [
+          84
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-063",
+      "number": 63,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Theo tài liệu, quy hoạch đúng tạo cơ sở sử dụng cán bộ như thế nào?",
+      "options": {
+        "A": "Đúng người quen, không cần đúng việc",
+        "B": "Chỉ đúng thời điểm, không cần năng lực",
+        "C": "Chỉ đúng bằng cấp, không cần vị trí",
+        "D": "Đúng người, đúng việc, đúng lúc và đúng tầm"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn nêu đầy đủ bốn yêu cầu khi quy hoạch và sử dụng cán bộ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Công tác quy hoạch cán bộ cần tiếp tục được quy hoạch đúng để đào tạo, bồi dưỡng, bố trí, điều động, luân chuyển, bổ nhiệm, sử dụng đún…”",
+        "paragraph_indices": [
+          86
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-064",
+      "number": 64,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Quy hoạch cán bộ theo hướng mở và động có nghĩa nào phù hợp tài liệu?",
+      "options": {
+        "A": "Không cần đánh giá trong quá trình quy hoạch",
+        "B": "Có lên, có xuống, có vào, có ra",
+        "C": "Đã vào quy hoạch thì giữ nguyên lâu dài",
+        "D": "Chỉ bổ sung người, không xem xét lại"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu giải thích trực tiếp tính mở và động bằng khả năng điều chỉnh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Quy hoạch, đào tạo, bồi dưỡng cán bộ cần theo hướng tinh giản, tối ưu, hiệu quả, luôn “mở và động”, để cán bộ “có lên có xuống, có vào…”",
+        "paragraph_indices": [
+          87
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-065",
+      "number": 65,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Công khai, minh bạch trong quy hoạch giúp đồng nghiệp và quần chúng thực hiện việc gì?",
+      "options": {
+        "A": "Tự quyết định mọi trường hợp bổ nhiệm",
+        "B": "Thay thế toàn bộ cơ quan tổ chức cán bộ",
+        "C": "Bỏ qua quy trình đánh giá chuyên môn",
+        "D": "Theo dõi, đánh giá, phê bình và giúp đỡ cán bộ"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn coi dân chủ, công khai là điều kiện để các lực lượng liên quan tham gia.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Quy hoạch, đào tạo, bồi dưỡng cán bộ cần theo hướng tinh giản, tối ưu, hiệu quả, luôn “mở và động”, để cán bộ “có lên có xuống, có vào…”",
+        "paragraph_indices": [
+          87
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-066",
+      "number": 66,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Kiểm soát tiêu cực trong chính sách cán bộ cần bắt đầu ở giai đoạn nào?",
+      "options": {
+        "A": "Chỉ sau khi phát sinh sai phạm nghiêm trọng",
+        "B": "Ngay từ xây dựng, ban hành đến triển khai chính sách",
+        "C": "Chỉ khi có đơn tố cáo",
+        "D": "Chỉ vào cuối nhiệm kỳ"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu yêu cầu kiểm soát xuyên suốt quy trình chính sách cán bộ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Tiếp tục khảo sát thực tế để cải cách, bổ sung, ban hành, chỉnh sửa, hoàn thiện chính sách, cơ chế, quy định công tác cán bộ toàn diện,…”",
+        "paragraph_indices": [
+          89
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-067",
+      "number": 67,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Phạm vi kiểm soát quyền lực trong công tác cán bộ được nêu là gì?",
+      "options": {
+        "A": "Chỉ cán bộ mới được tuyển dụng",
+        "B": "Chỉ người đã bị kỷ luật",
+        "C": "Cả cá nhân và tập thể cấp ủy, tổ chức, chỉ huy, quản lý liên quan",
+        "D": "Chỉ người trực tiếp ký quyết định"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn yêu cầu kiểm soát đồng bộ từ cá nhân tới tập thể và các bộ phận tham mưu.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Kiểm soát đồng bộ cả cá nhân đến tập thể cấp ủy, tổ chức đảng, chỉ huy, quản lý ở các cấp, các ngành, cơ quan, đơn vị, nhất là bộ phận…”",
+        "paragraph_indices": [
+          90
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-068",
+      "number": 68,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Cơ cấu lại nhân sự cần gắn với yếu tố nào theo tài liệu?",
+      "options": {
+        "A": "Vị trí việc làm",
+        "B": "Mức độ quen biết",
+        "C": "Nơi sinh của cán bộ",
+        "D": "Thứ tự nộp hồ sơ"
+      },
+      "correct_answer": "A",
+      "explanation": "Đoạn này gắn tinh giản biên chế và cơ cấu lại nhân sự với vị trí việc làm.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Kiểm soát đồng bộ cả cá nhân đến tập thể cấp ủy, tổ chức đảng, chỉ huy, quản lý ở các cấp, các ngành, cơ quan, đơn vị, nhất là bộ phận…”",
+        "paragraph_indices": [
+          90
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-069",
+      "number": 69,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Trách nhiệm nào cần được quy định rõ trong quản lý, sử dụng cán bộ?",
+      "options": {
+        "A": "Chỉ trách nhiệm người được bổ nhiệm",
+        "B": "Chỉ trách nhiệm cán bộ đã nghỉ công tác",
+        "C": "Trách nhiệm tập thể, cá nhân, nhất là người đứng đầu",
+        "D": "Trách nhiệm không cần xác định cụ thể"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn nhấn mạnh làm rõ trách nhiệm người đứng đầu cùng tập thể và cá nhân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Tăng cường kỷ luật, kỷ cương gắn với cơ chế, chính sách, nhất là chế độ tiền lương, thu nhập, cải thiện cuộc sống, môi trường, điều kiệ…”",
+        "paragraph_indices": [
+          91
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-070",
+      "number": 70,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Cán bộ và công tác cán bộ",
+      "question": "Một cán bộ phản ánh biểu hiện chạy chức, chạy quyền có căn cứ. Cách xử lý nào phù hợp tinh thần tài liệu?",
+      "options": {
+        "A": "Loại người phản ánh khỏi nhiệm vụ",
+        "B": "Chỉ xem xét quan hệ của người phản ánh",
+        "C": "Yêu cầu im lặng để tránh ảnh hưởng tập thể",
+        "D": "Kịp thời bảo vệ người tích cực phòng, chống tiêu cực"
+      },
+      "correct_answer": "D",
+      "explanation": "Đây là tình huống vận dụng yêu cầu bảo vệ lực lượng tích cực chống tiêu cực.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 3 • Mục 3; đoạn bắt đầu: “Kiên trì, kiên quyết, đoàn kết lực lượng để kịp thời bảo vệ có hiệu quả những cá nhân, tổ chức, lực lượng tích cực phòng, chống tiêu cự…”",
+        "paragraph_indices": [
+          92
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-071",
+      "number": 71,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Ba nội dung tự giác được nêu khi học tập và làm theo Hồ Chí Minh là gì?",
+      "options": {
+        "A": "Học Bác, làm theo Bác và nêu gương",
+        "B": "Đăng ký, hội họp và tổng kết",
+        "C": "Tuyên truyền, kiểm tra và xếp loại",
+        "D": "Học thuộc, báo cáo và lưu hồ sơ"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nêu ba nội dung học, làm theo và nêu gương.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh đòi hỏi mỗi cấp ủy, tổ chức đảng và đảng viên phải nêu cao ý thức, trách…”",
+        "paragraph_indices": [
+          95
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-072",
+      "number": 72,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Theo tài liệu, nêu gương cần thực hiện trên những phương diện nào?",
+      "options": {
+        "A": "Chỉ trong công việc được khen thưởng",
+        "B": "Đối với bản thân, đối với người và đối với công việc",
+        "C": "Chỉ trong sinh hoạt chi bộ",
+        "D": "Chỉ trong quan hệ cấp trên"
+      },
+      "correct_answer": "B",
+      "explanation": "Tài liệu yêu cầu nêu gương toàn diện trên ba phương diện.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ nhất, mỗi cán bộ, đảng viên cần phải phát huy tốt vai trò, trách nhiệm nêu gương trong học tập và làm theo Bác, bởi vì: \"Quần chúng…”",
+        "paragraph_indices": [
+          97
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-073",
+      "number": 73,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Nêu gương cần được thực hiện với tần suất và quy mô nào?",
+      "options": {
+        "A": "Chỉ ở nhiệm vụ lớn được giao",
+        "B": "Thường xuyên, từ việc nhỏ đến việc lớn",
+        "C": "Chỉ khi có kiểm tra",
+        "D": "Chỉ trong các đợt phát động"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn nhấn mạnh tính thường xuyên và việc làm cụ thể ở mọi quy mô.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ nhất, mỗi cán bộ, đảng viên cần phải phát huy tốt vai trò, trách nhiệm nêu gương trong học tập và làm theo Bác, bởi vì: \"Quần chúng…”",
+        "paragraph_indices": [
+          97
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-074",
+      "number": 74,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Đối với bản thân, cách ứng xử nào phù hợp yêu cầu nêu gương?",
+      "options": {
+        "A": "Không tự mãn, luôn học tập và tự kiểm điểm",
+        "B": "Giữ nguyên cách làm vì đã có kinh nghiệm",
+        "C": "Chỉ nhận ưu điểm, tránh nhìn khuyết điểm",
+        "D": "Dựa vào chức vụ để khẳng định mình luôn đúng"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn yêu cầu cầu tiến bộ, tự kiểm điểm và sửa điều dở.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ nhất, mỗi cán bộ, đảng viên cần phải phát huy tốt vai trò, trách nhiệm nêu gương trong học tập và làm theo Bác, bởi vì: \"Quần chúng…”",
+        "paragraph_indices": [
+          97
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-075",
+      "number": 75,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Đối với người khác, thái độ nào được tài liệu đề cao?",
+      "options": {
+        "A": "Áp đặt để tạo sự thống nhất",
+        "B": "Chỉ thân thiện với người cùng quan điểm",
+        "C": "Chân thành, khiêm tốn, đoàn kết và khoan dung",
+        "D": "Xa cách để giữ uy tín"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu nêu các phẩm chất chân thành, thật thà, khoan dung và đoàn kết.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ nhất, mỗi cán bộ, đảng viên cần phải phát huy tốt vai trò, trách nhiệm nêu gương trong học tập và làm theo Bác, bởi vì: \"Quần chúng…”",
+        "paragraph_indices": [
+          97
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-076",
+      "number": 76,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Nguyên tắc dĩ công vi thượng trong công việc được tài liệu giải thích theo hướng nào?",
+      "options": {
+        "A": "Đặt lợi ích quốc gia, tập thể và nhân dân lên trên hết",
+        "B": "Đặt quan hệ thân quen lên trên nhiệm vụ",
+        "C": "Ưu tiên lợi ích cá nhân khi có xung đột",
+        "D": "Chỉ quan tâm thành tích của bộ phận mình"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn gắn nguyên tắc này với ưu tiên lợi ích chung.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ nhất, mỗi cán bộ, đảng viên cần phải phát huy tốt vai trò, trách nhiệm nêu gương trong học tập và làm theo Bác, bởi vì: \"Quần chúng…”",
+        "paragraph_indices": [
+          97
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-077",
+      "number": 77,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Theo tài liệu, người có chức vụ càng cao cần thực hiện trách nhiệm nêu gương như thế nào?",
+      "options": {
+        "A": "Chuyển toàn bộ trách nhiệm cho cấp dưới",
+        "B": "Càng phải nêu gương về phẩm chất, lối sống và phong cách làm việc",
+        "C": "Có thể giảm yêu cầu nêu gương",
+        "D": "Chỉ cần nêu gương bằng phát biểu"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn xác định cương vị càng lớn càng cần nêu gương.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ hai, người có chức vụ càng cao, cương vị càng lớn càng cần phải nêu gương về phẩm chất chính trị, đạo đức, lối sống, phong cách làm…”",
+        "paragraph_indices": [
+          98
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-078",
+      "number": 78,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Phong cách lãnh đạo nào được tài liệu đề cao?",
+      "options": {
+        "A": "Khoa học, dân chủ và sâu sát thực tiễn",
+        "B": "Chủ quan, khép kín và xa cơ sở",
+        "C": "Tập trung mệnh lệnh, hạn chế trao đổi",
+        "D": "Chỉ dựa vào báo cáo một chiều"
+      },
+      "correct_answer": "A",
+      "explanation": "Đoạn nêu gương của người có chức vụ cao nhấn mạnh phong cách này.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ hai, người có chức vụ càng cao, cương vị càng lớn càng cần phải nêu gương về phẩm chất chính trị, đạo đức, lối sống, phong cách làm…”",
+        "paragraph_indices": [
+          98
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-079",
+      "number": 79,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Phương châm dân biết, dân bàn, dân làm còn bao gồm những nội dung nào theo tài liệu?",
+      "options": {
+        "A": "Dân không phản hồi, dân không đánh giá",
+        "B": "Dân chỉ nghe, dân chỉ chờ, dân chỉ nhận",
+        "C": "Dân đứng ngoài, dân ủy quyền hoàn toàn",
+        "D": "Dân kiểm tra, dân giám sát, dân thụ hưởng"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn dẫn đầy đủ phương châm có kiểm tra, giám sát và thụ hưởng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ hai, người có chức vụ càng cao, cương vị càng lớn càng cần phải nêu gương về phẩm chất chính trị, đạo đức, lối sống, phong cách làm…”",
+        "paragraph_indices": [
+          98
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-080",
+      "number": 80,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Để nêu gương có hiệu quả, tài liệu yêu cầu làm gì với các điển hình tiên tiến?",
+      "options": {
+        "A": "Chỉ biểu dương một lần rồi kết thúc",
+        "B": "Chỉ lưu hồ sơ để tham khảo",
+        "C": "Xây dựng, bồi dưỡng và nhân rộng",
+        "D": "Không cần phổ biến cách làm"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn coi các tấm gương thực tiễn là đối tượng cần bồi dưỡng và nhân rộng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ ba, để nêu gương có hiệu quả, mỗi cán bộ, đảng viên, người đứng đầu phải là những tấm gương sáng về phẩm chất và năng lực, trở thàn…”",
+        "paragraph_indices": [
+          99
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-081",
+      "number": 81,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Nguyên tắc nào cần giữ vững khi xây dựng những tấm gương nêu gương?",
+      "options": {
+        "A": "Ưu tiên thân quen và cánh hẩu",
+        "B": "Bỏ qua quy trình để đạt thành tích",
+        "C": "Tập trung dân chủ, khách quan, công tâm và công khai",
+        "D": "Ưu tiên cục bộ địa phương"
+      },
+      "correct_answer": "C",
+      "explanation": "Tài liệu đặt các nguyên tắc này đối lập với cục bộ, bè phái và thân quen.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ ba, để nêu gương có hiệu quả, mỗi cán bộ, đảng viên, người đứng đầu phải là những tấm gương sáng về phẩm chất và năng lực, trở thàn…”",
+        "paragraph_indices": [
+          99
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-082",
+      "number": 82,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Người thân muốn lợi dụng vị trí công tác của cán bộ để vụ lợi. Cách xử lý nào phù hợp tài liệu?",
+      "options": {
+        "A": "Đồng ý nếu lợi ích không quá lớn",
+        "B": "Không để người thân lợi dụng vị trí công tác",
+        "C": "Bỏ qua vì là quan hệ gia đình",
+        "D": "Chuyển cho cấp dưới giải quyết giúp"
+      },
+      "correct_answer": "B",
+      "explanation": "Đây là tình huống vận dụng yêu cầu không để người thân lợi dụng chức vụ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ ba, để nêu gương có hiệu quả, mỗi cán bộ, đảng viên, người đứng đầu phải là những tấm gương sáng về phẩm chất và năng lực, trở thàn…”",
+        "paragraph_indices": [
+          99
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-083",
+      "number": 83,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Khi được góp ý về khuyết điểm, cán bộ cấp trên nên có thái độ nào theo tài liệu?",
+      "options": {
+        "A": "Hoan nghênh, khuyến khích phê bình và thật thà tự phê bình",
+        "B": "Chỉ tiếp nhận lời khen",
+        "C": "Yêu cầu người góp ý rút ý kiến trước tập thể",
+        "D": "Ngăn góp ý để giữ uy tín"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn yêu cầu cấp trên làm gương trong tự phê bình và thực hiện dân chủ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ ba, để nêu gương có hiệu quả, mỗi cán bộ, đảng viên, người đứng đầu phải là những tấm gương sáng về phẩm chất và năng lực, trở thàn…”",
+        "paragraph_indices": [
+          99
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-084",
+      "number": 84,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Theo tài liệu, các điển hình tiên tiến được phát hiện chủ yếu thông qua đâu?",
+      "options": {
+        "A": "Hoạt động thực tiễn",
+        "B": "Chỉ bản đăng ký thi đua",
+        "C": "Chỉ số lượng khẩu hiệu được sử dụng",
+        "D": "Chỉ lời tự giới thiệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nhấn mạnh phát hiện, bồi dưỡng điển hình qua thực tiễn.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ tư, nêu gương của cán bộ, đảng viên về học tập và làm theo Bác phải thông qua hoạt động thực tiễn, bằng hoạt động thực tiễn để phát…”",
+        "paragraph_indices": [
+          100
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-085",
+      "number": 85,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Điều gì kiểm nghiệm và chứng minh nhân cách cán bộ, đảng viên theo tài liệu?",
+      "options": {
+        "A": "Chỉ chức danh đang đảm nhiệm",
+        "B": "Chỉ lời hứa trước tập thể",
+        "C": "Thực tiễn hoạt động của họ",
+        "D": "Chỉ thành tích được kể lại"
+      },
+      "correct_answer": "C",
+      "explanation": "Nêu gương không dừng ở lời nói, mà phải được chứng minh bằng công việc.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Nêu gương không chỉ bằng lời nói suông mà phải là người kiểu mẫu trong mọi công việc. Nhân cách của mỗi cá nhân, đặc biệt là của cán bộ…”",
+        "paragraph_indices": [
+          101
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-086",
+      "number": 86,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Nhóm đối tượng nào được đặc biệt nhấn mạnh trong bồi dưỡng lý tưởng, đạo đức, lối sống?",
+      "options": {
+        "A": "Chỉ người làm công tác tài chính",
+        "B": "Chỉ cán bộ đã nghỉ hưu",
+        "C": "Thế hệ trẻ",
+        "D": "Chỉ người có chức vụ cao nhất"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn đề cập cán bộ, đảng viên và người dân, nhất là thế hệ trẻ.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ năm, học tập và làm theo Bác để Đảng ta và mỗi cán bộ, đảng viên không ngừng nâng cao bản lĩnh, trí tuệ, năng lực, phẩm chất, uy tí…”",
+        "paragraph_indices": [
+          102
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-087",
+      "number": 87,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Nâng cao năng lực tổng kết và chỉ đạo thực tiễn nhằm giúp cán bộ làm gì?",
+      "options": {
+        "A": "Tránh trách nhiệm trước vấn đề mới",
+        "B": "Thay việc thực hiện nhiệm vụ bằng thảo luận",
+        "C": "Giải quyết hiệu quả những vấn đề đang đặt ra",
+        "D": "Chỉ tăng số lượng báo cáo"
+      },
+      "correct_answer": "C",
+      "explanation": "Đoạn này gắn bản lĩnh, lý luận và năng lực thực tiễn với giải quyết vấn đề.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ năm, học tập và làm theo Bác để Đảng ta và mỗi cán bộ, đảng viên không ngừng nâng cao bản lĩnh, trí tuệ, năng lực, phẩm chất, uy tí…”",
+        "paragraph_indices": [
+          102
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-088",
+      "number": 88,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Các cấp ủy, chính quyền, đoàn thể cần đưa nội dung làm theo Hồ Chí Minh vào đâu?",
+      "options": {
+        "A": "Chỉ phát biểu vào ngày kỷ niệm",
+        "B": "Chỉ tài liệu lưu trữ không triển khai",
+        "C": "Chương trình, kế hoạch hành động thực hiện nghị quyết",
+        "D": "Chỉ khẩu hiệu treo tại hội trường"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn yêu cầu đưa nội dung làm theo vào chương trình và kế hoạch hành động.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ sáu, các cấp ủy đảng, chính quyền, đoàn thể đưa nội dung làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh vào chương trình, kế ho…”",
+        "paragraph_indices": [
+          103
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-089",
+      "number": 89,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Một người đứng đầu thường né nhiệm vụ mới và việc khó. Điều này trái yêu cầu nào trong tài liệu?",
+      "options": {
+        "A": "Giữ nguyên tắc tiết kiệm văn phòng phẩm",
+        "B": "Tăng cường nghiên cứu thị trường",
+        "C": "Xây dựng quan hệ đối ngoại đa phương",
+        "D": "Đấu tranh với biểu hiện tránh việc mới, né việc khó"
+      },
+      "correct_answer": "D",
+      "explanation": "Tài liệu nêu trực tiếp yêu cầu đấu tranh với biểu hiện né tránh công việc.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ sáu, các cấp ủy đảng, chính quyền, đoàn thể đưa nội dung làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh vào chương trình, kế ho…”",
+        "paragraph_indices": [
+          103
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-090",
+      "number": 90,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Trách nhiệm nêu gương",
+      "question": "Đổi mới hình thức học tập, tuyên truyền về Hồ Chí Minh cần phù hợp với yếu tố nào?",
+      "options": {
+        "A": "Một hình thức cố định cho mọi người",
+        "B": "Chỉ số lượng người tham dự",
+        "C": "Chỉ sở thích của người báo cáo",
+        "D": "Từng đối tượng"
+      },
+      "correct_answer": "D",
+      "explanation": "Đoạn Thứ bảy yêu cầu nội dung, phương pháp, hình thức phù hợp từng đối tượng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 3 • Câu 4; đoạn bắt đầu: “Thứ sáu, các cấp ủy đảng, chính quyền, đoàn thể đưa nội dung làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh vào chương trình, kế ho…”",
+        "paragraph_indices": [
+          103
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-091",
+      "number": 91,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Theo phần Nghị quyết 35 trong tài liệu, bảo vệ nền tảng tư tưởng của Đảng bao gồm nội dung nào?",
+      "options": {
+        "A": "Chỉ bảo vệ cơ sở vật chất của cơ quan",
+        "B": "Chỉ bảo vệ tài liệu lưu trữ",
+        "C": "Chỉ bảo vệ danh tiếng cá nhân",
+        "D": "Bảo vệ Đảng, nhân dân, Nhà nước, công cuộc đổi mới và lợi ích quốc gia"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn trình bày phạm vi rộng, gồm các nền tảng chính trị, nhân dân và phát triển đất nước.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Nghị quyết số 35-NQ/TW của Bộ Chính trị đã nêu rõ, bảo vệ nền tảng tư tưởng của Ðảng là bảo vệ Ðảng, Cương lĩnh chính trị, đường lối củ…”",
+        "paragraph_indices": [
+          107
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-092",
+      "number": 92,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Tài liệu xác định bảo vệ nền tảng tư tưởng là công việc có tính chất nào?",
+      "options": {
+        "A": "Tự giác và thường xuyên",
+        "B": "Chỉ giao cho một cơ quan trung ương",
+        "C": "Chỉ thực hiện theo một chiến dịch ngắn",
+        "D": "Chỉ tiến hành khi có hội nghị"
+      },
+      "correct_answer": "A",
+      "explanation": "Đoạn này nhấn mạnh trách nhiệm thường xuyên của tổ chức và cán bộ, đảng viên.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Nghị quyết số 35-NQ/TW của Bộ Chính trị đã nêu rõ, bảo vệ nền tảng tư tưởng của Ðảng là bảo vệ Ðảng, Cương lĩnh chính trị, đường lối củ…”",
+        "paragraph_indices": [
+          107
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-093",
+      "number": 93,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Theo phần Nghị quyết 35 được dẫn, lực lượng nào giữ vai trò nòng cốt?",
+      "options": {
+        "A": "Chỉ cơ quan quản lý xây dựng",
+        "B": "Chỉ bộ phận kế toán",
+        "C": "Lực lượng tuyên giáo các cấp",
+        "D": "Chỉ các doanh nghiệp nhà nước"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguồn xác định tuyên giáo các cấp là nòng cốt trong nhiệm vụ của toàn Đảng, toàn quân, toàn dân.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Nghị quyết số 35-NQ/TW của Bộ Chính trị đã nêu rõ, bảo vệ nền tảng tư tưởng của Ðảng là bảo vệ Ðảng, Cương lĩnh chính trị, đường lối củ…”",
+        "paragraph_indices": [
+          107
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-094",
+      "number": 94,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Cơ sở vận dụng vào thực tiễn Việt Nam trong bảo vệ nền tảng tư tưởng được tài liệu nêu là gì?",
+      "options": {
+        "A": "Chỉ mô hình quản lý doanh nghiệp",
+        "B": "Chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh",
+        "C": "Chỉ kinh nghiệm cá nhân của người đứng đầu",
+        "D": "Chỉ các thông tin phổ biến trên mạng"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn yêu cầu quán triệt sâu sắc, vận dụng đúng đắn và sáng tạo các nền tảng này.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Bảo vệ nền tảng tư tưởng của Ðảng trên cơ sở quán triệt sâu sắc, vận dụng đúng đắn, sáng tạo chủ nghĩa Mác - Lê-nin, tư tưởng Hồ Chí Mi…”",
+        "paragraph_indices": [
+          108
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-095",
+      "number": 95,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Theo tài liệu, giáo dục chính trị, tư tưởng hướng đến năng lực nào của người học?",
+      "options": {
+        "A": "Chia sẻ mọi thông tin đang phổ biến",
+        "B": "Nhận thức sâu sắc và chủ động phản bác quan điểm sai trái",
+        "C": "Né tránh hoàn toàn việc tìm hiểu thông tin",
+        "D": "Chỉ ghi nhớ tên các văn bản"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn gắn giáo dục với nhận thức, sức đề kháng và khả năng chủ động đấu tranh.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Nghị quyết nêu bảy nhiệm vụ, giải pháp chủ yếu. Trọng tâm là tiếp tục làm cho toàn Ðảng, toàn dân, toàn quân nhận thức ngày càng đầy đủ…”",
+        "paragraph_indices": [
+          109,
+          110
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-096",
+      "number": 96,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Công tác tuyên truyền, phản bác được tài liệu yêu cầu theo hướng nào?",
+      "options": {
+        "A": "Chủ động, có tính thuyết phục cao và hấp dẫn",
+        "B": "Chỉ phản ứng khi thông tin đã lan rộng",
+        "C": "Chỉ tăng số lượng bài viết",
+        "D": "Chỉ sử dụng mệnh lệnh thay lập luận"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nhấn mạnh đổi mới nội dung, phương thức và tính thuyết phục.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Ðổi mới nội dung, phương thức, nâng cao chất lượng và hiệu quả tuyên truyền về chủ nghĩa Mác - Lê-nin, tư tưởng Hồ Chí Minh, đường lối,…”",
+        "paragraph_indices": [
+          112
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-097",
+      "number": 97,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Theo tài liệu, tăng cường thông tin tích cực trên mạng cần đi đôi với điều gì?",
+      "options": {
+        "A": "Chỉ đếm lượt xem và lượt thích",
+        "B": "Chia sẻ lại thông tin chưa kiểm chứng để thu hút chú ý",
+        "C": "Bỏ qua mọi thông tin sai lệch",
+        "D": "Ngăn chặn, xử lý thông tin xấu độc có hiệu quả"
+      },
+      "correct_answer": "D",
+      "explanation": "Nguồn đặt thông tin tích cực đi cùng xử lý thông tin xấu độc.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Ðổi mới nội dung, phương thức, nâng cao chất lượng và hiệu quả tuyên truyền về chủ nghĩa Mác - Lê-nin, tư tưởng Hồ Chí Minh, đường lối,…”",
+        "paragraph_indices": [
+          112
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-098",
+      "number": 98,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Trong kỷ luật phát ngôn, hành vi nào được tài liệu nêu là bị nghiêm cấm?",
+      "options": {
+        "A": "Góp ý xây dựng qua kênh phù hợp",
+        "B": "Để lộ bí mật của Đảng, Nhà nước và lan truyền thông tin sai lệch",
+        "C": "Trao đổi chuyên môn đúng phạm vi nhiệm vụ",
+        "D": "Học tập tài liệu được phép phổ biến"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn nêu rõ yêu cầu kỷ luật phát ngôn và các hành vi không được thực hiện.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Tăng cường lãnh đạo, chỉ đạo công tác kiểm tra, giám sát tổ chức thực hiện nhiệm vụ kiểm tra, giám sát và kiên quyết xử lý kịp thời, ng…”",
+        "paragraph_indices": [
+          113
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-099",
+      "number": 99,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Theo tài liệu, nâng cao quản lý và sử dụng Internet, mạng xã hội cần kết hợp những yếu tố nào?",
+      "options": {
+        "A": "Hoàn thiện văn bản quy phạm và giải pháp kỹ thuật phù hợp",
+        "B": "Chỉ tăng số lượng tài khoản",
+        "C": "Chỉ mua thiết bị mới",
+        "D": "Chỉ tổ chức tuyên truyền một lần"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn yêu cầu cả hệ thống văn bản và giải pháp kỹ thuật theo sự phát triển của môi trường mạng.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Nâng cao chất lượng, hiệu quả công tác quản lý và sử dụng in-tơ-nét, mạng xã hội. Trong đó chú trọng xây dựng, hoàn thiện hệ thống văn…”",
+        "paragraph_indices": [
+          114
+        ]
+      },
+      "is_official": false
+    },
+    {
+      "id": "TEST-CT-100",
+      "number": 100,
+      "bank_id": "politics-test-119-v1",
+      "status": "test",
+      "topic": "politics",
+      "section": "Bảo vệ nền tảng tư tưởng của Đảng",
+      "question": "Trong phần liên hệ bản thân, cách sử dụng mạng xã hội được khuyến nghị là gì?",
+      "options": {
+        "A": "Sử dụng lành mạnh để phục vụ công tác chuyên môn",
+        "B": "Chỉ dùng để tranh luận cá nhân",
+        "C": "Dùng để phát tán nội dung chưa kiểm chứng",
+        "D": "Ưu tiên lượt tương tác hơn chất lượng thông tin"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn nêu việc sử dụng lành mạnh mạng xã hội phục vụ chuyên môn.",
+      "source": {
+        "file": "Bài kiểm tra nhận thức chính trị 11.9.docx",
+        "location": "Phần 4 • Bài thu hoạch về Nghị quyết 35; đoạn bắt đầu: “Sử dụng lành mạnh trang trang mạng xã hội như Facebook, Internet, v.v…để phục vụ cho công tác chuyên môn của bản thân. Chủ động nhận di…”",
+        "paragraph_indices": [
+          116
+        ]
+      },
+      "is_official": false
+    }
+  ]
+}
