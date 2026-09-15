@@ -8,6 +8,7 @@ async function sb(path:string,method='GET',body?:unknown,token?:string){
  const base=process.env.SUPABASE_URL,key=process.env.SUPABASE_SERVICE_ROLE_KEY;
  if(!base||!key)throw Error('Chưa cấu hình kết nối học tập.');
  const r=await fetch(base.replace(/\/$/,'')+path,{method,headers:{apikey:key,Authorization:`Bearer ${token||key}`,'Content-Type':'application/json',Prefer:'return=representation'},body:body===undefined?undefined:JSON.stringify(body),cache:'no-store',signal:AbortSignal.timeout(20000)});
+ if(r.status===404&&method==='DELETE'&&path.startsWith('/auth/v1/admin/users/'))return null;
  if(!r.ok)throw Error('Không thực hiện được. Kiểm tra quyền truy cập, dữ liệu và cấu hình phân hệ.');
  return r.status===204?null:r.json();
 }
@@ -24,7 +25,7 @@ export async function GET(req:NextRequest){
  for(const d of docs){d.pending_file=Boolean(d.removed&&d.path);delete d.path;}
  const receipts=await table('receipts',`person_id=eq.${me.id}`);
  const completed=await table('completed',scope);
- const people=admin?await table('people','select=id,name,username,role,active&order=name.asc'):[];
+ const people=admin?await table('people','or=(deleted_at.is.null,auth_deleted.eq.false)&select=id,name,username,role,active,deleted_at&order=name.asc'):[];
  // Only assigned participants (or administrators) can see completion names.
  return NextResponse.json({me,rounds,docs,receipts,completed,people,assigned:admin?assigned:[]},{headers:{'Cache-Control':'no-store'}});
  }catch{return NextResponse.json({error:'Chưa kết nối được phân hệ học tập. Vui lòng thử lại.'},{status:503});}
@@ -53,6 +54,14 @@ export async function POST(req:NextRequest){
   const link=await sb(`/storage/v1/object/sign/${bucket}/${d.path}`,'POST',{expiresIn:3600});return NextResponse.json({kind:'pdf',url:process.env.SUPABASE_URL+'/storage/v1'+link.signedURL});
  }
  if(me.role!=='admin')return NextResponse.json({error:'Chỉ quản trị viên được thực hiện.'},{status:403});
+ if(p.op==='deleteUser'){
+  if(!uuid(p.id)||p.id===me.id)throw Error('Không thể xóa tài khoản này.');
+  const target=(await table('people',`id=eq.${p.id}`))[0];if(!target||target.role!=='member')throw Error('Chỉ được xóa tài khoản đảng viên, không xóa tài khoản admin.');
+  // Invalidate access and release username first; Auth deletion can be retried safely.
+  await sb('/rest/v1/rpc/learning_delete_account','POST',{actor:me.id,target:p.id});
+  try{await sb('/auth/v1/admin/users/'+p.id,'DELETE');await sb(`/rest/v1/learning_people?id=eq.${p.id}`,'PATCH',{auth_deleted:true});}catch{throw Error('Đã khóa tài khoản nhưng chưa xóa được thông tin đăng nhập. Bấm Xóa tài khoản lần nữa để thử lại trước khi tạo lại.');}
+  return NextResponse.json({ok:true});
+ }
  if(p.op==='createUser'){
   if(typeof p.username!=='string'||! /^[a-z0-9._-]{3,50}$/.test(p.username)||typeof p.name!=='string'||p.name.trim().length<2||p.name.length>100||typeof p.password!=='string'||! /^[0-9]{6}$/.test(p.password))throw Error('Tên đăng nhập 3–50 ký tự không dấu; mật khẩu đảng viên đúng 6 chữ số; họ tên 2–100 ký tự.');
   const u=await sb('/auth/v1/admin/users','POST',{email:`${p.username}@vptct.internal`,password:p.password,email_confirm:true});
@@ -62,6 +71,7 @@ export async function POST(req:NextRequest){
   if(!uuid(p.id))throw Error('Tài khoản không hợp lệ.');const target=(await table('people',`id=eq.${p.id}`))[0];if(!target)throw Error('Không tìm thấy tài khoản.');if(typeof p.password!=='string'||(target.role==='member'?! /^[0-9]{6}$/.test(p.password):p.password.length<10||p.password.length>128))throw Error(target.role==='member'?'Mật khẩu đảng viên cần đúng 6 chữ số.':'Mật khẩu admin cần 10–128 ký tự.');await sb('/auth/v1/admin/users/'+p.id,'PUT',{password:p.password});return NextResponse.json({ok:true});
  }
  if(p.op==='active'){
+  if(!uuid(p.id))throw Error('Tài khoản không hợp lệ.');if((await table('people',`id=eq.${p.id}`))[0]?.deleted_at)throw Error('Tài khoản đã xóa không thể mở khóa. Hãy tạo tài khoản mới.');
   if(!uuid(p.id)||p.id===me.id||typeof p.active!=='boolean')throw Error('Không thể thay đổi tài khoản này.');await sb(`/rest/v1/learning_people?id=eq.${p.id}`,'PATCH',{active:p.active});return NextResponse.json({ok:true});
  }
  if(p.op==='upload'){

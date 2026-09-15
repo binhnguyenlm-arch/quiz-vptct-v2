@@ -1,6 +1,6 @@
 {
   "name": "quiz-vptct-ui-v2",
-  "version": "2.9.6",
+  "version": "2.9.8",
   "private": true,
   "scripts": {
     "dev": "next dev",

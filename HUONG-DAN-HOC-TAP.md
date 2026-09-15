@@ -1,3 +1,18 @@
+# Cập nhật 2.9.8
+
+Nút Vào học tập dùng tông xanh lá cây, cùng kiểu nổi và viền sáng; vẫn dẫn đến danh sách chuyên đề.
+
+Đổi nút Trang chủ trên thanh điều hướng thành Lịch công tác, tông vàng, hiệu ứng nổi và viền sáng. Mở trang /lich-cong-tac với thông báo đang xây dựng, chưa có chức năng lịch. Cập nhật mã nguồn lên GitHub; không có SQL mới so với 2.9.7.
+
+# Cập nhật 2.9.7 — Xóa tài khoản và Học lại
+
+1. Supabase → SQL Editor → truy vấn mới: dán toàn bộ `supabase/006-delete-learning-account.sql`, bấm Run. Cần đã cài các bản SQL trước đó.
+2. Tải mã nguồn trong gói này lên GitHub và chờ Vercel triển khai.
+
+Admin: mở Tài khoản đảng viên, bấm Xóa tài khoản và xác nhận. Không cho xóa tài khoản admin. Thông tin đăng nhập bị xóa, hồ sơ học tập cũ được giữ để thống kê. Có thể tạo lại cùng tên đăng nhập sau khi xóa thành công; đó là tài khoản mới, không tự nhận lịch sử hoặc các đợt được giao cho tài khoản cũ. Nếu kết nối gián đoạn khi xóa, tài khoản đã bị khóa và dòng chờ xóa vẫn hiển thị; bấm Xóa tài khoản lần nữa để hoàn tất.
+
+Người học: mở đợt đã hoàn thành, bấm Học lại. Cuộn từng tài liệu đến cuối, bấm Tiếp tục học lại để tự mở tài liệu tiếp theo. Không thay đổi thời gian hoàn thành lần đầu và không cộng trùng số lần học tập. Có thể học lại đợt đã đóng nếu tài liệu còn lưu; tài liệu đã gỡ không khôi phục được qua nút này.
+
 # Cập nhật 2.9.6
 
 Đổi tiêu đề danh sách thành “Danh sách đảng viên đã nghiên cứu nghị quyết”, bỏ tiêu đề phụ, hiển thị bảng STT / Tên / Thời gian hoàn thành lúc. Áp dụng xuyên suốt các trang học tập. Chỉ cần cập nhật mã nguồn GitHub; không có SQL mới nếu đã cài 2.9.5.
