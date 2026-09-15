@@ -53,12 +53,12 @@ export async function POST(req:NextRequest){
  }
  if(me.role!=='admin')return NextResponse.json({error:'Chỉ quản trị viên được thực hiện.'},{status:403});
  if(p.op==='createUser'){
-  if(typeof p.username!=='string'||! /^[a-z0-9._-]{3,50}$/.test(p.username)||typeof p.name!=='string'||p.name.trim().length<2||p.name.length>100||typeof p.password!=='string'||p.password.length<10||p.password.length>128)throw Error('Tên đăng nhập 3–50 ký tự không dấu; mật khẩu 10–128 ký tự; họ tên 2–100 ký tự.');
+  if(typeof p.username!=='string'||! /^[a-z0-9._-]{3,50}$/.test(p.username)||typeof p.name!=='string'||p.name.trim().length<2||p.name.length>100||typeof p.password!=='string'||! /^[0-9]{6}$/.test(p.password))throw Error('Tên đăng nhập 3–50 ký tự không dấu; mật khẩu đảng viên đúng 6 chữ số; họ tên 2–100 ký tự.');
   const u=await sb('/auth/v1/admin/users','POST',{email:`${p.username}@vptct.internal`,password:p.password,email_confirm:true});
   try{await sb('/rest/v1/learning_people','POST',{id:u.id,username:p.username,name:p.name.trim().replace(/\s+/g,' '),role:'member'});}catch(e){await sb('/auth/v1/admin/users/'+u.id,'DELETE');throw e;}return NextResponse.json({ok:true});
  }
  if(p.op==='resetPassword'){
-  if(!uuid(p.id)||typeof p.password!=='string'||p.password.length<10||p.password.length>128)throw Error('Mật khẩu cần 10–128 ký tự.');await sb('/auth/v1/admin/users/'+p.id,'PUT',{password:p.password});return NextResponse.json({ok:true});
+  if(!uuid(p.id))throw Error('Tài khoản không hợp lệ.');const target=(await table('people',`id=eq.${p.id}`))[0];if(!target)throw Error('Không tìm thấy tài khoản.');if(typeof p.password!=='string'||(target.role==='member'?! /^[0-9]{6}$/.test(p.password):p.password.length<10||p.password.length>128))throw Error(target.role==='member'?'Mật khẩu đảng viên cần đúng 6 chữ số.':'Mật khẩu admin cần 10–128 ký tự.');await sb('/auth/v1/admin/users/'+p.id,'PUT',{password:p.password});return NextResponse.json({ok:true});
  }
  if(p.op==='active'){
   if(!uuid(p.id)||p.id===me.id||typeof p.active!=='boolean')throw Error('Không thể thay đổi tài khoản này.');await sb(`/rest/v1/learning_people?id=eq.${p.id}`,'PATCH',{active:p.active});return NextResponse.json({ok:true});

@@ -44,3 +44,5 @@ Sau mỗi thao tác của người dùng, dữ liệu được tải lại ngay.
 ## Kiểm tra trước sử dụng thật
 
 Đã kiểm tra build, SQL bằng PGlite, phân quyền và luồng đọc văn bản/PDF qua trình duyệt với dữ liệu kiểm thử. Chưa cấu hình hoặc kiểm thử trên Supabase thật của anh. Sau cài đặt, tạo một đợt TEST có 3 tài liệu, một tài khoản đảng viên TEST; kiểm tra đăng nhập, upload PDF, xác nhận đủ tài liệu, danh sách trên trang chủ, đóng đợt và xóa nội dung. Sau kiểm tra khóa tài khoản TEST và đóng đợt TEST. Không dùng tên hoặc kết quả minh họa làm hồ sơ thực tế.
+
+Bản 2.9.1: tạo và đặt lại mật khẩu đảng viên yêu cầu đúng 6 chữ số (giữ cả số 0 đầu). Tài khoản cũ vẫn dùng mật khẩu cũ cho đến khi admin đặt lại. Mật khẩu admin vẫn 10–128 ký tự. Không chạy lại SQL. Nếu Supabase từ chối vì chính sách mật khẩu, vào Authentication > Sign In / Providers > Email, đặt Minimum password length = 6 và Required characters = không bắt buộc chữ/ký tự đặc biệt. Không thay khóa hay mật khẩu database. Tham khảo https://supabase.com/docs/guides/auth/password-security .
