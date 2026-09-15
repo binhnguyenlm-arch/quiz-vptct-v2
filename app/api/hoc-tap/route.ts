@@ -14,7 +14,7 @@ async function sb(path:string,method='GET',body?:unknown,token?:string){
 async function identity(req:NextRequest){const token=req.cookies.get('learning_session')?.value;if(!token)return null;try{const u=await sb('/auth/v1/user','GET',undefined,token);const a=await sb(`/rest/v1/learning_people?id=eq.${u.id}&active=eq.true&select=id,name,username,role`);return a[0]||null;}catch{return null;}}
 async function table(name:string,query=''){const rows=[];for(let offset=0;offset<100000;offset+=1000){const page=await sb(`/rest/v1/learning_${name}?${query}&limit=1000&offset=${offset}`);rows.push(...page);if(page.length<1000)return rows;}throw Error('Danh sách quá lớn. Vui lòng liên hệ quản trị viên.');}
 export async function GET(req:NextRequest){
- try{const me=await identity(req);if(!me)return NextResponse.json({me:null},{headers:{'Cache-Control':'no-store'}});
+ try{const me=await identity(req);if(!me){const rounds=await table('rounds','state=in.(open,closed)&select=id,title,year,state&order=year.desc,created_at.desc');const ids=rounds.map(r=>r.id);const completed=ids.length?await table('completed',`round_id=in.(${ids.join(',')})&select=round_id,name_snapshot,completed_at&order=completed_at.desc`):[];return NextResponse.json({me:null,rounds,completed},{headers:{'Cache-Control':'no-store'}});}
  const admin=me.role==='admin';const assigned=await table('assigned',admin?'':`person_id=eq.${me.id}`);
  const ids=assigned.map((a:{round_id:string})=>a.round_id);const rounds=admin?await table('rounds','order=year.desc,created_at.desc'):ids.length?await table('rounds',`id=in.(${ids.join(',')})&order=year.desc,created_at.desc`):[];
  const roundIds=rounds.map((r:{id:string})=>r.id);const scope=roundIds.length?`round_id=in.(${roundIds.join(',')})`:'round_id=is.null';

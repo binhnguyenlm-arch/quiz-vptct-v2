@@ -1,3 +1,22 @@
+# Cập nhật 2.9.5 — Số lần học tập
+
+1. Trong Supabase → SQL Editor, mở truy vấn mới, dán toàn bộ `supabase/005-study-counts.sql` rồi bấm Run. Cần đã chạy các bản 001, 002, 004 trước đó.
+2. Giải nén gói 2.9.5, tải toàn bộ nội dung lên GitHub như các lần trước, chờ Vercel triển khai xong.
+3. Trang chủ hiển thị “Số lần học tập” dưới từng chuyên đề và từng đợt nghị quyết. Thống kê tự cập nhật khoảng 30 giây.
+
+Chỉ cộng lượt hoàn thành: Ôn tập sau khi bấm Kết thúc và xem kết quả; Thi thử khi đã nộp hoặc kết thúc được máy chủ ghi nhận; nghị quyết khi hoàn thành toàn bộ đợt. Không đếm truy cập hay bắt đầu học. Một đảng viên/đợt tính một lần kể cả bổ sung tài liệu, dựa vào hồ sơ hoàn thành hiện tại và lịch sử. Tổng chuyên đề cộng Ôn tập và Thi thử; không phân biệt gói nhỏ/lớn hay điểm số. Xem lại kết quả không tăng số.
+
+Lượt Thi thử và nghị quyết lấy từ dữ liệu đã lưu, gồm cả lịch sử. Ôn tập chỉ tính từ khi cài bản này, cần kết nối mạng khi kết thúc; các lượt cũ không có dữ liệu để khôi phục. Chuyên đề chưa mở có số 0. Nếu chưa chạy SQL hoặc mất kết nối, hiển thị “Chưa tải được”, không giả số 0. Việc ghi thống kê không thay đổi tính điểm hoặc quyền đọc tài liệu.
+
+# Cập nhật 2.9.4
+
+- Tải mã nguồn lên GitHub và chờ Vercel triển khai. Không có SQL mới; cần đã cài bản 004 của 2.9.3.
+- Đăng nhập chuyển thẳng đến /hoc-tap.
+- Thi thử tự lấy tên tài khoản đã xác thực; gói 20/50 hiện không xếp hạng nên khách không nhập tên. Ôn tập không yêu cầu tên.
+- Trước đăng nhập, công khai tên đợt đã phát hành/đã đóng và họ tên, thời gian hoàn thành. Không công khai tài liệu, tài khoản hay mật khẩu. Quy định này thay thế hướng dẫn cũ yêu cầu đăng nhập để xem thống kê.
+- Tài liệu cuối có thông báo hoàn thành và cảm ơn.
+- Kết quả gói nhỏ vẫn được xử lý để chấm và xem lại bài, không đưa lên bảng xếp hạng.
+
 # Phân hệ học tập, quán triệt — phiên bản 2.9
 
 ## Thiết lập một lần
