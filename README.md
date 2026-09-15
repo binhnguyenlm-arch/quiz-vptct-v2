@@ -28,3 +28,5 @@ Bản 2.6: bố cục làm bài hai cột trên máy tính, focus không tự cu
 Cập nhật: giải nén và upload nội dung vào gốc repo quiz-vptct-v2, commit main; kiểm tra dự án Vercel ontap-vptct. Giữ hai biến Supabase hiện tại, không chạy lại SQL. Chưa có Admin/Zalo/lịch làm việc. Kiểm tra build và giao diện bằng bộ dữ liệu thử; kết nối Supabase thật cần kiểm tra sau triển khai.
 
 Bản 2.7: banner cảng số/cảng xanh mới (public/hero-digital-green.png), cẩu ghi SNP, hai huân chương thu nhỏ với nền hòa trong suốt trên banner. Bỏ logo SNP giữa banner; tiêu đề hai dòng không dấu nối, xanh biển đậm với ánh sáng dưới chữ; VĂN PHÒNG đỏ. Điều chỉnh khung hẹp để giữ rõ lá cờ. Giữ nguyên chức năng, ngân hàng câu hỏi và Supabase.
+
+Bản 2.8: nâng cấp màn hình chọn gói, làm bài và kết quả Ôn tập/Thi thử. Nền ảnh, bảng thông tin xanh biển, viền ánh kim nhẹ, hỗ trợ giảm chuyển động. Không đổi logic hay cấu hình Supabase. Upload toàn bộ gói vào gốc repo và chờ Vercel Ready.
