@@ -1,3 +1,7 @@
+# VPTCT 2.9 — Học tập, quán triệt dành cho đảng viên
+
+Bản này bổ sung phân hệ riêng: đăng nhập, quản trị tài khoản, đợt theo năm, PDF và nội dung soạn trực tiếp, xác nhận từng tài liệu, thống kê và gỡ tài liệu sau khi đóng đợt. CẦN thiết lập mới theo HUONG-DAN-HOC-TAP.md (002-learning.sql và tài khoản admin/003-grant-learning-admin.sql). Giữ nguyên biến Supabase và dữ liệu thi thử. Không có tài khoản/mật khẩu mặc định đi kèm.
+
 # VPTCT 2.7 — Bản giao diện hoàn chỉnh
 
 Nếu cập nhật từ 2.2 đang chạy: upload toàn bộ nội dung gói vào thư mục gốc repo, commit main và chờ Vercel Ready. Giữ nguyên hai biến Supabase hiện tại; không cần chạy lại SQL. Chỉ đọc KET-NOI-SUPABASE.md khi thiết lập một hệ thống mới. Bản này bổ sung Thi thử có tính giờ, chuẩn hóa tên, trộn câu và đáp án, lưu tiến độ và bảng xếp hạng TEST chung bằng Supabase mới. Không tổ chức kỳ thi thật. Không bình luận hoặc chấm sao.
