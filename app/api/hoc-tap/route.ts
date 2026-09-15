@@ -20,7 +20,8 @@ export async function GET(req:NextRequest){
  const roundIds=rounds.map((r:{id:string})=>r.id);const scope=roundIds.length?`round_id=in.(${roundIds.join(',')})`:'round_id=is.null';
  const cohort=await table('assigned',scope);
  for(const r of rounds)r.assigned_count=cohort.filter(a=>a.round_id===r.id).length;
- const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed&order=position.asc`);
+ const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed,path&order=position.asc`);
+ for(const d of docs){d.pending_file=Boolean(d.removed&&d.path);delete d.path;}
  const receipts=await table('receipts',`person_id=eq.${me.id}`);
  const completed=await table('completed',scope);
  const people=admin?await table('people','select=id,name,username,role,active&order=name.asc'):[];
@@ -64,7 +65,7 @@ export async function POST(req:NextRequest){
   if(!uuid(p.id)||p.id===me.id||typeof p.active!=='boolean')throw Error('Không thể thay đổi tài khoản này.');await sb(`/rest/v1/learning_people?id=eq.${p.id}`,'PATCH',{active:p.active});return NextResponse.json({ok:true});
  }
  if(p.op==='upload'){
-  if(!uuid(p.round_id)||!Number.isInteger(p.size)||p.size<1||p.size>20971520)throw Error('PDF tối đa 20 MB.');const r=(await table('rounds',`id=eq.${p.round_id}`))[0];if(r?.state!=='draft')throw Error('Chỉ thêm tài liệu vào đợt nháp.');
+  if(!uuid(p.round_id)||!Number.isInteger(p.size)||p.size<1||p.size>20971520)throw Error('PDF tối đa 20 MB.');const r=(await table('rounds',`id=eq.${p.round_id}`))[0];if(!['draft','open'].includes(r?.state))throw Error('Đợt đã đóng, không thể thêm tài liệu.');
   const path=`${p.round_id}/${randomUUID()}.pdf`;const data=await sb(`/storage/v1/object/upload/sign/${bucket}/${path}`,'POST',{});return NextResponse.json({path,url:process.env.SUPABASE_URL+'/storage/v1'+data.url});
  }
  if(p.op==='discardUpload'){
@@ -73,8 +74,10 @@ export async function POST(req:NextRequest){
   await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[p.path]});return NextResponse.json({ok:true});
  }
  if(p.op==='erase'){
-  if(!uuid(p.id))throw Error('Tài liệu không hợp lệ.');const d=(await table('docs',`id=eq.${p.id}`))[0];if(!d)throw Error('Không tìm thấy tài liệu.');const r=(await table('rounds',`id=eq.${d.round_id}`))[0];if(r.state!=='closed')throw Error('Hãy đóng đợt trước khi xóa tài liệu.');
-  if(d.path)await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[d.path]});
+  if(!uuid(p.id))throw Error('Tài liệu không hợp lệ.');const d=(await table('docs',`id=eq.${p.id}`))[0];if(!d)throw Error('Không tìm thấy tài liệu.');const r=(await table('rounds',`id=eq.${d.round_id}`))[0];if(!r)throw Error('Không tìm thấy đợt.');
+  await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'erase',id:p.id}});
+  if(d.path){await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[d.path]});await sb(`/rest/v1/learning_docs?id=eq.${p.id}`,'PATCH',{path:null});}
+  return NextResponse.json({ok:true});
  }
  if(p.op==='createRound'&&(typeof p.title!=='string'||!p.title.trim()||p.title.length>200||typeof p.description!=='string'||p.description.length>2000||!Number.isInteger(p.year)||p.year<2020||p.year>2200))throw Error('Kiểm tra tên đợt, mô tả và năm học tập.');
  if(p.op==='addDoc'){
