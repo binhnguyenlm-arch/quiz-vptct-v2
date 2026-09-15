@@ -1,4 +1,4 @@
-# VPTCT 2.6 — Bản giao diện hoàn chỉnh
+# VPTCT 2.7 — Bản giao diện hoàn chỉnh
 
 Nếu cập nhật từ 2.2 đang chạy: upload toàn bộ nội dung gói vào thư mục gốc repo, commit main và chờ Vercel Ready. Giữ nguyên hai biến Supabase hiện tại; không cần chạy lại SQL. Chỉ đọc KET-NOI-SUPABASE.md khi thiết lập một hệ thống mới. Bản này bổ sung Thi thử có tính giờ, chuẩn hóa tên, trộn câu và đáp án, lưu tiến độ và bảng xếp hạng TEST chung bằng Supabase mới. Không tổ chức kỳ thi thật. Không bình luận hoặc chấm sao.
 
@@ -17,7 +17,7 @@ Node.js 22.18+ hoặc 24. Cài bằng npm ci; npm run build; npm start. Kiểm t
 
 Giữ nguyên nhận diện V2, logo SNP gốc, banner imagegen phong cách ảnh chụp và font đã duyệt. Banner tại public/hero-v2.webp; prompt gốc: cờ Việt Nam lớn mềm bên trái, cảng container chân thực bên phải, trời xanh nhạt thoáng ở giữa, không chữ/logo/watermark. Không phải ảnh tư liệu một cảng cụ thể.
 
-Chưa có Admin để thay ngân hàng/gói từ giao diện. Hiện cấu hình bằng lib/mock.ts; khi thay bộ TEST cần phiên bản ngân hàng mới để tách thành tích. Hai chuyên đề chưa có câu hỏi vẫn khóa.
+Chưa có Admin để thay ngân hàng/gói từ giao diện. Hiện cấu hình bằng lib/mock.ts; khi thay bộ TEST cần phiên bản ngân hàng mới để tách thành tích. Năm chuyên đề chưa có câu hỏi vẫn khóa.
 
 Giao diện trang chủ: biểu tượng vàng kim, quân hiệu đã sửa theo mẫu, mô tả quân sự mới, khẩu hiệu và nền minh họa AI cảng số/cảng xanh. Chưa có trang quản trị. Không thay đổi ngân hàng câu hỏi, phiên bản xếp hạng hoặc dữ liệu thành tích.
 
@@ -26,3 +26,5 @@ Bản 2.5 bổ sung giao diện làm bài và kết quả, nút đến câu chư
 Bản 2.6: bố cục làm bài hai cột trên máy tính, focus không tự cuộn khi đổi câu; nền ảnh Chi ủy đã duyệt với bệ đá và chú thích nhiệm kỳ 2025 - 2030. Trang chủ có ảnh Bác Hồ nguyên gốc cùng trích dẫn ngắn. Nguồn kiểm chứng trích dẫn: https://btllang.bqp.vn/chu-tich-ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong-ho-chi-minh/7723-a-hoc-de-lam-viec-lam-nguoi-lam-can-boa.html (không hiển thị dòng nguồn trên giao diện theo yêu cầu).
 
 Cập nhật: giải nén và upload nội dung vào gốc repo quiz-vptct-v2, commit main; kiểm tra dự án Vercel ontap-vptct. Giữ hai biến Supabase hiện tại, không chạy lại SQL. Chưa có Admin/Zalo/lịch làm việc. Kiểm tra build và giao diện bằng bộ dữ liệu thử; kết nối Supabase thật cần kiểm tra sau triển khai.
+
+Bản 2.7: banner cảng số/cảng xanh mới (public/hero-digital-green.png), cẩu ghi SNP, hai huân chương thu nhỏ với nền hòa trong suốt trên banner. Bỏ logo SNP giữa banner; tiêu đề hai dòng không dấu nối, xanh biển đậm với ánh sáng dưới chữ; VĂN PHÒNG đỏ. Điều chỉnh khung hẹp để giữ rõ lá cờ. Giữ nguyên chức năng, ngân hàng câu hỏi và Supabase.
