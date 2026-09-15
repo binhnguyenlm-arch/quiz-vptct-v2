@@ -1,3 +1,7 @@
+# Cập nhật 2.9.6
+
+Đổi tiêu đề danh sách thành “Danh sách đảng viên đã nghiên cứu nghị quyết”, bỏ tiêu đề phụ, hiển thị bảng STT / Tên / Thời gian hoàn thành lúc. Áp dụng xuyên suốt các trang học tập. Chỉ cần cập nhật mã nguồn GitHub; không có SQL mới nếu đã cài 2.9.5.
+
 # Cập nhật 2.9.5 — Số lần học tập
 
 1. Trong Supabase → SQL Editor, mở truy vấn mới, dán toàn bộ `supabase/005-study-counts.sql` rồi bấm Run. Cần đã chạy các bản 001, 002, 004 trước đó.
