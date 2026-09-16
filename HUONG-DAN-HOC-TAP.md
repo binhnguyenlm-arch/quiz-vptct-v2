@@ -126,3 +126,12 @@ Chỉ admin được gỡ tài liệu hoặc bổ sung PDF/văn bản vào đợ
 Bổ sung tài liệu vào đợt đang mở chuyển kết quả hoàn thành hiện tại vào learning_completion_history (lịch sử lưu trong cơ sở dữ liệu), giữ nguyên xác nhận từng tài liệu, và yêu cầu hoàn thành tài liệu mới trước khi hiển thị lại trong danh sách hoàn thành hiện tại. Lịch sử này chưa có bảng tra cứu riêng trên giao diện.
 Gỡ tệp: hệ thống đánh dấu ngừng sử dụng trước, rồi xóa khỏi Storage. Nếu xóa Storage bị lỗi, admin có thể bấm Xóa nội dung lại để thử dọn tệp; tài liệu lỗi không còn được giao cho người đọc.
 Nút người đọc: Xác nhận hoàn thành chuyển sang tài liệu tiếp theo. Chỉ mở khi đã cuộn hết và tải PDF hoàn tất. Có nút Tải lại tài liệu và tiến độ tải từng trang; PDF lỗi/mật khẩu/không phù hợp vẫn cần admin gỡ và tải bản nhẹ hoặc dán nội dung thay thế. Không cam kết mọi PDF đều đọc được.
+
+
+## Bản 2.10.2 — Giao diện Số hóa · Xanh hóa
+
+Thay nền lá ảnh thật và bộ chữ số thủy tinh nước 3D; số liệu vẫn lấy từ hệ thống. Bản này chỉ sửa giao diện, không yêu cầu chạy thêm SQL nếu đã cài bản 2.10.0. Tải toàn bộ nội dung gói cập nhật lên GitHub như các lần trước.
+
+
+## Bản 2.10.3 — Cụm thông điệp học tập
+Ba hình ảnh và trích dẫn Hồ Chí Minh, Lênin, Tô Lâm nằm chung một khung; bằng chiều rộng và chiều cao khung Số hóa · Xanh hóa trên máy tính. Trên điện thoại hai khung xếp dọc. Không có thay đổi cơ sở dữ liệu.
