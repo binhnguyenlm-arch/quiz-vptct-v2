@@ -1,4 +1,5 @@
 import {NextRequest,NextResponse} from 'next/server';
+import {PDFDocument} from '../../../lib/vendor/pdf-lib';
 import {randomUUID} from 'node:crypto';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
@@ -11,6 +12,14 @@ async function sb(path:string,method='GET',body?:unknown,token?:string){
  if(r.status===404&&method==='DELETE'&&path.startsWith('/auth/v1/admin/users/'))return null;
  if(!r.ok)throw Error('Không thực hiện được. Kiểm tra quyền truy cập, dữ liệu và cấu hình phân hệ.');
  return r.status===204?null:r.json();
+}
+async function pdfPages(path:string){
+ const base=process.env.SUPABASE_URL!,key=process.env.SUPABASE_SERVICE_ROLE_KEY!;
+ const response=await fetch(`${base.replace(/\/$/,'')}/storage/v1/object/authenticated/${bucket}/${path}`,{headers:{apikey:key,Authorization:`Bearer ${key}`},cache:'no-store',signal:AbortSignal.timeout(25000)});
+ if(!response.ok)throw Error('Không tải được PDF để đếm số trang.');
+ if(Number(response.headers.get('content-length'))>20971520)throw Error('PDF vượt quá 20 MB.');
+ const bytes=new Uint8Array(await response.arrayBuffer());if(bytes.length>20971520)throw Error('PDF vượt quá 20 MB.');
+ try{const pdf=await PDFDocument.load(bytes,{updateMetadata:false});const pages=pdf.getPageCount();if(pages<1||pages>100000)throw Error('PAGES');return pages;}catch{throw Error('Không đếm được số trang PDF. Hãy dùng PDF không đặt mật khẩu và kiểm tra lại tệp.');}
 }
 async function identity(req:NextRequest){const token=req.cookies.get('learning_session')?.value;if(!token)return null;try{const u=await sb('/auth/v1/user','GET',undefined,token);const a=await sb(`/rest/v1/learning_people?id=eq.${u.id}&active=eq.true&select=id,name,username,role`);return a[0]||null;}catch{return null;}}
 async function table(name:string,query=''){const rows=[];for(let offset=0;offset<100000;offset+=1000){const page=await sb(`/rest/v1/learning_${name}?${query}&limit=1000&offset=${offset}`);rows.push(...page);if(page.length<1000)return rows;}throw Error('Danh sách quá lớn. Vui lòng liên hệ quản trị viên.');}
@@ -54,6 +63,11 @@ export async function POST(req:NextRequest){
   const link=await sb(`/storage/v1/object/sign/${bucket}/${d.path}`,'POST',{expiresIn:3600});return NextResponse.json({kind:'pdf',url:process.env.SUPABASE_URL+'/storage/v1'+link.signedURL});
  }
  if(me.role!=='admin')return NextResponse.json({error:'Chỉ quản trị viên được thực hiện.'},{status:403});
+ if(p.op==='syncGreenPages'){
+  const docs=await sb('/rest/v1/learning_docs?kind=eq.pdf&a4_pages=is.null&path=not.is.null&removed=eq.false&select=id,path&limit=3');let count=0;
+  for(const d of docs){const pages=await pdfPages(d.path);await sb(`/rest/v1/learning_docs?id=eq.${d.id}`,'PATCH',{a4_pages:pages});count++;}
+  return NextResponse.json({ok:true,message:count?`Đã cập nhật số trang cho ${count} PDF. Bấm lại để kiểm tra các tệp còn lại.`:'Đã kiểm tra xong: không còn PDF có thể bổ sung số trang.'});
+ }
  if(p.op==='deleteUser'){
   if(!uuid(p.id)||p.id===me.id)throw Error('Không thể xóa tài khoản này.');
   const target=(await table('people',`id=eq.${p.id}`))[0];if(!target||target.role!=='member')throw Error('Chỉ được xóa tài khoản đảng viên, không xóa tài khoản admin.');
@@ -65,7 +79,7 @@ export async function POST(req:NextRequest){
  if(p.op==='createUser'){
   if(typeof p.username!=='string'||! /^[a-z0-9._-]{3,50}$/.test(p.username)||typeof p.name!=='string'||p.name.trim().length<2||p.name.length>100||typeof p.password!=='string'||! /^[0-9]{6}$/.test(p.password))throw Error('Tên đăng nhập 3–50 ký tự không dấu; mật khẩu đảng viên đúng 6 chữ số; họ tên 2–100 ký tự.');
   const u=await sb('/auth/v1/admin/users','POST',{email:`${p.username}@vptct.internal`,password:p.password,email_confirm:true});
-  try{await sb('/rest/v1/learning_people','POST',{id:u.id,username:p.username,name:p.name.trim().replace(/\s+/g,' '),role:'member'});}catch(e){await sb('/auth/v1/admin/users/'+u.id,'DELETE');throw e;}return NextResponse.json({ok:true});
+  try{await sb('/rest/v1/learning_people','POST',{id:u.id,username:p.username,name:p.name.trim().replace(/\s+/g,' '),role:'member'});}catch(e){await sb('/auth/v1/admin/users/'+u.id,'DELETE');throw e;}return NextResponse.json({ok:true,status:'created'});
  }
  if(p.op==='resetPassword'){
   if(!uuid(p.id))throw Error('Tài khoản không hợp lệ.');const target=(await table('people',`id=eq.${p.id}`))[0];if(!target)throw Error('Không tìm thấy tài khoản.');if(typeof p.password!=='string'||(target.role==='member'?! /^[0-9]{6}$/.test(p.password):p.password.length<10||p.password.length>128))throw Error(target.role==='member'?'Mật khẩu đảng viên cần đúng 6 chữ số.':'Mật khẩu admin cần 10–128 ký tự.');await sb('/auth/v1/admin/users/'+p.id,'PUT',{password:p.password});return NextResponse.json({ok:true});
@@ -85,6 +99,7 @@ export async function POST(req:NextRequest){
  }
  if(p.op==='erase'){
   if(!uuid(p.id))throw Error('Tài liệu không hợp lệ.');const d=(await table('docs',`id=eq.${p.id}`))[0];if(!d)throw Error('Không tìm thấy tài liệu.');const r=(await table('rounds',`id=eq.${d.round_id}`))[0];if(!r)throw Error('Không tìm thấy đợt.');
+  if(d.kind==='pdf'&&d.a4_pages==null&&d.path){try{const pages=await pdfPages(d.path);await sb(`/rest/v1/learning_docs?id=eq.${d.id}`,'PATCH',{a4_pages:pages});}catch{/* Keep unavailable page totals unknown; allow removal of damaged files. */}}
   await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'erase',id:p.id}});
   if(d.path){await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[d.path]});await sb(`/rest/v1/learning_docs?id=eq.${p.id}`,'PATCH',{path:null});}
   return NextResponse.json({ok:true});
@@ -95,7 +110,7 @@ export async function POST(req:NextRequest){
   if(p.kind==='text'&&(typeof p.body!=='string'||!p.body.trim()||p.body.length>100000))throw Error('Nội dung soạn thảo cần 1–100.000 ký tự.');
   if(p.kind==='pdf'){
    if(typeof p.path!=='string'||!p.path.startsWith(p.round_id+'/')||! /^[a-f0-9-]+\/[a-f0-9-]+\.pdf$/.test(p.path))throw Error('Tệp không hợp lệ.');
-   const info=await sb(`/storage/v1/object/info/${bucket}/${p.path}`);if(!info)throw Error('Tệp chưa tải xong.');
+   const info=await sb(`/storage/v1/object/info/${bucket}/${p.path}`);if(!info)throw Error('Tệp chưa tải xong.');p.a4_pages=await pdfPages(p.path);
   }
  }
  if(p.op==='editText'&&(!uuid(p.id)||typeof p.title!=='string'||!p.title.trim()||p.title.length>200||typeof p.body!=='string'||!p.body.trim()||p.body.length>100000))throw Error('Kiểm tra tên và nội dung tài liệu.');

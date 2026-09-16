@@ -1,3 +1,36 @@
+# Cập nhật 2.10.1 — Tra cứu tài khoản đảng viên
+
+Tải toàn bộ nội dung gói lên GitHub, chờ Vercel triển khai. Không có SQL mới so với 2.10.0.
+
+Trang trước đăng nhập có bảng danh sách 23 đảng viên theo ảnh cung cấp: STT, Đảng viên, Tên tài khoản. Có ô tìm kiếm họ tên/tài khoản, hỗ trợ gõ không dấu. Không đưa mật khẩu vào bảng hoặc mã nguồn. Bảng hiển thị danh sách được duyệt, không tự tạo hay đặt lại tài khoản.
+
+Admin tiếp tục tạo thủ công những tài khoản còn thiếu. Trong phiên làm việc đã xác minh tạo thành công quangph1, namdv, tuanna1. binhnt15 là tài khoản có sẵn và không bị thay đổi. Những tài khoản khác do admin tiếp tục tạo và thông báo mật khẩu riêng.
+
+# Cập nhật 2.10.0 — SỐ HÓA · XANH HÓA
+
+## Cập nhật theo thứ tự
+1. Supabase → SQL Editor → truy vấn mới. Sao chép toàn bộ `supabase/007-green-impact.sql`, bấm Run. Cần đã cài 001–006. Bản 007 không xóa dữ liệu; có thể chạy lại mà không cộng trùng.
+2. Giải nén ZIP, tải toàn bộ nội dung bên trong lên GitHub như các lần trước. Chờ Vercel triển khai thành công.
+3. Vào quản trị học tập, bấm **Cập nhật số trang PDF cũ** để đếm các tệp đã tải trước đây. Mỗi lần xử lý tối đa 3 tệp; bấm tiếp đến khi báo không còn PDF cần bổ sung. PDF mới được đếm tự động trước khi lưu.
+4. Trở về trang chủ: khối xanh nằm bên phải lời trích dẫn trên máy tính, xuống dưới trên điện thoại. Số liệu tự làm mới khoảng 30 giây.
+
+## Quy tắc thống kê
+- Con số là số liệu máy chủ, không phải số minh họa và không phải ảnh chữ cố định. Chất liệu ảnh được áp vào chữ số động để tạo hiệu ứng trong xanh, bóng nổi.
+- **Trang tài liệu giấy không phải in ấn:** lượng trang tương đương ước tính nếu in cho các lượt học tập đã hoàn thành. Quy đổi 3.000 ký tự/trang A4; câu hỏi tính câu hỏi và các phương án, không tính đáp án/giải thích. PDF tính số trang thực tế (mỗi trang PDF tương đương một trang tài liệu, không suy đoán in hai mặt hay khổ giấy gốc).
+- Ôn tập: gửi các mã câu hỏi sau khi Kết thúc và xem kết quả, máy chủ tự tính số trang từ ngân hàng. Không tính mở trang hoặc bắt đầu lượt học. Các lượt Ôn tập cũ chỉ lưu số lượt mà không có mã câu hỏi sẽ không được tự gán số trang. Cần kết nối khi hoàn tất.
+- Thi thử: cộng một lần khi kết quả đã hoàn tất trên máy chủ, gồm gói không xếp hạng. Bản cập nhật tính lại các lượt đã lưu trước đó.
+- Nghị quyết: chỉ ghi nhận tài liệu đã xác nhận khi đợt hoàn thành. Học lại không cộng trùng. Khi bổ sung tài liệu bắt buộc, hoàn thành bổ sung chỉ cộng các tài liệu mới; tài liệu cũ giữ nguyên.
+- **Tài liệu đã số hóa:** 1 ngân hàng câu hỏi chính trị đang có + mỗi tài liệu nghiên cứu được lưu thành công (kể cả nháp), mỗi hồ sơ tài liệu chỉ tính một lần. Không tính riêng từng câu hỏi. Tải lại thành một hồ sơ mới được tính là tài liệu mới.
+- Các số liệu đã ghi nhận được giữ khi gỡ tài liệu hoặc xóa tài khoản. Tài liệu cũ đã bị gỡ mất nội dung hoặc PDF không còn tệp không thể phục hồi số trang; mục Cách tính số liệu nêu số bản ghi thiếu dữ liệu, không tự ước đoán bù.
+- Nếu chưa chạy SQL 007 hoặc mất kết nối, khối xanh báo chưa tải được, không giả số liệu.
+
+## Kiểm tra đã thực hiện
+Đã biên dịch, kiểm tra dữ liệu tích lũy/chống cộng trùng, PDF 3 trang, giữ thống kê sau gỡ tài liệu, và bố cục 320–1440 px với dữ liệu kiểm thử. Chưa xác minh số liệu trên Supabase/Vercel thật của đơn vị.
+
+# Cập nhật 2.9.9
+
+Thanh điều hướng theo thứ tự: Đăng nhập đảng viên; Học tập tài liệu; Lịch công tác tuần; Giới thiệu; Hướng dẫn. Điện thoại có ba nút chính ở hàng đầu, hai liên kết ở hàng sau. Giữ các đích liên kết cũ. Không có SQL mới.
+
 # Cập nhật 2.9.8
 
 Nút Vào học tập dùng tông xanh lá cây, cùng kiểu nổi và viền sáng; vẫn dẫn đến danh sách chuyên đề.
