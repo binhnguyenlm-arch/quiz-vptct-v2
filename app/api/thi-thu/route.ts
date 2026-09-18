@@ -34,7 +34,7 @@ export async function POST(req:NextRequest){
   token=randomBytes(32).toString('hex');
   payload={op:'start',participant:hash(guest),token_hash:hash(token),name,package_id:pkg.id,board:boardFor(pkg.id),eligible:pkg.count===largestPackage(bank.questions.length),seconds:pkg.minutes*60,questions:sampleQuestions(bank.questions,pkg.count).map(q=>shuffledOptions(q)).map(q=>({id:q.id,question:q.question,options:q.options,correct_answer:q.correct_answer,explanation:q.explanation,source:q.source,section:q.section}))};
  }else{
-  if(!['save','submit','resume'].includes(body.op)||typeof body.id!=='string'||! /^[0-9a-f-]{36}$/.test(body.id)||typeof body.token!=='string'||! /^[0-9a-f]{64}$/.test(body.token))return NextResponse.json({error:'Không tìm thấy lượt thi thử hợp lệ.'},{status:400});
+  if(!['save','submit','resume','discard'].includes(body.op)||typeof body.id!=='string'||! /^[0-9a-f-]{36}$/.test(body.id)||typeof body.token!=='string'||! /^[0-9a-f]{64}$/.test(body.token))return NextResponse.json({error:'Không tìm thấy lượt thi thử hợp lệ.'},{status:400});
   const answers=body.answers??{};if(typeof answers!=='object'||Array.isArray(answers)||Object.keys(answers).length>1000||!Object.values(answers).every(v=>['A','B','C','D'].includes(v as string)))return NextResponse.json({error:'Đáp án không hợp lệ.'},{status:400});
   const revision=body.revision??0;if(!Number.isInteger(revision)||revision<0||revision>1000000)return NextResponse.json({error:'Lượt lưu không hợp lệ.'},{status:400});
   payload={op:body.op,id:body.id,participant:hash(guest),token_hash:hash(body.token),answers,revision};
