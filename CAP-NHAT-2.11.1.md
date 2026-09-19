@@ -1,0 +1,1 @@
+Bản 2.11.1: đổi nút tài liệu cuối, thêm tiến độ và tick xanh, tách thống kê hoàn thành theo đảng viên/quần chúng. Mẫu số là số tài khoản được giao đợt, bao gồm tài khoản cấp bổ sung. Không cần SQL mới nếu đã chạy 008. Tải mã nguồn lên GitHub, chờ Vercel Ready và tải lại trang.

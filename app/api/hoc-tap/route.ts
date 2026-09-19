@@ -28,13 +28,21 @@ async function completionGroups(rows:any[]){
  const people=await table('people',`id=in.(${ids.join(',')})&select=id,audience,created_at`);
  return rows.map(c=>({...c,audience:people.find(u=>u.id===c.person_id)?.audience||'party',created_at:people.find(u=>u.id===c.person_id)?.created_at||''})).sort((a,b)=>a.audience.localeCompare(b.audience)||a.created_at.localeCompare(b.created_at)||a.person_id.localeCompare(b.person_id));
 }
+async function roundTotals(rounds:any[]){
+ if(!rounds.length)return;
+ const cohort=await table('assigned',`round_id=in.(${rounds.map(r=>r.id).join(',')})&select=round_id,person_id`);
+ const ids=[...new Set(cohort.map(a=>a.person_id))];
+ const people=ids.length?await table('people',`id=in.(${ids.join(',')})&select=id,audience`):[];
+ const groups=new Map(people.map(p=>[p.id,p.audience]));
+ for(const r of rounds){const members=cohort.filter(a=>a.round_id===r.id);r.assigned_count=members.length;r.party_count=members.filter(a=>groups.get(a.person_id)==='party').length;r.public_count=members.filter(a=>groups.get(a.person_id)==='public').length;}
+}
 export async function GET(req:NextRequest){
- try{const me=await identity(req);const directory=await sb('/rest/v1/rpc/learning_directory','POST',{});if(!me){const rounds=await table('rounds','deleted_at=is.null&state=in.(open,closed)&select=id,title,year,state,audience&order=year.desc,created_at.desc');const ids=rounds.map(r=>r.id);const completed=ids.length?await table('completed',`round_id=in.(${ids.join(',')})&select=round_id,person_id,name_snapshot,completed_at&order=completed_at.asc`):[];return NextResponse.json({me:null,rounds,completed:await completionGroups(completed),directory},{headers:{'Cache-Control':'no-store'}});}
+ try{const me=await identity(req);const directory=await sb('/rest/v1/rpc/learning_directory','POST',{});if(!me){const rounds=await table('rounds','deleted_at=is.null&state=in.(open,closed)&select=id,title,year,state,audience&order=year.desc,created_at.desc');const ids=rounds.map(r=>r.id);const completed=ids.length?await table('completed',`round_id=in.(${ids.join(',')})&select=round_id,person_id,name_snapshot,completed_at&order=completed_at.asc`):[];await roundTotals(rounds);return NextResponse.json({me:null,rounds,completed:await completionGroups(completed),directory},{headers:{'Cache-Control':'no-store'}});}
  const admin=me.role==='admin';const assigned=await table('assigned',admin?'':`person_id=eq.${me.id}`);
  const ids=assigned.map((a:{round_id:string})=>a.round_id);const rounds=admin?await table('rounds','order=year.desc,created_at.desc'):ids.length?await table('rounds',`deleted_at=is.null&id=in.(${ids.join(',')})&order=year.desc,created_at.desc`):[];
  const roundIds=rounds.map((r:{id:string})=>r.id);const scope=roundIds.length?`round_id=in.(${roundIds.join(',')})`:'round_id=is.null';
  const cohort=await table('assigned',scope);
- for(const r of rounds)r.assigned_count=cohort.filter(a=>a.round_id===r.id).length;
+ await roundTotals(rounds);
  const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed,path&order=position.asc`);
  for(const d of docs){d.pending_file=Boolean(d.removed&&d.path);delete d.path;}
  const receipts=await table('receipts',`person_id=eq.${me.id}`);
