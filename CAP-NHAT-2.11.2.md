@@ -1,0 +1,1 @@
+Bản 2.11.2: viền chuyên đề chuyển màu, ba vương miện riêng cho hạng 1/2/3, tên nổi bật và nền chuyển động nhẹ. Tự tắt chuyển động khi thiết bị yêu cầu giảm chuyển động. Không thay đổi điểm hoặc cách xếp hạng. Không cần chạy SQL mới nếu đã chạy 008.
