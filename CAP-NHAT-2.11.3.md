@@ -1,0 +1,1 @@
+Bản 2.11.3: khung xếp hạng 3D đỏ đô–vàng, xanh biển–bạc, xanh ngọc–đồng; viền sáng và ánh sáng chuyển động nhẹ. Điện thoại có thể cuộn ngang bảng để xem đủ các cột. Không cần SQL mới.
