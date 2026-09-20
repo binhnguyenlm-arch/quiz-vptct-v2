@@ -1,3 +1,0 @@
-export default function Icon({name}:{name:string}){
-return <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{name==='trophy'?<><path d="M7 3h10v7a5 5 0 0 1-10 0ZM12 15v6M8 21h8M7 5H3v3c0 3 2 4 5 4M17 5h4v3c0 3-2 4-5 4"/></>:name==='military'?<><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/></>:name==='law'?<><path d="M12 3v18M7 21h10M4 7h16M6 7l-4 8h8ZM18 7l-4 8h8Z"/></>:<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/>}</svg>;
-}

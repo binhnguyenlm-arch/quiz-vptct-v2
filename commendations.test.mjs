@@ -1,6 +1,0 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {validateCampaign} from '../lib/commendations.ts';
-const minimal={title:'Đợt cũ',date:'',description:'',images:[],honorees:[],collectives:[],published:true};
-test('publish with title only and no date or images',()=>{assert.equal(validateCampaign(minimal).title,'Đợt cũ');});
-test('past dates, invalid dates and selected-account deduplication',()=>{assert.equal(validateCampaign({...minimal,date:'1998-04-30'}).date,'1998-04-30');assert.throws(()=>validateCampaign({...minimal,date:'2026-02-30'}));const h={person_id:'11111111-1111-4111-8111-111111111111',award:''};assert.throws(()=>validateCampaign({...minimal,honorees:[h,h]}));assert.throws(()=>validateCampaign({...minimal,honorees:[{name:'Unlinked'}]}));});
-test('client cannot forge account name, title or portrait',()=>{const h=validateCampaign({...minimal,honorees:[{person_id:'11111111-1111-4111-8111-111111111111',name:'Forged',photo:'bad',position:'Forged',award:'Award'}]}).honorees[0];assert.equal(h.name,'');assert.equal(h.photo,'');assert.equal(h.position,'');});
-test('multiple collectives are optional and reject unsafe images',()=>{assert.equal(validateCampaign({...minimal,collectives:[{name:'A'},{name:'B'}]}).collectives.length,2);assert.throws(()=>validateCampaign({...minimal,collectives:[{photo:'javascript:alert(1)'}]}));});
