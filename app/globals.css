@@ -177,3 +177,26 @@ nav .studyButton{color:#f0ffe9;box-shadow:0 5px 0 #175832,0 8px 16px #226b3936}n
 @media(max-width:700px){.awardsDemo .campaignGallery.gallery3{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:16px}.awardsDemo .campaignGallery.gallery3 a{flex:0 0 88%;scroll-snap-align:start}.awardsDemo .campaignGallery.gallery3 img{height:auto}.awardsDemo .campaignGallery.gallery3:after{content:'';flex:0 0 1px}}
 
 .campaignSummary{padding:18px 24px;cursor:pointer;background:linear-gradient(110deg,#fff8e7,#fff);list-style:none}.campaignSummary::-webkit-details-marker{display:none}.campaignSummary h2{font-size:22px;margin:8px 0}.campaignMeta{font-size:13px;color:#63717a;margin:6px 0}.campaignExpand{font-size:12px;font-weight:700;color:#8a6128}.campaignCard{margin-bottom:14px;border-radius:14px}.campaignCard[open] .campaignSummary{border-bottom:1px solid #ecdfc1;margin-bottom:16px}.campaignBody{padding:0 24px}.collectiveRow>a{flex-shrink:0}.collectiveRow img{width:120px;height:80px;object-fit:contain}.awardsHero{padding-top:22px;padding-bottom:22px}.awardsHero h1{font-size:36px}.awardsKicker{margin-top:18px}.awardProfile{min-width:180px}.awardProfile form{max-width:380px}.awardProfile input{max-width:100%}@media(max-width:700px){.campaignSummary{padding:16px}.campaignSummary h2{font-size:19px}.awardsHero h1{font-size:28px}.collectiveRow img{width:85px}.awardsTimeItem{display:block;padding:6px 8px}.awardsTimeItem:before{display:none}.awardsTimeline{max-height:180px;overflow:auto}.awardsTimeItem h3{font-size:14px;margin:0}.awardsTimeItem a{font-size:13px}}
+/* 2.12.1: hai lá cờ phẳng, đồng kích thước; biểu tượng vector độc lập phông chữ. */
+.learningPortal .portalHero{padding-right:260px}
+.partyFlags{top:30px;right:26px;left:auto;gap:12px;transform:none;align-items:center}
+.partyFlags span{width:96px;height:64px;flex:0 0 auto;display:block;border:0;border-radius:0;background-color:#da0000;background-repeat:no-repeat;background-position:center;background-size:100% 100%;box-shadow:0 0 0 1px #ffffff24,0 3px 9px #39081328;font-size:0;line-height:0;color:transparent}
+.partyFlags span:first-child{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 60'%3E%3Cpath fill='%23ffdf00' d='M44 12C55 14 62 22 61 32C60 42 50 48 41 45C35 43 31 39 29 34L33 32C35 37 39 40 44 40C51 40 56 35 56 29C56 21 50 16 44 12Z'/%3E%3Cpath fill='%23ffdf00' d='M37 23L42 18L51 27L46 32L43 29L32 43L28 40L40 26Z'/%3E%3Cpath fill='%23ffdf00' d='M32 36L36 39L29 47L25 44Z'/%3E%3C/svg%3E")}
+.partyFlags span:last-child{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 60'%3E%3Cpath fill='%23ffdf00' d='M45 12L49.04 24.44L62.12 24.44L51.54 32.12L55.58 44.56L45 36.88L34.42 44.56L38.46 32.12L27.88 24.44L40.96 24.44Z'/%3E%3C/svg%3E")}
+@media(max-width:760px){.learningPortal .portalHero{padding:100px 20px 22px}.partyFlags{left:20px;right:auto;top:20px;gap:10px}.partyFlags span{width:84px;height:56px;font-size:0}}
+/* Nền vàng trang trọng lấy cảm hứng từ không gian hội trường. */
+.learningPortal .portalHero{background:linear-gradient(100deg,#f6d783ed,#fff8dce8 52%,#edca73e8),url('/learning-heritage.webp') center/cover;border:1px solid #cda94e;border-top:4px solid #c29a38;color:#613c1c;padding:114px 32px 28px;box-shadow:0 8px 22px #7c582014}
+.learningPortal .portalHero h1{color:#8e1826;font-size:clamp(25px,3vw,38px)}
+.learningPortal .portalHero>p{color:#594126}
+.partyMasthead{position:absolute;left:270px;right:30px;top:36px;text-align:center;font-weight:900;font-size:clamp(20px,2.7vw,34px);line-height:1.25;color:#ba1825;text-shadow:0 1px 0 #fff4c7,0 2px 2px #a55c2730;letter-spacing:.5px}
+.partyFlags{left:32px;right:auto;top:24px;gap:12px}
+@media(max-width:760px){.learningPortal .portalHero{padding:146px 20px 22px}.partyFlags{left:50%;transform:translateX(-50%);top:18px}.partyMasthead{left:14px;right:14px;top:92px;font-size:20px}.learningPortal .portalHero h1{font-size:27px}}
+/* Cờ và tượng Bác là nền mờ, không còn ô biểu tượng nổi. */
+.learningPortal .portalHero{background:#fff4d6;isolation:isolate;overflow:hidden;padding:80px 32px 28px;min-height:280px}
+.learningPortal .portalHero:before{content:'';position:absolute;inset:0;z-index:-1;background:url('/party-statue-background.webp') right center/auto 100% no-repeat;opacity:.48;pointer-events:none}
+.learningPortal .portalHero:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#fff4d6b0 0%,#fff4d640 60%,transparent);pointer-events:none}
+.learningPortal .portalHero .partyFlags{display:none}
+.learningPortal .portalHero .partyMasthead{left:32px;right:30%;top:25px;text-align:left;font-size:clamp(20px,2.5vw,32px)}
+.learningPortal .portalHero>p,.learningPortal .portalHero h1{max-width:72%}
+@media(max-width:760px){.learningPortal .portalHero{padding:92px 20px 22px;min-height:330px}.learningPortal .portalHero:before{background-size:auto 100%;opacity:.24;background-position:right center}.learningPortal .portalHero .partyMasthead{left:20px;right:20px;top:24px;font-size:23px}.learningPortal .portalHero>p,.learningPortal .portalHero h1{max-width:100%}}
+
