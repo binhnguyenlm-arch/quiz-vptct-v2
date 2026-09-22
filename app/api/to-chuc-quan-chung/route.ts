@@ -14,7 +14,7 @@ export async function GET(req:NextRequest){try{
  }
  const org=q.get('org')||'';if(org&&!['union','women','youth'].includes(org))throw Error('Tổ chức không hợp lệ.');
  const number=(key:string,min:number,max:number,fallback:number)=>{const v=Number(q.get(key)||fallback);if(!Number.isInteger(v)||v<min||v>max)throw Error('Trang hoặc năm không hợp lệ.');return v;};
- const data=await sb('/rest/v1/rpc/community_read','POST',{org,page:number('page',1,100000,1),rankPage:number('rankPage',1,100000,1),year:number('year',1900,2200,Number(new Intl.DateTimeFormat('en',{year:'numeric',timeZone:'Asia/Ho_Chi_Minh'}).format(new Date())))});
+ const data=await sb('/rest/v1/rpc/community_read','POST',{p:{org,page:number('page',1,100000,1),rankPage:number('rankPage',1,100000,1),year:number('year',1900,2200,Number(new Intl.DateTimeFormat('en',{year:'numeric',timeZone:'Asia/Ho_Chi_Minh'}).format(new Date())))}});
  return NextResponse.json({...data,me,imageBase:config().base+'/storage/v1/object/public/community-activities/',avatarBase:config().base+'/storage/v1/object/public/office-awards/'},{headers:{'Cache-Control':'no-store'}});
  }catch(e){return NextResponse.json({error:(e as Error).message},{status:503});}}
 export async function POST(req:NextRequest){
@@ -36,6 +36,6 @@ export async function POST(req:NextRequest){
   if(typeof p.image!=='string'||p.image&&!/^images\/[0-9a-f-]{36}\.webp$/.test(p.image))throw Error('Ảnh không hợp lệ.');
  }
  if(p.id&&(typeof p.version!=='string'||!Number.isFinite(Date.parse(p.version))))throw Error('Thiếu phiên bản hoạt động. Hãy tải lại.');
- const result=await sb('/rest/v1/rpc/community_write','POST',{op:p.op,id:p.id||null,actor:me.id,version:p.version,org:p.org,title:p.title,date:p.date,content:p.content,image:p.image,members:p.members});return NextResponse.json(result);
+ const result=await sb('/rest/v1/rpc/community_write','POST',{p:{op:p.op,id:p.id||null,actor:me.id,version:p.version,org:p.org,title:p.title,date:p.date,content:p.content,image:p.image,members:p.members}});return NextResponse.json(result);
  }catch(e){return NextResponse.json({error:(e as Error).message},{status:400});}
 }
