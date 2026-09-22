@@ -1,3 +1,3 @@
-import Link from 'next/link';
+import CommunityActivities from '../../components/CommunityActivities';
 export const metadata={title:'Tổ chức quần chúng | Văn phòng Tổng công ty'};
-export default function Page(){return <main className="communityPage"><Link href="/" className="communityBack">← Trang chủ</Link><header className="communityHero"><p>VĂN PHÒNG TỔNG CÔNG TY</p><h1>Tổ chức quần chúng</h1><span>Đoàn kết · Gắn bó · Cùng phát triển</span></header><section className="communityEmpty"><span aria-hidden="true">✦</span><h2>Thông tin hoạt động</h2><p>Nội dung của phân hệ đang được chuẩn bị và sẽ được cập nhật tại đây.</p><Link href="/">Về trang chủ →</Link></section></main>;}
+export default function Page(){return <CommunityActivities/>;}
