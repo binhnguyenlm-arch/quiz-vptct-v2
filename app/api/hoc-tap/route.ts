@@ -37,11 +37,11 @@ async function roundTotals(rounds:any[]){
  for(const r of rounds){const members=cohort.filter(a=>a.round_id===r.id);r.assigned_count=members.length;r.party_count=members.filter(a=>groups.get(a.person_id)==='party').length;r.public_count=members.filter(a=>groups.get(a.person_id)==='public').length;}
 }
 export async function GET(req:NextRequest){
- try{const me=await identity(req);const directory=await sb('/rest/v1/rpc/learning_directory','POST',{});if(!me){const rounds=await table('rounds','deleted_at=is.null&state=in.(open,closed)&select=id,title,year,state,audience&order=year.desc,created_at.desc');const ids=rounds.map(r=>r.id);const completed=ids.length?await table('completed',`round_id=in.(${ids.join(',')})&select=round_id,person_id,name_snapshot,completed_at&order=completed_at.asc`):[];await roundTotals(rounds);return NextResponse.json({me:null,rounds,completed:await completionGroups(completed),directory},{headers:{'Cache-Control':'no-store'}});}
+ try{const me=await identity(req);if(req.nextUrl.searchParams.get('view')==='login')return NextResponse.json({me,rounds:[]},{headers:{'Cache-Control':'no-store'}});const directory=await sb('/rest/v1/rpc/learning_directory','POST',{});if(!me){const rounds=await table('rounds','deleted_at=is.null&state=in.(open,closed)&select=id,title,year,state,audience&order=year.desc,created_at.desc');const ids=rounds.map(r=>r.id);const completed=ids.length?await table('completed',`round_id=in.(${ids.join(',')})&select=round_id,person_id,name_snapshot,completed_at&order=completed_at.asc`):[];await roundTotals(rounds);return NextResponse.json({me:null,rounds,completed:await completionGroups(completed),directory},{headers:{'Cache-Control':'no-store'}});}
  const admin=me.role==='admin';const assigned=await table('assigned',admin?'':`person_id=eq.${me.id}`);
  const ids=assigned.map((a:{round_id:string})=>a.round_id);const rounds=admin?await table('rounds','order=year.desc,created_at.desc'):ids.length?await table('rounds',`deleted_at=is.null&id=in.(${ids.join(',')})&order=year.desc,created_at.desc`):[];
  const roundIds=rounds.map((r:{id:string})=>r.id);const scope=roundIds.length?`round_id=in.(${roundIds.join(',')})`:'round_id=is.null';
- const cohort=await table('assigned',scope);
+ // Avoid fetching the same assignment cohort twice.
  await roundTotals(rounds);
  const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed,path&order=position.asc`);
  for(const d of docs){d.pending_file=Boolean(d.removed&&d.path);delete d.path;}
