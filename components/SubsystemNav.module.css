@@ -1,0 +1,18 @@
+.navigation{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 18px;position:relative;z-index:1}
+.navigation .home{color:#24586b;font-size:15px;font-weight:600;text-decoration:none;padding:12px 0}
+.navigation .home:hover{text-decoration:underline}
+.navigation .destination{display:flex;align-items:center;gap:12px;box-sizing:border-box;margin-left:auto;padding:11px 15px;border-radius:16px;border:1px solid #dec27f;text-decoration:none;box-shadow:0 4px 0 #b08734,0 9px 22px #835f2520;transition:transform .18s,box-shadow .18s;background:linear-gradient(120deg,#fff4ce,#edc567);color:#543c12;max-width:100%}
+.navigation .teal{background:linear-gradient(120deg,#155363,#277d78);color:#fff5d6;border-color:#84aaa0;box-shadow:0 4px 0 #103e48,0 9px 22px #163b4426}
+.icon{display:grid;place-items:center;width:40px;height:40px;flex-shrink:0;border-radius:12px;background:#ffffff40;border:1px solid #ffffff60}
+.icon svg{width:25px;height:25px}
+.copy{display:grid;gap:3px;min-width:0}
+.navigation .copy small{font-size:9px;font-weight:700;letter-spacing:1px;line-height:1.3;color:inherit;margin:0}
+.navigation .copy strong{font-size:16px;font-weight:750;line-height:1.35;color:inherit}
+.arrow{font-size:24px;line-height:1;transition:transform .18s}
+.navigation .destination:hover{transform:translateY(-2px);box-shadow:0 6px 0 #b08734,0 12px 25px #835f2530}
+.navigation .teal:hover{box-shadow:0 6px 0 #103e48,0 12px 25px #163b4433}
+.destination:hover .arrow{transform:translate(2px,-2px)}
+.navigation a:focus-visible{outline:3px solid #286cb5;outline-offset:6px}
+.navigation .destination:active{transform:translateY(2px);box-shadow:0 1px 0 #927236}
+@media(max-width:520px){.navigation{gap:8px}.navigation .home{font-size:13px}.navigation .destination{padding:9px 10px;gap:8px;border-radius:12px}.icon{width:30px;height:34px}.icon svg{width:22px;height:22px}.navigation .copy strong{font-size:13px}.navigation .copy small{font-size:8px;letter-spacing:.5px}.arrow{font-size:19px}}
+@media(prefers-reduced-motion:reduce){.navigation .destination,.arrow{transition:none}.navigation .destination:hover,.destination:hover .arrow{transform:none}}
