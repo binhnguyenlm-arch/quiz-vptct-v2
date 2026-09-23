@@ -1,3 +1,4 @@
+import {requireUploads} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {randomUUID} from 'node:crypto';
 export const runtime='nodejs';
@@ -22,6 +23,7 @@ export async function POST(req:NextRequest){
  const me=await identity(req);if(!me)return NextResponse.json({error:'Vui lòng đăng nhập bằng tài khoản đang hoạt động.'},{status:401});
  try{
  if(req.headers.get('content-type')?.includes('multipart/form-data')){
+  await requireUploads();
   if(Number(req.headers.get('content-length'))>1100000)throw Error('Ảnh vượt quá 1 MB sau khi nén.');
   const form=await req.formData(),file=form.get('file');if(!(file instanceof File)||!file.size||file.size>1048576||file.type!=='image/webp')throw Error('Chỉ nhận ảnh WebP tối đa 1 MB sau khi nén.');
   const bytes=Buffer.from(await file.arrayBuffer());if(bytes.length<12||bytes.toString('ascii',0,4)!=='RIFF'||bytes.toString('ascii',8,12)!=='WEBP')throw Error('Ảnh không hợp lệ.');
