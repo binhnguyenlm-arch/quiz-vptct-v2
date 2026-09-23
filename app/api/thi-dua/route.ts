@@ -1,3 +1,4 @@
+import {requireUploads} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {randomUUID} from 'node:crypto';
 import {validateCampaign} from '../../../lib/commendations';
@@ -23,6 +24,7 @@ export async function POST(req:NextRequest){
  if(!await admin(req))return NextResponse.json({error:'Chỉ admin được cập nhật thi đua, khen thưởng.'},{status:403});
  try{
  if(req.headers.get('content-type')?.includes('multipart/form-data')){
+  await requireUploads();
   if(Number(req.headers.get('content-length'))>1100000)throw Error('Ảnh vượt quá 1 MB.');
   const data=await req.formData(),file=data.get('file');if(!(file instanceof File)||file.size>1048576||file.type!=='image/webp')throw Error('Chỉ nhận ảnh WebP tối đa 1 MB.');
   const bytes=Buffer.from(await file.arrayBuffer());if(bytes.toString('ascii',0,4)!=='RIFF'||bytes.toString('ascii',8,12)!=='WEBP')throw Error('Tệp ảnh không hợp lệ.');
