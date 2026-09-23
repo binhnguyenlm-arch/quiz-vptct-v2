@@ -1,0 +1,14 @@
+'use client';
+import {useState} from 'react';
+type Item={id:string;title:string;location:string;backup:boolean};
+async function request(op:string,id?:string,path?:string){const r=await fetch('/api/hoc-tap',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({op,id,path})});const data=await r.json();if(!r.ok)throw Error(data.error||'Chưa thực hiện được.');return data;}
+export default function R2DocumentTools(){
+ const [pending,setPending]=useState<{path:string;bytes:number}[]>([]);
+ const [docs,setDocs]=useState<Item[]|null>(null),[busy,setBusy]=useState(false),[message,setMessage]=useState('');
+ async function refresh(){const data=await request('r2Status');setDocs(data.docs);setPending(data.pending||[]);}
+ async function run(op:string,id?:string){
+  if(op==='cleanPdfBackup'&&!confirm('Xóa bản gốc PDF này trong Supabase? Chỉ tiếp tục sau khi đã mở bản R2 trên trang học tập. Hệ thống sẽ đối chiếu lại hai tệp trước khi xóa.'))return;
+  setBusy(true);setMessage('');try{const result=await request(op,id);if(op==='r2Status'){setDocs(result.docs);setPending(result.pending||[]);}else await refresh();setMessage(result.message||'Kết nối R2 thành công.');}catch(e){setMessage((e as Error).message);}finally{setBusy(false);}
+ }
+ return <details style={{margin:'20px 0',padding:16,border:'1px solid #ccdce2',borderRadius:10}}><summary style={{cursor:'pointer',fontWeight:700}}>Kho PDF · Kết nối và chuyển tài liệu sang R2</summary><p style={{fontSize:13,margin:'12px 0'}}>PDF mới được tải lên R2. Tài liệu cũ vẫn đọc được ở Supabase. Chuyển từng tệp sẽ giữ bản gốc cho đến khi anh chọn dọn.</p><button type="button" disabled={busy} onClick={()=>void run('r2Status')}>{busy?'Đang xử lý…':'Kiểm tra kết nối / tải danh sách'}</button>{message&&<p role="status">{message}</p>}{docs&&<><p>{docs.filter(d=>d.location==='R2').length} PDF ở R2 · {docs.filter(d=>d.location==='Supabase').length} PDF cần chuyển · {docs.filter(d=>d.backup).length} bản gốc đang giữ</p><ul style={{listStyle:'none',padding:0}}>{docs.map(d=><li key={d.id} style={{padding:'12px 0',borderBottom:'1px solid #ddd'}}><strong>{d.title}</strong><span> · {d.location} </span>{d.location==='Supabase'?<button type="button" disabled={busy} onClick={()=>void run('migratePdf',d.id)}>Chuyển sang R2</button>:d.backup?<button type="button" disabled={busy} onClick={()=>void run('cleanPdfBackup',d.id)}>Dọn bản gốc Supabase</button>:<small>Đang dùng R2</small>}</li>)}</ul>{pending.length>0&&<div><p>Lượt tải dở quá 20 phút: {pending.length}</p><button disabled={busy} type="button" onClick={async()=>{setBusy(true);setMessage('');try{for(const item of pending)await request('cleanPendingPdf',undefined,item.path);await refresh();setMessage('Đã dọn lượt tải dở.');}catch(e){setMessage((e as Error).message);}finally{setBusy(false);}}}>Dọn lượt tải dở</button></div>}</>}</details>;
+}
