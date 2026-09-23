@@ -1,3 +1,4 @@
+import {usageMessages} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {createHash,randomBytes} from 'node:crypto';
 import bank from '../../../lib/banks/politics-test.json';
@@ -13,7 +14,7 @@ async function rpc(p:Record<string,unknown>){
  const base=process.env.SUPABASE_URL!;
  const key=process.env.SUPABASE_SERVICE_ROLE_KEY!;
  const r=await fetch(`${base.replace(/\/$/,'')}/rest/v1/rpc/vptct_mock`,{method:'POST',headers:{apikey:key,Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({p}),cache:'no-store',signal:AbortSignal.timeout(15000)});
- if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.message==='RATE_LIMIT'?'RATE_LIMIT':e.message==='NOT_FOUND'?'NOT_FOUND':'DATABASE');}return r.json();
+ if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(usageMessages[e.message]?e.message:e.message==='RATE_LIMIT'?'RATE_LIMIT':e.message==='NOT_FOUND'?'NOT_FOUND':'DATABASE');}return r.json();
 }
 export async function GET(req:NextRequest){
  const packages=availablePackages(bank.questions.length);const max=largestPackage(bank.questions.length);const top=packages.find(p=>p.count===max);
@@ -40,5 +41,5 @@ export async function POST(req:NextRequest){
   payload={op:body.op,id:body.id,participant:hash(guest),token_hash:hash(body.token),answers,revision};
  }
  const data=await rpc(payload);const response=NextResponse.json({...data,...(token?{token}:{})});response.cookies.set('vptct_guest',guest,{httpOnly:true,secure:req.nextUrl.protocol==='https:',sameSite:'lax',maxAge:31536000,path:'/'});return response;
- }catch(e){const message=e instanceof Error?e.message:'';return NextResponse.json({error:message==='SESSION'?'Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để lấy đúng họ tên.':message==='RATE_LIMIT'?'Bạn đã bắt đầu nhiều lượt trong thời gian ngắn. Vui lòng thử lại sau.':message==='NOT_FOUND'?'Không tìm thấy lượt thi trên trình duyệt này.':'Chưa lưu được kết quả. Giữ trang này và bấm thử lại; không cần làm lại bài.'},{status:message==='RATE_LIMIT'?429:message==='NOT_FOUND'?404:503});}
+ }catch(e){const message=e instanceof Error?e.message:'';return NextResponse.json({error:usageMessages[message]|| (message==='SESSION'?'Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại để lấy đúng họ tên.':message==='RATE_LIMIT'?'Bạn đã bắt đầu nhiều lượt trong thời gian ngắn. Vui lòng thử lại sau.':message==='NOT_FOUND'?'Không tìm thấy lượt thi trên trình duyệt này.':'Chưa lưu được kết quả. Giữ trang này và bấm thử lại; không cần làm lại bài.')},{status:message==='RATE_LIMIT'?429:message==='NOT_FOUND'?404:503});}
 }
