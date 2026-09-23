@@ -1,3 +1,4 @@
+import {requireUploads} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {randomUUID} from 'node:crypto';
 export const runtime='nodejs';
@@ -16,6 +17,7 @@ export async function POST(req:NextRequest){
   const check=await fetch(target+'&select=id',{headers,cache:'no-store',signal:AbortSignal.timeout(15000)});
   if(!check.ok)throw Error('Không kiểm tra được tài khoản.');
   if(!(await check.json()).length)return NextResponse.json({error:'Tài khoản không còn hoạt động.'},{status:403});
+  await requireUploads();
   if(Number(req.headers.get('content-length'))>1100000)throw Error('Ảnh vượt quá 1 MB sau khi xử lý.');
   const form=await req.formData(),file=form.get('file');
   if(!(file instanceof File)||!file.size||file.size>1048576||file.type!=='image/webp')throw Error('Ảnh không hợp lệ hoặc quá lớn.');
