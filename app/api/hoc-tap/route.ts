@@ -1,8 +1,11 @@
+import {usage,requireUploads} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {PDFDocument} from '../../../lib/vendor/pdf-lib';
-import {randomUUID} from 'node:crypto';
+import {randomUUID,createHash} from 'node:crypto';
+import {isR2Path,documentKey,r2Configured,r2Url,r2Delete,r2Check,r2Put,boundedPdf} from '../../../lib/r2-documents';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
+export const maxDuration=120;
 const bucket='learning-private';
 const uuid=(s:unknown)=>typeof s==='string'&&/^[0-9a-f-]{36}$/.test(s);
 async function sb(path:string,method='GET',body?:unknown,token?:string){
@@ -13,14 +16,17 @@ async function sb(path:string,method='GET',body?:unknown,token?:string){
  if(!r.ok)throw Error('Không thực hiện được. Kiểm tra quyền truy cập, dữ liệu và cấu hình phân hệ.');
  return r.status===204?null:r.json();
 }
-async function pdfPages(path:string){
+async function pdfBytes(path:string){
+ documentKey(path);
+ if(isR2Path(path))return boundedPdf(await fetch(await r2Url(path),{cache:'no-store',signal:AbortSignal.timeout(45000)}));
  const base=process.env.SUPABASE_URL!,key=process.env.SUPABASE_SERVICE_ROLE_KEY!;
- const response=await fetch(`${base.replace(/\/$/,'')}/storage/v1/object/authenticated/${bucket}/${path}`,{headers:{apikey:key,Authorization:`Bearer ${key}`},cache:'no-store',signal:AbortSignal.timeout(25000)});
- if(!response.ok)throw Error('Không tải được PDF để đếm số trang.');
- if(Number(response.headers.get('content-length'))>20971520)throw Error('PDF vượt quá 20 MB.');
- const bytes=new Uint8Array(await response.arrayBuffer());if(bytes.length>20971520)throw Error('PDF vượt quá 20 MB.');
+ return boundedPdf(await fetch(base.replace(/\/$/,'')+'/storage/v1/object/authenticated/'+bucket+'/'+path,{headers:{apikey:key,Authorization:'Bearer '+key},cache:'no-store',signal:AbortSignal.timeout(45000)}));
+}
+async function pdfPages(path:string,maxBytes=20971520){
+ const bytes=await pdfBytes(path);if(bytes.length>maxBytes)throw Error('PDF lớn hơn dung lượng đã đăng ký tải lên.');
  try{const pdf=await PDFDocument.load(bytes,{updateMetadata:false});const pages=pdf.getPageCount();if(pages<1||pages>100000)throw Error('PAGES');return pages;}catch{throw Error('Không đếm được số trang PDF. Hãy dùng PDF không đặt mật khẩu và kiểm tra lại tệp.');}
 }
+async function deleteFile(path:string){documentKey(path);if(isR2Path(path)){await r2Delete(path);await usage({op:'release',path});}else await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[path]});}
 async function identity(req:NextRequest){const token=req.cookies.get('learning_session')?.value;if(!token)return null;try{const u=await sb('/auth/v1/user','GET',undefined,token);const a=await sb(`/rest/v1/learning_people?id=eq.${u.id}&active=eq.true&select=id,name,username,role,audience`);const person=a[0];if(!person)return null;try{const profiles=await sb(`/rest/v1/learning_people?id=eq.${u.id}&select=position,photo`);person.position=profiles[0]?.position||'';const photo=profiles[0]?.photo;person.avatar_url=typeof photo==='string'&&/^images\/[0-9a-f-]+\.webp$/i.test(photo)?process.env.SUPABASE_URL!.replace(/\/$/,'')+'/storage/v1/object/public/office-awards/'+photo:'';}catch{person.position='';person.avatar_url='';}return person;}catch{return null;}}
 async function table(name:string,query=''){const rows=[];for(let offset=0;offset<100000;offset+=1000){const page=await sb(`/rest/v1/learning_${name}?${query}&limit=1000&offset=${offset}`);rows.push(...page);if(page.length<1000)return rows;}throw Error('Danh sách quá lớn. Vui lòng liên hệ quản trị viên.');}
 async function completionGroups(rows:any[]){
@@ -43,8 +49,8 @@ export async function GET(req:NextRequest){
  const roundIds=rounds.map((r:{id:string})=>r.id);const scope=roundIds.length?`round_id=in.(${roundIds.join(',')})`:'round_id=is.null';
  // Avoid fetching the same assignment cohort twice.
  await roundTotals(rounds);
- const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed,path&order=position.asc`);
- for(const d of docs){d.pending_file=Boolean(d.removed&&d.path);delete d.path;}
+ const docs=await table('docs',`${scope}&select=id,round_id,title,kind,position,removed,path,legacy_path&order=position.asc`);
+ for(const d of docs){d.pending_file=Boolean(d.removed&&(d.path||d.legacy_path));delete d.path;delete d.legacy_path;}
  const receipts=await table('receipts',`person_id=eq.${me.id}`);
  const completed=await table('completed',scope);
  const people=admin?await table('people','or=(deleted_at.is.null,auth_deleted.eq.false)&select=id,name,username,role,active,deleted_at,audience,created_at&order=audience.asc,created_at.asc,id.asc'):[];
@@ -73,14 +79,62 @@ export async function POST(req:NextRequest){
   if(p.op==='confirm')return NextResponse.json(await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'confirm',id:p.id}}));
   if(d.removed)throw Error('Tài liệu đã được gỡ sau khi kết thúc đợt học tập.');
   if(d.kind==='text')return NextResponse.json({body:d.body,kind:'text'});
+  if(d.path&&isR2Path(d.path))return NextResponse.json({kind:'pdf',url:await r2Url(d.path)},{headers:{'Cache-Control':'no-store'}});
   const link=await sb(`/storage/v1/object/sign/${bucket}/${d.path}`,'POST',{expiresIn:3600});return NextResponse.json({kind:'pdf',url:process.env.SUPABASE_URL+'/storage/v1'+link.signedURL});
  }
  if(me.role!=='admin')return NextResponse.json({error:'Chỉ quản trị viên được thực hiện.'},{status:403});
+ if(p.op==='usageGet')return NextResponse.json(await usage());
+ if(p.op==='usageSet'){
+  if(typeof p.uploads_paused!=='boolean'||typeof p.exams_paused!=='boolean'||!['exam_month_limit','pdf_file_mb','pdf_storage_mb'].every(k=>p[k]===null||(Number.isSafeInteger(p[k])&&p[k]>0&&p[k]<=2147483647)))throw Error('Giới hạn phải là số nguyên dương hoặc Auto.');
+  return NextResponse.json(await usage({...p,op:'set',actor:me.id}));
+ }
+ if(p.op==='cleanPendingPdf'){
+  if(typeof p.path!=='string'||!isR2Path(p.path))throw Error('Tệp không hợp lệ.');documentKey(p.path);
+  const alloc=await sb('/rest/v1/web_pdf_allocations?path=eq.'+p.path+'&created_at=lt.'+new Date(Date.now()-20*60000).toISOString());
+  if(!alloc.length||(await table('docs','path=eq.'+p.path+'&select=id')).length)throw Error('Tệp đang tải hoặc đã dùng trong tài liệu.');
+  await deleteFile(p.path);return NextResponse.json({ok:true,message:'Đã dọn lượt tải dở.'});
+ }
+ if(p.op==='r2Status'){
+
+  await r2Check();
+  const docs=await table('docs','kind=eq.pdf&removed=eq.false&path=not.is.null&select=id,title,path,legacy_path,round_id');
+  const allocations=await sb('/rest/v1/web_pdf_allocations?created_at=lt.'+new Date(Date.now()-20*60000).toISOString()+'&select=path,bytes');
+  const allDocs=await table('docs','path=not.is.null&select=path');const usedPaths=new Set(allDocs.map(d=>d.path));
+  const rounds=await table('rounds','deleted_at=is.null&select=id');const ids=new Set(rounds.map(r=>r.id));
+  return NextResponse.json({ok:true,pending:allocations.filter((a:any)=>!usedPaths.has(a.path)),docs:docs.filter(d=>ids.has(d.round_id)).map(d=>({id:d.id,title:d.title,location:isR2Path(d.path)?'R2':'Supabase',backup:!!d.legacy_path}))});
+ }
+ if(p.op==='migratePdf'||p.op==='cleanPdfBackup'){
+  if(!uuid(p.id))throw Error('Tài liệu không hợp lệ.');
+  const d=(await table('docs','id=eq.'+p.id))[0];
+  const round=d?(await table('rounds','id=eq.'+d.round_id))[0]:null;
+  if(!d||d.kind!=='pdf'||d.removed||!d.path||!round||round.deleted_at)throw Error('Tài liệu đã gỡ hoặc không còn để chuyển.');
+  const digest=(bytes:Uint8Array)=>createHash('sha256').update(bytes).digest('hex');
+  if(p.op==='migratePdf'){
+   if(isR2Path(d.path))return NextResponse.json({ok:true,message:'Tài liệu đã ở R2.'});
+   const original=await pdfBytes(d.path),path='r2/'+d.round_id+'/'+randomUUID()+'.pdf';
+   await usage({op:'reserve',path,bytes:original.length});
+   await r2Put(path,original);
+   if(digest(original)!==digest(await pdfBytes(path)))throw Error('Bản sao R2 chưa khớp. Chưa đổi đường dẫn tài liệu.');
+   const changed=await sb('/rest/v1/learning_docs?id=eq.'+d.id+'&path=eq.'+d.path+'&removed=eq.false','PATCH',{path,legacy_path:d.path});
+   if(!changed.length){await deleteFile(path);throw Error('Tài liệu vừa thay đổi. Hãy tải lại danh sách.');}
+   return NextResponse.json({ok:true,message:'Đã chuyển và đối chiếu PDF. Bản gốc vẫn còn ở Supabase.'});
+  }
+  if(!isR2Path(d.path)||!d.legacy_path)return NextResponse.json({ok:true,message:'Không còn bản gốc cần dọn.'});
+  if(isR2Path(d.legacy_path))throw Error('Đường dẫn bản gốc không hợp lệ.');
+  const r2Bytes=await pdfBytes(d.path);
+  const base=process.env.SUPABASE_URL!.replace(/\/$/,''),key=process.env.SUPABASE_SERVICE_ROLE_KEY!;
+  documentKey(d.legacy_path);
+  const original=await fetch(base+'/storage/v1/object/authenticated/'+bucket+'/'+d.legacy_path,{headers:{apikey:key,Authorization:'Bearer '+key},cache:'no-store',signal:AbortSignal.timeout(45000)});
+  // A previous cleanup may have deleted the file but failed to clear its DB pointer.
+  if(original.status!==404){if(digest(r2Bytes)!==digest(await boundedPdf(original)))throw Error('Hai bản không khớp. Chưa xóa bản gốc.');await deleteFile(d.legacy_path);}
+  await sb('/rest/v1/learning_docs?id=eq.'+d.id+'&path=eq.'+d.path,'PATCH',{legacy_path:null});
+  return NextResponse.json({ok:true,message:'Đã dọn bản gốc Supabase; bản R2 tiếp tục phục vụ người học.'});
+ }
  if(p.op==='deleteRound'){
   if(!uuid(p.id))throw Error('Đợt không hợp lệ.');
   await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'deleteRound',id:p.id}});
-  const docs=await table('docs',`round_id=eq.${p.id}&path=not.is.null&select=path`);
-  try{for(let i=0;i<docs.length;i+=100)await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:docs.slice(i,i+100).map(d=>d.path)});}catch{throw Error('Đợt đã ẩn khỏi người học. Chưa xóa hết tệp; bấm Xóa đợt lần nữa để hoàn tất.');}
+  const docs=await table('docs',`round_id=eq.${p.id}&select=path,legacy_path`);
+  try{for(const d of docs){if(d.path)await deleteFile(d.path);if(d.legacy_path)await deleteFile(d.legacy_path);}}catch{throw Error('Đợt đã ẩn khỏi người học. Chưa xóa hết tệp; bấm Xóa đợt lần nữa để hoàn tất.');}
   await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'purgeRound',id:p.id}});
   return NextResponse.json({ok:true,message:'Đã xóa đợt và tài liệu đính kèm.'});
  }
@@ -120,18 +174,21 @@ export async function POST(req:NextRequest){
  }
  if(p.op==='upload'){
   if(!uuid(p.round_id)||!Number.isInteger(p.size)||p.size<1||p.size>20971520)throw Error('PDF tối đa 20 MB.');const r=(await table('rounds',`id=eq.${p.round_id}`))[0];if(r?.deleted_at||!['draft','open'].includes(r?.state))throw Error('Đợt đã đóng, không thể thêm tài liệu.');
-  const path=`${p.round_id}/${randomUUID()}.pdf`;const data=await sb(`/storage/v1/object/upload/sign/${bucket}/${path}`,'POST',{});return NextResponse.json({path,url:process.env.SUPABASE_URL+'/storage/v1'+data.url});
+  const key=`${p.round_id}/${randomUUID()}.pdf`;
+  if(!r2Configured())throw Error('Chưa đủ cấu hình R2. Hãy kiểm tra 4 biến môi trường và triển khai lại.');
+  const path='r2/'+key;const url=await r2Url(path,'PUT');await usage({op:'reserve',path,bytes:p.size});return NextResponse.json({path,url},{headers:{'Cache-Control':'no-store'}});
  }
  if(p.op==='discardUpload'){
-  if(typeof p.path!=='string'||! /^[a-f0-9-]+\/[a-f0-9-]+\.pdf$/.test(p.path))throw Error('Tệp không hợp lệ.');
+  if(typeof p.path!=='string')throw Error('Tệp không hợp lệ.');documentKey(p.path);
   if((await table('docs',`path=eq.${p.path}`)).length)throw Error('Tệp đã gắn vào tài liệu.');
-  await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[p.path]});return NextResponse.json({ok:true});
+  await deleteFile(p.path);return NextResponse.json({ok:true});
  }
  if(p.op==='erase'){
   if(!uuid(p.id))throw Error('Tài liệu không hợp lệ.');const d=(await table('docs',`id=eq.${p.id}`))[0];if(!d)throw Error('Không tìm thấy tài liệu.');const r=(await table('rounds',`id=eq.${d.round_id}`))[0];if(!r)throw Error('Không tìm thấy đợt.');
   if(d.kind==='pdf'&&d.a4_pages==null&&d.path){try{const pages=await pdfPages(d.path);await sb(`/rest/v1/learning_docs?id=eq.${d.id}`,'PATCH',{a4_pages:pages});}catch{/* Keep unavailable page totals unknown; allow removal of damaged files. */}}
   await sb('/rest/v1/rpc/learning_action','POST',{actor:me.id,p:{op:'erase',id:p.id}});
-  if(d.path){await sb('/storage/v1/object/'+bucket,'DELETE',{prefixes:[d.path]});await sb(`/rest/v1/learning_docs?id=eq.${p.id}`,'PATCH',{path:null});}
+  if(d.path)await deleteFile(d.path);if(d.legacy_path)await deleteFile(d.legacy_path);
+  await sb(`/rest/v1/learning_docs?id=eq.${p.id}`,'PATCH',{path:null,legacy_path:null});
   return NextResponse.json({ok:true});
  }
  if(p.op==='createRound'&&!['party','public','both'].includes(p.audience))throw Error('Chọn đối tượng học tập.');
@@ -140,8 +197,12 @@ export async function POST(req:NextRequest){
   if(!uuid(p.round_id)||typeof p.title!=='string'||!p.title.trim()||p.title.length>200||!['text','pdf'].includes(p.kind))throw Error('Thông tin tài liệu không hợp lệ.');
   if(p.kind==='text'&&(typeof p.body!=='string'||!p.body.trim()||p.body.length>100000))throw Error('Nội dung soạn thảo cần 1–100.000 ký tự.');
   if(p.kind==='pdf'){
-   if(typeof p.path!=='string'||!p.path.startsWith(p.round_id+'/')||! /^[a-f0-9-]+\/[a-f0-9-]+\.pdf$/.test(p.path))throw Error('Tệp không hợp lệ.');
-   const info=await sb(`/storage/v1/object/info/${bucket}/${p.path}`);if(!info)throw Error('Tệp chưa tải xong.');p.a4_pages=await pdfPages(p.path);
+   if(typeof p.path!=='string'||!documentKey(p.path).startsWith(p.round_id+'/'))throw Error('Tệp không hợp lệ.');
+   if((await table('docs',`path=eq.${p.path}&select=id`)).length)throw Error('Tệp đã gắn vào tài liệu.');
+   await requireUploads();
+   const allocated=isR2Path(p.path)?await sb('/rest/v1/web_pdf_allocations?path=eq.'+p.path+'&select=bytes'):null;
+   if(allocated&&!allocated.length)throw Error('Lượt tải PDF chưa được đăng ký. Hãy tải lại.');
+   p.a4_pages=await pdfPages(p.path,allocated?Number(allocated[0].bytes):20971520);
   }
  }
  if(p.op==='editText'&&(!uuid(p.id)||typeof p.title!=='string'||!p.title.trim()||p.title.length>200||typeof p.body!=='string'||!p.body.trim()||p.body.length>100000))throw Error('Kiểm tra tên và nội dung tài liệu.');
