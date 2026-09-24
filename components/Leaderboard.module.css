@@ -1,0 +1,12 @@
+.table{width:100%;border-collapse:collapse;table-layout:fixed;min-width:720px}
+.table th,.table td{padding:12px 10px;text-align:center;border-bottom:1px solid #dce5e9;height:64px;box-sizing:border-box;font-size:14px}
+.table th:nth-child(1){width:104px}.table th:nth-child(2){width:25%;text-align:left}.table td:nth-child(2){text-align:left;overflow-wrap:anywhere}
+.table th:last-child{width:92px}.table small{display:block;font-size:11px;color:#687b87;margin-top:3px}
+.table .leading{border-left:3px solid #c59e48}.leading td:last-child{color:#8a5a09;font-weight:800}
+.table .identity{display:flex;align-items:center;justify-content:center;gap:8px}
+.identity>span:first-child{display:grid;place-items:center;position:relative;width:32px;height:36px;font-size:14px;font-weight:700}
+.identity svg{width:32px;height:32px;position:absolute;inset:0;fill:#eac76d}.identity b{position:relative;z-index:1;margin-top:8px;color:#55380a}
+.table img,.avatar{width:32px;height:32px;object-fit:cover;border-radius:50%;background:#edf2f5;flex-shrink:0}
+.table .top1{color:#93640a;font-weight:800}.table .top2{color:#42647c;font-weight:800}.table .top3{color:#93603d;font-weight:800}
+.expand{display:block;margin:16px auto;padding:10px 18px;border:1px solid #b3c8d2;border-radius:9px;background:#f7fafb;color:#214c61;font-weight:700;cursor:pointer}
+.formula{font-size:13px;line-height:1.7;color:#476170;margin:16px 0}.formula summary{cursor:pointer;font-weight:700}
