@@ -2,7 +2,7 @@ begin;
 create or replace function public.web_overall_ranking(p jsonb) returns jsonb
 language sql security invoker set search_path=public,pg_temp as $$
 with accounts as (
- select id,name,photo,audience from learning_people where active and deleted_at is null
+ select id,name,photo,audience from learning_people where active and deleted_at is null and role='member'
 ), attempts as (
  select a.*,coalesce(question_total,jsonb_array_length(questions)) n,
  split_part(board,':',1) bank from vptct_mock_attempts a

@@ -15,7 +15,7 @@ begin
  ('Nguyễn Thanh Bình',array['Nguyễn Thanh Bình'])
  ) v(account_name,aliases) loop
  select count(*),(array_agg(id))[1] into matches,target from learning_people
- where active and deleted_at is null and lower(regexp_replace(trim(name),'\s+',' ','g'))=any(
+ where active and deleted_at is null and role='member' and lower(regexp_replace(trim(name),'\s+',' ','g'))=any(
  case when m.account_name='Vũ Thúy Hà' then array[lower('Vũ Thúy Hà'),lower('Vũ Thuý Hà')] else array[lower(m.account_name)] end);
  if matches>1 then raise exception 'Trùng tên tài khoản %, cần đối chiếu ID trước khi gắn kết quả.',m.account_name; end if;
  if matches=0 then raise exception 'Không tìm thấy tài khoản đang hoạt động: %. Kiểm tra tên trước khi chạy lại.',m.account_name; end if;
