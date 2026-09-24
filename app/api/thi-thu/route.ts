@@ -1,3 +1,5 @@
+import {publishedBook} from '../../../lib/question-books-server';
+import {packageSizes} from '../../../lib/practice';
 import {usageMessages} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {createHash,randomBytes} from 'node:crypto';
@@ -17,6 +19,7 @@ async function rpc(p:Record<string,unknown>){
  if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(usageMessages[e.message]?e.message:e.message==='RATE_LIMIT'?'RATE_LIMIT':e.message==='NOT_FOUND'?'NOT_FOUND':'DATABASE');}return r.json();
 }
 export async function GET(req:NextRequest){
+ const bookId=req.nextUrl.searchParams.get('book');if(bookId){try{const book=await publishedBook(bookId);const packages=packageSizes(book.question_count).map(n=>({id:'book-'+n,count:n,minutes:Math.max(1,Math.ceil(n*.6)),enabled:true}));return NextResponse.json({ready:true,title:book.title,packages,max:book.question_count,member:await memberSession(req).catch(()=>null)},{headers:{'Cache-Control':'no-store'}});}catch(e){return NextResponse.json({ready:false,packages:[],max:0,message:(e as Error).message},{status:404});}}
  const packages=availablePackages(bank.questions.length);const max=largestPackage(bank.questions.length);const top=packages.find(p=>p.count===max);
  if(!configured())return NextResponse.json({ready:false,packages,max,rows:[],message:'Thi thử đang chờ kết nối lưu kết quả. Bạn có thể Ôn tập trong lúc chờ.'});
  try{const member=await memberSession(req).catch(()=>null);const data=top?await rpc({op:'board',board:boardFor(top.id)}):{rows:[]};const rows=(data.rows||[]).map((row:{photo?:string})=>({...row,photo:row.photo&&/^images\/[0-9a-f-]{36}\.webp$/i.test(row.photo)?process.env.SUPABASE_URL!.replace(/\/$/,'')+'/storage/v1/object/public/office-awards/'+row.photo:''}));return NextResponse.json({ready:true,packages,max,...data,rows,member});}catch{return NextResponse.json({ready:false,packages,max,rows:[],message:'Chưa kết nối được bảng kết quả. Vui lòng thử lại sau.'},{status:503});}
@@ -30,10 +33,11 @@ export async function POST(req:NextRequest){
  let guest=req.cookies.get('vptct_guest')?.value; if(!guest||! /^[a-f0-9]{64}$/.test(guest))guest=randomBytes(32).toString('hex');
  let payload:Record<string,unknown>;let token='';
  if(body.op==='start'){
-  const pkg=availablePackages(bank.questions.length).find(p=>p.id===body.packageId);const member=await memberSession(req);const eligible=Boolean(member&&pkg&&pkg.count===largestPackage(bank.questions.length));const name=member?.name||(eligible?normalizeName(typeof body.name==='string'?body.name:''):'Người thi thử');const error=eligible&&!member?nameError(name):'';
+  const book=body.bookId?await publishedBook(body.bookId):null;const examQuestions=book?book.questions:bank.questions;const packages=book?packageSizes(book.question_count).map(n=>({id:'book-'+n,count:n,minutes:Math.max(1,Math.ceil(n*.6)),enabled:true})):availablePackages(bank.questions.length);
+  const pkg=packages.find(p=>p.id===body.packageId);const member=await memberSession(req);const eligible=Boolean(member&&pkg&&pkg.count===(book?book.question_count:largestPackage(bank.questions.length)));const name=member?.name||(eligible?normalizeName(typeof body.name==='string'?body.name:''):'Người thi thử');const error=eligible&&!member?nameError(name):'';
   if(!pkg||error)return NextResponse.json({error:error||'Gói câu hỏi không còn mở.'},{status:400});
   token=randomBytes(32).toString('hex');
-  payload={op:'start',person_id:member?.id||null,participant:hash(guest),token_hash:hash(token),name,package_id:pkg.id,board:boardFor(pkg.id),eligible,seconds:pkg.minutes*60,questions:sampleQuestions(bank.questions,pkg.count).map(q=>shuffledOptions(q)).map(q=>({id:q.id,question:q.question,options:q.options,correct_answer:q.correct_answer,explanation:q.explanation,source:q.source,section:q.section}))};
+  payload={op:'start',person_id:member?.id||null,participant:hash(guest),token_hash:hash(token),name,package_id:pkg.id,board:book?'book-'+book.id+':'+pkg.id:boardFor(pkg.id),eligible,seconds:pkg.minutes*60,questions:sampleQuestions(examQuestions,pkg.count).map(q=>shuffledOptions(q)).map(q=>({id:q.id,question:q.question,options:q.options,correct_answer:q.correct_answer,explanation:q.explanation,source:q.source,section:q.section}))};
  }else{
   if(!['save','submit','resume','discard'].includes(body.op)||typeof body.id!=='string'||! /^[0-9a-f-]{36}$/.test(body.id)||typeof body.token!=='string'||! /^[0-9a-f]{64}$/.test(body.token))return NextResponse.json({error:'Không tìm thấy lượt thi thử hợp lệ.'},{status:400});
   const answers=body.answers??{};if(typeof answers!=='object'||Array.isArray(answers)||Object.keys(answers).length>1000||!Object.values(answers).every(v=>['A','B','C','D'].includes(v as string)))return NextResponse.json({error:'Đáp án không hợp lệ.'},{status:400});
