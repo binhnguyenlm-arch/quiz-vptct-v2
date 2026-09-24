@@ -1,1 +1,16 @@
-.books{margin-top:10px;font-size:13px;line-height:1.5}.books article{border-top:1px solid #d6e0e6;padding:10px 0}.books a{text-decoration:none}.books strong{color:#214a60;font-size:14px}.books p{font-size:12px;color:#637a88}.gold{color:#805506;font-weight:700;background:linear-gradient(110deg,#715018,#d1a13b,#805506);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}.gold b{letter-spacing:1px}.date{color:#657b88;font-size:12px}.actions{display:flex;gap:16px;margin-top:5px}.actions a{font-weight:700;color:#24576b}
+.books{margin-top:10px;font-size:13px;line-height:1.5}
+.books article{border-top:1px solid #d6e0e6;padding:14px 0}
+.books a{text-decoration:none}
+.books strong{color:#214a60;font-size:14px}
+.books p{font-size:12px;color:#637a88}
+.gold{color:#805506;font-weight:700;background:linear-gradient(110deg,#715018,#d1a13b,#805506);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.gold b{letter-spacing:1px}
+.date{color:#657b88;font-size:12px}
+.actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.actions a{display:flex;align-items:center;justify-content:center;min-height:48px;padding:10px 12px;box-sizing:border-box;border:1px solid #98bdcc;border-radius:12px;background:linear-gradient(180deg,#fff,#eaf4f8);color:#164b65;font-size:15px;font-weight:800;text-align:center;box-shadow:0 3px 0 #c3d8e2,0 5px 12px #183c5510;transition:transform .18s ease,box-shadow .18s ease,filter .18s ease}
+.actions a:last-child{background:linear-gradient(135deg,#187c9c,#154865);border-color:#145774;color:#fff;box-shadow:0 3px 0 #0c354c,0 6px 14px #15486526;text-shadow:0 1px 1px #082d4650}
+.actions a:focus-visible{outline:3px solid #b87812;outline-offset:4px}
+.actions a:active{transform:translateY(2px);box-shadow:0 1px 0 #a3bcc8}
+@media(hover:hover){.actions a:hover{transform:translateY(-2px);filter:brightness(1.05);box-shadow:0 5px 0 #c3d8e2,0 9px 18px #183c5520}.actions a:last-child:hover{box-shadow:0 5px 0 #0c354c,0 9px 18px #15486535}}
+@media(max-width:360px){.actions{gap:8px}.actions a{font-size:14px;padding:10px 6px}}
+@media(prefers-reduced-motion:reduce){.actions a{transition:none}.actions a:hover,.actions a:active{transform:none}}
