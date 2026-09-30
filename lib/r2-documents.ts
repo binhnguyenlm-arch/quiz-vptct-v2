@@ -21,6 +21,11 @@ export async function r2Url(path:string,method:'GET'|'PUT'='GET'){
 export async function r2Delete(path:string){const {client,bucket}=config();await client.send(new DeleteObjectCommand({Bucket:bucket,Key:documentKey(path)}),{abortSignal:AbortSignal.timeout(20000)});}
 export async function r2Check(){const {client,bucket}=config();await client.send(new HeadBucketCommand({Bucket:bucket}),{abortSignal:AbortSignal.timeout(15000)});}
 export async function r2Put(path:string,bytes:Uint8Array){const {client,bucket}=config();await client.send(new PutObjectCommand({Bucket:bucket,Key:documentKey(path),Body:bytes,ContentType:'application/pdf'}),{abortSignal:AbortSignal.timeout(45000)});}
+// Separate namespace: existing PDF paths and readers remain unchanged.
+function taskKey(path:string){if(!/^office-tasks\/[a-f0-9-]{36}\/[a-f0-9-]{36}\.(pdf|doc|docx)$/.test(path))throw Error('Đường dẫn tệp không hợp lệ.');return path;}
+export async function r2TaskPut(path:string,bytes:Uint8Array,mime:string){const {client,bucket}=config();await client.send(new PutObjectCommand({Bucket:bucket,Key:taskKey(path),Body:bytes,ContentType:mime}),{abortSignal:AbortSignal.timeout(45000)});}
+export async function r2TaskDelete(path:string){const {client,bucket}=config();await client.send(new DeleteObjectCommand({Bucket:bucket,Key:taskKey(path)}),{abortSignal:AbortSignal.timeout(15000)});}
+export async function r2TaskRead(path:string){const {client,bucket}=config();const obj=await client.send(new GetObjectCommand({Bucket:bucket,Key:taskKey(path)}),{abortSignal:AbortSignal.timeout(20000)});if(!obj.Body)throw Error('Không đọc được tệp.');return obj.Body.transformToWebStream();}
 export async function boundedPdf(response:Response){
  if(!response.ok)throw Error('Không tải được PDF. Kiểm tra kết nối và quyền truy cập kho tệp.');
  if(Number(response.headers.get('content-length'))>MAX_PDF_BYTES){await response.body?.cancel();throw Error('PDF vượt quá 20 MB.');}
