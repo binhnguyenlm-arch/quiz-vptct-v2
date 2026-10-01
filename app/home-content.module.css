@@ -10,3 +10,15 @@
 .home :global(.learningVoice blockquote){font-size:20px}.home :global(.voiceToLam blockquote){font-size:15px}.home :global(.learningVoice figcaption>p){font-family:Arial,'Segoe UI',sans-serif;letter-spacing:normal;word-spacing:normal;line-height:1.6}
 @media(max-width:1100px){:global(#home) .hero :global(.heroContent){left:27%;width:58%;padding:0 8px}:global(#home) .hero h1{font-size:34px}:global(#home) .hero h2{font-size:29px}.functions{font-size:14px}.description{font-size:12px}}
 @media(max-width:760px){:global(#home) .hero :global(.heroContent){top:24px;left:31%;width:67%;padding:0 7px}:global(#home) .hero :global(.eyebrow){font-size:7px;letter-spacing:.3px;margin-bottom:12px}:global(#home) .hero h1{font-size:clamp(20px,4.65vw,30px);line-height:1.3;letter-spacing:0;margin-bottom:9px;filter:drop-shadow(0 1px 0 #e9cc86) drop-shadow(0 2px 1px #10365755)}:global(#home) .hero h2{font-size:clamp(20px,4.4vw,28px);letter-spacing:2px;margin-top:7px}.functions{font-size:10px;line-height:1.8;margin-top:13px}.functions i{padding:0 3px}.description{font-size:10px;line-height:1.8;margin-top:10px}.home :global(.learningVoice blockquote){font-size:16px}.home :global(.voiceToLam blockquote){font-size:13px}}
+
+.header:global(.headerInner){display:grid;grid-template-columns:minmax(0,1fr) 144px;column-gap:20px;row-gap:16px;align-items:center}
+.header>nav{grid-column:1/-1;margin-top:0}
+.headerHonors{position:relative;justify-self:end;width:144px;line-height:0;background:white}
+.headerHonors img{display:block;width:100%;height:auto}
+.headerHonors i{position:absolute;width:15px;height:15px;pointer-events:none;opacity:0;filter:drop-shadow(0 0 3px #ffd45c);background:radial-gradient(circle,#fff 0 12%,#fff9d4 18%,transparent 60%);animation:honorGlint 6s ease-in-out infinite}
+.headerHonors i:before,.headerHonors i:after{content:'';position:absolute;left:50%;top:50%;background:linear-gradient(90deg,transparent,#fff7b2,white,#fff7b2,transparent);transform:translate(-50%,-50%);border-radius:50%}
+.headerHonors i:before{width:24px;height:2px}.headerHonors i:after{height:24px;width:2px;background:linear-gradient(transparent,#fff7b2,white,#fff7b2,transparent)}
+.glintOne{left:19%;top:4%}.headerHonors .glintTwo{right:19%;top:48%;animation-delay:2.4s}
+@keyframes honorGlint{0%,12%,34%,100%{opacity:0;transform:scale(.4) rotate(0)}20%,25%{opacity:1;transform:scale(1) rotate(15deg)}}
+@media(max-width:760px){.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 100px;column-gap:6px;row-gap:10px}.headerHonors{width:100px}.header :global(.brand){gap:7px}.header :global(.brand strong){font-size:10px}.header :global(.brand span){font-size:12px}.header :global(.brand img){width:40px;height:46px}.headerHonors i{width:10px;height:10px}.headerHonors i:before{width:16px}.headerHonors i:after{height:16px}}
+@media(prefers-reduced-motion:reduce){.headerHonors i{animation:none;opacity:0}}
