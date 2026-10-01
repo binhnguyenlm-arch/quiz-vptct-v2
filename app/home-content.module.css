@@ -22,3 +22,17 @@
 @keyframes honorGlint{0%,12%,34%,100%{opacity:0;transform:scale(.4) rotate(0)}20%,25%{opacity:1;transform:scale(1) rotate(15deg)}}
 @media(max-width:760px){.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 100px;column-gap:6px;row-gap:10px}.headerHonors{width:100px}.header :global(.brand){gap:7px}.header :global(.brand strong){font-size:10px}.header :global(.brand span){font-size:12px}.header :global(.brand img){width:40px;height:46px}.headerHonors i{width:10px;height:10px}.headerHonors i:before{width:16px}.headerHonors i:after{height:16px}}
 @media(prefers-reduced-motion:reduce){.headerHonors i{animation:none;opacity:0}}
+
+/* Thành tích năm 2023: giữ nguyên ảnh huân chương do đơn vị cung cấp. */
+.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 226px}
+.headerHonors{width:226px;display:flex;align-items:center;justify-content:flex-end;gap:12px;line-height:1.45}
+.medalImage{position:relative;width:43px;flex-shrink:0}.medalImage img{width:43px;height:92px;object-fit:contain}
+.medalCaption{text-align:center;max-width:168px}.medalCaption strong{display:block;font-size:11px;color:#24435b;letter-spacing:.3px}.medalCaption span{display:block;font-size:12px;font-weight:800;color:#962f26;margin:2px 0}.medalCaption b{display:block;font-size:19px;line-height:1.2;color:#9d7424;text-shadow:0 1px 0 #fff1bc}
+.medalImage .glintOne{left:58%;top:67%}
+@media(max-width:760px){.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 104px}.headerHonors{width:104px;gap:4px}.medalImage,.medalImage img{width:28px}.medalImage img{height:60px}.medalCaption{max-width:72px}.medalCaption strong{font-size:7px;letter-spacing:0}.medalCaption span{font-size:8px}.medalCaption b{font-size:13px}}
+
+.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 184px}
+.headerHonors{width:184px;gap:10px;background:transparent}
+.medalImage{width:52px}.medalImage img{width:52px;height:98px;filter:drop-shadow(0 2px 2px #71521c55) drop-shadow(0 0 3px #e8c87544)}
+.medalCaption{max-width:120px}.medalCaption strong{font-size:12px;line-height:1.5}.medalCaption span{font-size:12px;margin:1px 0}.medalCaption b{font-size:20px;color:#a77a20;text-shadow:0 1px #fff3bf,0 2px 2px #8a63252b}
+@media(max-width:760px){.header:global(.headerInner){grid-template-columns:minmax(0,1fr) 112px}.headerHonors{width:112px;gap:5px}.medalImage,.medalImage img{width:34px}.medalImage img{height:68px}.medalCaption{max-width:73px}.medalCaption strong{font-size:8px}.medalCaption span{font-size:9px}.medalCaption b{font-size:15px}}
