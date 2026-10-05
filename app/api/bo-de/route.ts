@@ -4,7 +4,7 @@ import {memberSession} from '../../../lib/member-session';
 import {bookDb,publishedBook} from '../../../lib/question-books-server';
 import {bookTopics,validateQuestions} from '../../../lib/question-books';
 import {requireUploads} from '../../../lib/usage-controls';
-import politics from '../../../lib/banks/politics-test.json';
+import {politicsCatalog} from '../../../lib/politics-server';
 export const dynamic='force-dynamic';
 async function admin(req:NextRequest){const me=await memberSession(req);if(!me)return null;const rows=await bookDb('learning_people?id=eq.'+me.id+'&active=eq.true&deleted_at=is.null&role=eq.admin&select=id');return rows[0]?.id||null;}
 export async function GET(req:NextRequest){try{
@@ -12,7 +12,7 @@ export async function GET(req:NextRequest){try{
  const id=req.nextUrl.searchParams.get('id');if(id){const b=await publishedBook(id);return NextResponse.json({id:b.id,title:b.title,topic:b.topic,status:b.status,question_count:b.question_count,questions:b.questions,published_at:b.published_at,updated_at:b.updated_at},{headers:{'Cache-Control':'no-store'}});}
  const books=await bookDb('question_books?'+(manage?'':'status=eq.published&')+'select=id,topic,title,status,question_count,published_at,updated_at&order=published_at.desc.nullslast,created_at.desc');
  const builtin=await bookDb('builtin_book_metadata?id=eq.politics-current&select=id,title,updated_on');
- if(!manage)books.push({id:'politics-current',topic:'politics',title:builtin[0]?.title||politics.title,status:'published',question_count:politics.questions.length,published_at:builtin[0]?.updated_on||null,updated_at:builtin[0]?.updated_on||'',builtin:true});
+ if(!manage)for(const bank of politicsCatalog().filter(b=>b.ready))books.push({id:'politics-'+bank.id,topic:'politics',title:'Nhận thức chính trị 2026 — '+bank.title,status:'published',question_count:bank.count,published_at:null,updated_at:'',builtin:true});
  const counts=manage?{}:await bookDb('rpc/question_book_counts','POST',{});return NextResponse.json({books,counts,builtin:builtin[0]},{headers:{'Cache-Control':'no-store'}});
  }catch(e){return NextResponse.json({error:(e as Error).message},{status:503});}}
 export async function POST(req:NextRequest){
