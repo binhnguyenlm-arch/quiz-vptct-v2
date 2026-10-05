@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AccountSessionBar from "../components/AccountSessionBar";
 
 export const metadata: Metadata = {
   title: "Không gian số Văn phòng | Tổng công ty Tân Cảng Sài Gòn - Binh đoàn 20",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi">
-      <body>{children}</body>
+      <body><AccountSessionBar/>{children}</body>
     </html>
   );
 }
