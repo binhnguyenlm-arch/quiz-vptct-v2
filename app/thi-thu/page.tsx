@@ -1,3 +1,2 @@
-import MockExam from '../../components/MockExam';
-export const metadata={title:'Thi thử nhận thức chính trị | Văn phòng'};
-export default function MockPage(){return <MockExam/>;}
+import {redirect} from 'next/navigation';
+export default function Page(){redirect('/nhan-thuc-chinh-tri?mode=exam');}
