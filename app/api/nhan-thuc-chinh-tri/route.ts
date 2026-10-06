@@ -13,7 +13,8 @@ export async function GET(req:NextRequest){try{
  const me=await profile(req);const permission=me?(await bookDb('politics_permissions?person_id=eq.'+me.id+'&select=audience'))[0]?.audience:null;
  const active=me?(await bookDb('politics_attempts?person_id=eq.'+me.id+'&status=eq.active&select=id'))[0]?.id:null;
  if(mode==='admin'){if(me?.role!=='admin')return json({error:'Chỉ cán bộ phụ trách được cấp quyền.'},403);return json({people:await bookDb('learning_people?active=eq.true&deleted_at=is.null&select=id,name,username,role&order=name'),permissions:await bookDb('politics_permissions?select=person_id,audience')});}
- return json({banks:politicsCatalog(),me,permission,active});
+ const pendingStudy=me?await bookDb('rpc/politics_learning_pending','POST',{actor:me.id}).catch(()=>null):null;
+ return json({banks:politicsCatalog(),me,permission,active,pendingStudy});
  }catch(e){return json({error:(e as Error).message},503);}}
 export async function POST(req:NextRequest){if(req.headers.get('origin')!==req.nextUrl.origin)return json({error:'Yêu cầu không hợp lệ.'},403);try{
  const raw=await req.text();if(raw.length>3000)return json({error:'Yêu cầu quá lớn.'},413);const p=JSON.parse(raw),me=await profile(req);if(!me)return json({error:'Vui lòng đăng nhập để thi.'},401);
