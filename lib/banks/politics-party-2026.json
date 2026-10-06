@@ -1,0 +1,3001 @@
+{
+  "version": "d70649637e2a",
+  "questions": [
+    {
+      "id": "party-1",
+      "number": "1",
+      "question": "Đại hội lần thứ XIV của Đảng xác định mục tiêu phát triển đất nước trong giai đoạn mới?",
+      "options": {
+        "A": "Đến năm 2030 trở thành nước đang phát triển có công nghiệp hiện đại, thu nhập trung bình.",
+        "B": "Đến năm 2030 trở thành nước đang phát triển có công nghiệp hiện đại, thu nhập cao.",
+        "C": "Đến năm 2030 trở thành nước đang phát triển có công nghiệp hiện đại, thu nhập trung bình cao."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 1"
+      }
+    },
+    {
+      "id": "party-2",
+      "number": "2",
+      "question": "Đại hội lần thứ XIV của Đảng xác định mục tiêu phát triển đất nước trong giai đoạn mới?",
+      "options": {
+        "A": "Đến năm 2045 trở thành nước phát triển, thu nhập cao vì một nước Việt Nam hoà bình, độc lập, dân chủ, giàu mạnh, phồn vinh, văn minh, hạnh phúc.",
+        "B": "Đến năm 2045 trở thành nước phát triển, vì một nước Việt Nam hoà bình, độc lập, dân chủ, giàu mạnh, phồn vinh, văn minh, hạnh phúc, vững bước đi lên chủ nghĩa xã hội.",
+        "C": "Đến năm 2045 trở thành nước phát triển, thu nhập cao vì một nước Việt Nam hoà bình, độc lập, dân chủ, giàu mạnh, phồn vinh, văn minh, hạnh phúc, vững bước đi lên chủ nghĩa xã hội."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 2"
+      }
+    },
+    {
+      "id": "party-3",
+      "number": "3",
+      "question": "Đại hội lần thứ XIV của Đảng xác định mục tiêu, chỉ tiêu phát triển chủ yếu 5 năm 2026 – 2030",
+      "options": {
+        "A": "Tốc độ tăng trưởng tổng sản phẩm trong nước (GDP) bình quân cho giai đoạn 2026 - 2030 từ 10%/năm trở lên; GDP bình quân đầu người đến năm 2030 đạt khoảng 8.500 USD.",
+        "B": "Đóng góp của năng suất nhân tố tổng hợp (TFP) vào tăng trưởng kinh tế đạt trên 55%.",
+        "C": "Tốc độ tăng năng suất lao động đạt khoảng 8,5%/năm.",
+        "D": "Tỉ lệ đô thị hoá đạt trên 50%.",
+        "Đ": "Câu a,b đúng.",
+        "E": "Câu a,b,c,d đều đúng."
+      },
+      "correct_answer": "E",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 3"
+      }
+    },
+    {
+      "id": "party-4",
+      "number": "4",
+      "question": "Nghị quyết XIV của Đảng xác định việc xây dựng, hoàn thiện đồng bộ thể chế phát triển nhanh và bền vững đất nước trong giai đoạn mới?",
+      "options": {
+        "A": "Tiếp tục đổi mới mạnh mẽ tư duy, thúc đẩy đột phá chiến lược, kiến tạo hệ sinh thái phát triển mới, bảo đảm quan điểm lấy phát triển để ổn định, ổn định để thúc đẩy phát triển và không ngừng nâng cao đời sống, hạnh phúc của Nhân dân;",
+        "B": "Tập trung hoàn thiện toàn diện, đồng bộ thể chế phát triển nhanh, bền vững đất nước, trong đó thể chế chính trị là then chốt, thể chế kinh tế là trọng tâm, các thể chế khác là quan trọng.",
+        "C": "Câu a đúng.",
+        "D": "Cả câu a và b đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 4"
+      }
+    },
+    {
+      "id": "party-5",
+      "number": "5",
+      "question": "Nghị quyết XIV của Đảng xác định việc xây dựng, hoàn thiện đồng bộ thể chế phát triển nhanh và bền vững đất nước trong giai đoạn mới?",
+      "options": {
+        "A": "Tiếp tục đổi mới mạnh mẽ, tạo đột phá để sớm hoàn thiện đồng bộ thể chế phát triển kinh tế thị trường định hướng xã hội chủ nghĩa, dưới sự lãnh đạo của Đảng, có sự quản lý của Nhà nước.",
+        "B": "Giải quyết đúng đắn mối quan hệ giữa Nhà nước - thị trường - xã hội, khẳng định vai trò quyết định của thị trường trong huy động và phân bổ các nguồn lực phát triển.",
+        "C": "Cải thiện môi trường đầu tư kinh doanh bảo đảm thuận lợi, công khai, minh bạch, ổn định, giải phóng sức sản xuất, huy động mọi nguồn lực và tạo động lực mới cho phát triển.",
+        "D": "Câu a, b đúng.",
+        "Đ": "Câu b, c đúng.",
+        "E": "Cả câu a,b và c đều đúng."
+      },
+      "correct_answer": "E",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 5"
+      }
+    },
+    {
+      "id": "party-6",
+      "number": "6",
+      "question": "Giải pháp phát triển mạnh mẽ, toàn diện văn hoá và con người Việt Nam trong giai đoạn mới được Nghị quyết XIV của Đảng xác định?",
+      "options": {
+        "A": "Xây dựng và phát triển nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, đồng bộ trên nền tảng hệ giá trị quốc gia, hệ giá trị văn hoá, hệ giá trị gia đình và chuẩn mực con người Việt Nam.",
+        "B": "Đẩy mạnh phát triển đồng bộ các lĩnh vực văn hoá; xây dựng môi trường văn hoá, đời sống, lối sống văn hoá trong gia đình, trường học, cơ quan, đơn vị và cộng đồng dân cư.",
+        "C": "Chủ động, tích cực hợp tác, quảng bá hình ảnh đất nước, giá trị văn hoá và con người Việt Nam ra thế giới.",
+        "D": "Phát triển mạnh công nghiệp văn hoá, dịch vụ văn hoá đáp ứng ngày càng tốt hơn nhu cầu hưởng thụ văn hoá của Nhân dân.",
+        "Đ": "Câu a, b đúng.",
+        "E": "Câu b, c đúng.",
+        "F": "Câu c, d đúng.",
+        "G": "Cả a, b,c và d đều đúng."
+      },
+      "correct_answer": "G",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 6"
+      }
+    },
+    {
+      "id": "party-7",
+      "number": "7",
+      "question": "Nghị quyết XIV của Đảng xác định đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia trong giai đoạn mới?",
+      "options": {
+        "A": "Nâng cao tiềm lực khoa học, công nghệ và đổi mới sáng tạo quốc gia đạt trình độ tiên tiến ở những lĩnh vực quan trọng, thuộc nhóm dẫn đầu trong các nước có thu nhập trung bình cao.",
+        "B": "Phát triển đồng bộ, liên ngành, có trọng tâm, trọng điểm khoa học xã hội và nhân văn, khoa học lý luận chính trị, khoa học tự nhiên, khoa học kỹ thuật và công nghệ đáp ứng yêu cầu xây dựng, phát triển đất nước và bảo vệ Tổ quốc trong thời kỳ mới.",
+        "C": "Câu a đúng.",
+        "D": "Câu b đúng.",
+        "Đ": "Câu a, b đều đúng."
+      },
+      "correct_answer": "Đ",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 7"
+      }
+    },
+    {
+      "id": "party-8",
+      "number": "8",
+      "question": "Nhiệm vụ, giải pháp tăng cường quốc phòng, an ninh; xây dựng quân đội nhân dân, công an nhân dân cách mạng, chính quy, tinh nhuệ, hiện đại; bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Bảo đảm và bảo vệ cao nhất lợi ích quốc gia - dân tộc, kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ của Tổ quốc; bảo vệ Đảng, Nhà nước, Nhân dân, chế độ xã hội chủ nghĩa;",
+        "B": "Bảo vệ thành quả cách mạng, sự nghiệp đổi mới, công nghiệp hoá, hiện đại hoá; giữ gìn, phát huy giá trị truyền thống văn hoá dân tộc, nâng cao vị thế quốc tế của đất nước;",
+        "C": "Bảo vệ vững chắc an ninh quốc gia, an ninh con người, an ninh chế độ, an ninh văn hoá tư tưởng, an ninh kinh tế - tài chính, an ninh mạng - dữ liệu, an ninh lương thực, an ninh năng lượng, an ninh nguồn nước….",
+        "D": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 8"
+      }
+    },
+    {
+      "id": "party-9",
+      "number": "9",
+      "question": "Nhiệm vụ, giải pháp tăng cường quốc phòng, an ninh; xây dựng quân đội nhân dân, công an nhân dân cách mạng, chính quy, tinh nhuệ, hiện đại; bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Tăng cường tiềm lực, sức mạnh tổng hợp quốc gia; xây dựng, củng cố nền quốc phòng toàn dân, thế trận quốc phòng toàn dân và nền an ninh nhân dân, thế trận an ninh nhân dân, gắn với xây dựng thế trận lòng dân, xây dựng khu vực phòng thủ chủ động vững chắc.",
+        "B": "Thực hiện có hiệu quả hai nhiệm vụ chiến lược xây dựng và bảo vệ Tổ quốc; kết hợp chặt chẽ, hiệu quả giữa quốc phòng, an ninh với phát triển kinh tế, văn hoá, xã hội và đối ngoại để phát huy sức mạnh mềm Việt Nam góp phần tạo thế và lực mới cho đất nước.",
+        "C": "Câu a, b đều đúng."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 9"
+      }
+    },
+    {
+      "id": "party-10",
+      "number": "10",
+      "question": "Nhiệm vụ, giải pháp tăng cường quốc phòng, an ninh; xây dựng quân đội nhân dân, công an nhân dân cách mạng, chính quy, tinh nhuệ, hiện đại; bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Xây dựng Quân đội nhân dân, Công an nhân dân cách mạng, chính quy, tinh nhuệ, hiện đại, tuyệt đối trung thành với Tổ quốc, với Đảng, Nhà nước và Nhân dân, kiên định với mục tiêu, lý tưởng cách mạng của Đảng.",
+        "B": "Đẩy mạnh hội nhập quốc tế và đối ngoại quốc phòng, an ninh, tích cực tham gia hiệu quả các hoạt động gìn giữ hoà bình của Liên hợp quốc, hỗ trợ nhân đạo, tìm kiếm cứu nạn, cứu trợ thảm hoạ, khắc phục hậu quả chiến tranh.",
+        "C": "Câu a đúng.",
+        "D": "Câu b đúng.",
+        "Đ": "Cả a và b đều đúng."
+      },
+      "correct_answer": "Đ",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 10"
+      }
+    },
+    {
+      "id": "party-11",
+      "number": "11",
+      "question": "Nhiệm vụ, giải pháp đẩy mạnh triển khai đồng bộ, sáng tạo hoạt động đối ngoại và hội nhập quốc tế sâu rộng, toàn diện, hiệu quả theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Thực hiện nhất quán đường lối đối ngoại độc lập, tự chủ, tự cường, hoà bình, hữu nghị, hợp tác và phát triển, đa phương hoá, đa dạng hoá quan hệ đối ngoại;",
+        "B": "Bảo đảm và bảo vệ cao nhất lợi ích quốc gia - dân tộc trên cơ sở các nguyên tắc cơ bản của luật pháp quốc tế và Hiến chương Liên hợp quốc, hợp tác bình đẳng, cùng có lợi.",
+        "C": "Chủ động, tích cực đóng góp vào hoà bình, hữu nghị, hợp tác và phát triển bền vững trên tinh thần là bạn, là đối tác tin cậy, là thành viên tích cực, có trách nhiệm của cộng đồng quốc tế; tham gia chủ động, có trách nhiệm vào việc giải quyết các vấn đề chung của khu vực và quốc tế.",
+        "D": "Câu a đúng.",
+        "Đ": "Câu b đúng.",
+        "E": "Câu c đúng.",
+        "F": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "F",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 11"
+      }
+    },
+    {
+      "id": "party-12",
+      "number": "12",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng và hoàn thiện nhà nước pháp quyền xã hội chủ nghĩa Việt Nam theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Xây dựng, hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam của Nhân dân, do Nhân dân, vì Nhân dân, do Ðảng Cộng sản Việt Nam lãnh đạo là nhiệm vụ trọng tâm của đổi mới hệ thống chính trị.",
+        "B": "Tiếp tục xây dựng Quốc hội thực sự là cơ quan quyền lực nhà nước cao nhất, đại diện cho ý chí, nguyện vọng của Nhân dân.",
+        "C": "Tiếp tục rà soát, hoàn thiện quy định về chức năng, nhiệm vụ và tổ chức bộ máy của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ",
+        "D": "Câu a đúng.",
+        "Đ": "Câu b đúng.",
+        "E": "Câu c đúng.",
+        "F": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "F",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 12"
+      }
+    },
+    {
+      "id": "party-13",
+      "number": "13",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Tăng cường xây dựng, chỉnh đốn, tự đổi mới để Đảng ta thật sự là đạo đức, là văn minh;",
+        "B": "Nâng tầm và nâng cao hiệu lực, hiệu quả lãnh đạo, cầm quyền và sức chiến đấu của Đảng.",
+        "C": "Câu a đúng.",
+        "D": "Câu b đúng.",
+        "Đ": "Cả a và b đều đúng."
+      },
+      "correct_answer": "Đ",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 13"
+      }
+    },
+    {
+      "id": "party-14",
+      "number": "14",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Đổi mới mạnh mẽ nội dung, phương thức công tác tư tưởng; nâng cao tính chiến đấu, tính giáo dục, tính thuyết phục trong tuyên truyền, giáo dục chính trị, tư tưởng.",
+        "B": "Tăng cường công tác tuyên truyền chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và giáo dục truyền thống cách mạng của Đảng gắn với việc học tập, làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh và công tác xây dựng, chỉnh đốn Đảng, hệ thống chính trị trong sạch, vững mạnh, toàn diện.",
+        "C": "Đẩy mạnh đấu tranh ngăn chặn, đẩy lùi sự suy thoái về tư tưởng chính trị, đạo đức, lối sống, \"tự diễn biến\", \"tự chuyển hoá\" trong nội bộ",
+        "D": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 14"
+      }
+    },
+    {
+      "id": "party-15",
+      "number": "15",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Thực hiện nghiêm chuẩn mực đạo đức cách mạng, đạo đức công vụ, cần, kiệm, liêm, chính, chí công vô tư;",
+        "B": "đề cao trách nhiệm nêu gương, ý thức tự giác tu dưỡng, rèn luyện đạo đức của cán bộ, đảng viên, nhất là cán bộ lãnh đạo, quản lý và người đứng đầu các cấp.",
+        "C": "Cán bộ, đảng viên giữ chức vụ càng cao càng phải gương mẫu, nêu gương. Giáo dục, nâng cao ý thức chấp hành quy định của Đảng và pháp luật của Nhà nước, trách nhiệm phụng sự Tổ quốc, phục vụ Nhân dân, coi trọng danh dự của cán bộ, đảng viên.",
+        "D": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 15"
+      }
+    },
+    {
+      "id": "party-16",
+      "number": "16",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Đánh giá, đào tạo, sử dụng cán bộ, bảo đảm dân chủ, công khai, công tâm, khách quan theo hướng xuyên suốt, liên tục, đa chiều, có tiêu chí, gắn với sản phẩm cụ thể, theo vị trí việc làm và tiêu chuẩn chức danh; coi trọng uy tín trong Đảng và tín nhiệm trong Nhân dân; theo đúng chủ trương \"có vào có ra\", \"có lên có xuống\".",
+        "B": "Thực hiện tốt chủ trương khuyến khích, bảo vệ cán bộ năng động, sáng tạo, dám nghĩ, dám làm, dám chịu trách nhiệm vì lợi ích chung.",
+        "C": "Cả a và b đều đúng."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 16"
+      }
+    },
+    {
+      "id": "party-17",
+      "number": "17",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Xử lý nghiêm đối với cấp uỷ, người đứng đầu vi phạm quy chế, nguyên tắc của Đảng trong công tác cán bộ.",
+        "B": "Kịp thời thay thế, cho từ chức những cán bộ yếu kém về năng lực, thiếu trách nhiệm, uy tín thấp, sai phạm.",
+        "C": "Kiên quyết phòng, chống các biểu hiện bè phái, \"lợi ích nhóm\" và chia rẽ làm mất đoàn kết nội bộ.",
+        "D": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 17"
+      }
+    },
+    {
+      "id": "party-18",
+      "number": "18",
+      "question": "Nhiệm vụ, giải pháp tiếp tục đẩy mạnh xây dựng, chỉnh đốn đảng trong sạch, vững mạnh toàn diện; nâng cao năng lực lãnh đạo, cầm quyền và sức chiến đấu của đảng theo tinh thần Nghị quyết XIV của Đảng?",
+      "options": {
+        "A": "Chú trọng công tác tự kiểm tra, giám sát của cấp uỷ, tổ chức đảng ngay từ cơ sở, chủ động phòng ngừa, cảnh báo, xử lý vi phạm từ sớm, từ xa, không để vi phạm nhỏ tích tụ thành vi phạm lớn.",
+        "B": "Tăng cường kỷ cương, kỷ luật của Đảng, chủ động phát hiện, xử lý nghiêm đảng viên suy thoái về tư tưởng chính trị, đạo đức, lối sống, \"tự diễn biến\", \"tự chuyển hoá\", bảo vệ cán bộ dám nghĩ, dám làm, dám đột phá vì lợi ích chung.",
+        "C": "Thực hiện đồng bộ các biện pháp để xây dựng, hoàn thiện cơ chế \"không thể\", \"không dám\", \"không muốn\", \"không cần\" tham nhũng, lãng phí, tiêu cực.",
+        "D": "Câu a, b, c đều đúng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 18"
+      }
+    },
+    {
+      "id": "party-19",
+      "number": "19",
+      "question": "Đại hội lần thứ XIV của Đảng xác định mấy nhiệm vụ trọng tâm?",
+      "options": {
+        "A": "4.",
+        "B": "5.",
+        "C": "6.",
+        "D": "7."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 19"
+      }
+    },
+    {
+      "id": "party-20",
+      "number": "20",
+      "question": "Văn kiện Đại hội lần thứ XIV của Đảng đề ra các đột phá chiến lược nào cho nhiệm kỳ XIV?",
+      "options": {
+        "A": "Đột phá mạnh mẽ về việc khai thác kinh tế biển gắn với sáp nhập tất cả tập đoàn kinh tế tư nhân lớn nhất đất nước ta.",
+        "B": "Đột phá mạnh mẽ về thể chế phát triển, chuyển đổi cơ cấu và nâng cao chất lượng nguồn nhân lực, hoàn thiện đồng bộ kết cấu hạ tầng.",
+        "C": "Đột phá mạnh mẽ về lĩnh vực ngoại giao toàn cầu nhằm đưa Việt Nam trở thành trung tâm du lịch nghỉ dưỡng thế giới mới.",
+        "D": "Đột phá mạnh mẽ về công cuộc cải cách giáo dục phổ thông và thực hiện đưa tiếng Anh thành ngôn ngữ chính thức duy nhất."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 20"
+      }
+    },
+    {
+      "id": "party-21",
+      "number": "21",
+      "question": "Trong 5 năm qua, toàn quân đã nỗ lực phấn đấu hoàn thành toàn diện bao nhiêu nhóm nhiệm vụ mà Nghị quyết Đại hội Đảng bộ Quân đội lần thứ XI đề ra?",
+      "options": {
+        "A": "10 nhóm nhiệm vụ",
+        "B": "12 nhóm nhiệm vụ",
+        "C": "15 nhóm nhiệm vụ",
+        "D": "20 nhóm nhiệm vụ"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 21"
+      }
+    },
+    {
+      "id": "party-22",
+      "number": "22",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định phương hướng đến năm 2030, mục tiêu tỷ lệ quân số khỏe trong toàn quân phải đạt mức nào?",
+      "options": {
+        "A": "Trên 95%",
+        "B": "Trên 97%",
+        "C": "Trên 98%",
+        "D": "Trên 98,5%"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 22"
+      }
+    },
+    {
+      "id": "party-23",
+      "number": "23",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định mục tiêu đề ra, tỷ lệ vi phạm kỷ luật của toàn quân phải được duy trì ở mức nào?",
+      "options": {
+        "A": "Dưới 0,2%",
+        "B": "Dưới 0,5%",
+        "C": "Dưới 0,25%",
+        "D": "Dưới 0,15%"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 23"
+      }
+    },
+    {
+      "id": "party-24",
+      "number": "24",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định hằng năm, mục tiêu có bao nhiêu % tổ chức đảng, cán bộ, đảng viên hoàn thành tốt và xuất sắc nhiệm vụ?",
+      "options": {
+        "A": "Trên 80%",
+        "B": "Trên 85%",
+        "C": "Trên 90%",
+        "D": "Trên 95%"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 24"
+      }
+    },
+    {
+      "id": "party-25",
+      "number": "25",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định đâu là nhiệm vụ nòng cốt của Quân đội trong việc xây dựng thế trận quốc phòng toàn dân?",
+      "options": {
+        "A": "Phát triển kinh tế biển gắn với bảo vệ chủ quyền",
+        "B": "Xây dựng các khu kinh tế quốc phòng tại vùng sâu vùng xa",
+        "C": "Chủ trì các hoạt động diễn tập quốc tế về cứu hộ cứu nạn",
+        "D": "Xây dựng quy hoạch tổng thể thế bố trí chiến lược quốc phòng gắn với chiến lược phát triển kinh tế - xã hội."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 25"
+      }
+    },
+    {
+      "id": "party-26",
+      "number": "26",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định đâu là phương châm huấn luyện được xác định trong nhiệm vụ, giải pháp chủ yếu?",
+      "options": {
+        "A": "Nhanh chóng - Chính xác - Kịp thời.",
+        "B": "Hiện đại - Chuyên sâu - Thực tế.",
+        "C": "Toàn diện - Đột phá - Vững chắc.",
+        "D": "Cơ bản - Thiết thực - Vững chắc."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 26"
+      }
+    },
+    {
+      "id": "party-27",
+      "number": "27",
+      "question": "Đột phá thứ ba Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII trong phương hướng phát triển Quân đội tập trung vào lĩnh vực nào?",
+      "options": {
+        "A": "Xây dựng doanh trại chính quy, xanh, sạch, đẹp.",
+        "B": "Phát triển văn hóa, nghệ thuật quân đội.",
+        "C": "Phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số.",
+        "D": "Mở rộng hệ thống các bệnh viện quân đội trên cả nước."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 27"
+      }
+    },
+    {
+      "id": "party-28",
+      "number": "28",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định nhiệm vụ trọng tâm trong tổ chức lực lượng là gì?",
+      "options": {
+        "A": "Tăng quy mô quân số ở tất cả các cấp để sẵn sàng chiến đấu.",
+        "B": "Sáp nhập tất cả các quân chủng, binh chủng thành một lực lượng duy nhất.",
+        "C": "Rà soát, xây dựng lực lượng tinh, gọn, mạnh, bảo đảm cơ cấu, tổ chức đồng bộ, hợp lý.",
+        "D": "Giảm tối đa lực lượng thường trực để tăng cường cho lực lượng dân quân tự vệ."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 28"
+      }
+    },
+    {
+      "id": "party-29",
+      "number": "29",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định phương châm trong huấn luyện là gì?",
+      "options": {
+        "A": "Cơ bản - Thiết thực - Vững chắc; coi trọng huấn luyện đồng bộ, chuyên sâu, theo hướng hiện đại.",
+        "B": "Đào tạo toàn diện kiến thức chuyên môn và kỹ năng thực hành.",
+        "C": "Học đi đôi với hành, lý luận gắn liền với thực tiễn chiến đấu.",
+        "D": "Chất lượng đào tạo của nhà trường là khả năng sẵn sàng chiến đấu của đơn vị."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 29"
+      }
+    },
+    {
+      "id": "party-30",
+      "number": "30",
+      "question": "Văn kiện Đại hội Đảng bộ Quân đội lần thứ XII xác định trong xây dựng Quân đội về chính trị, nhiệm vụ nào được coi là \"trọng yếu\" để giữ vững trận địa tư tưởng?",
+      "options": {
+        "A": "Đấu tranh phản bác các quan điểm sai trái, âm mưu “phi chính trị hóa” Quân đội.",
+        "B": "Tổ chức các hoạt động văn hóa văn nghệ tại các điểm đảo.",
+        "C": "Tăng phụ cấp cho cán bộ làm công tác giáo dục chính trị.",
+        "D": "Xây dựng thư viện số cho tất cả các đơn vị cấp tiểu đoàn."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 30"
+      }
+    },
+    {
+      "id": "party-31",
+      "number": "31",
+      "question": "Nghị quyết số 19-NQ/TW ngày 28/7/2026 Hội nghị lần thứ ba Ban Chấp hành Trung ương Đảng khóa XIV về?",
+      "options": {
+        "A": "Đổi mới mô hình phát triển Việt Nam",
+        "B": "Đổi mới toàn diện mô hình phát triển Việt Nam",
+        "C": "Đổi mới mô hình phát triển Việt Nam"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 31"
+      }
+    },
+    {
+      "id": "party-32",
+      "number": "32",
+      "question": "Theo Nghị quyết số 19-NQ/TW, đâu là động lực chính của mô hình phát triển mới?",
+      "options": {
+        "A": "Khai thác tài nguyên và mở rộng lao động giá rẻ",
+        "B": "Đầu tư công và xuất khẩu nguyên liệu thô",
+        "C": "Khoa học, công nghệ, đổi mới sáng tạo, chuyển đổi số và trí tuệ nhân tạo quốc gia",
+        "D": "Gia tăng quy mô vốn và lao động"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 32"
+      }
+    },
+    {
+      "id": "party-33",
+      "number": "33",
+      "question": "Một điểm mới nổi bật của Nghị quyết số 19-NQ/TW là chuyển mạnh tư duy quản lý nhà nước theo hướng nào?",
+      "options": {
+        "A": "Từ quản trị phát triển sang quản lý hành chính",
+        "B": "Từ phân cấp sang tập trung tuyệt đối",
+        "C": "Từ quản lý, kiểm soát sang quản trị phát triển, dự báo, điều phối, kiến tạo, phục vụ và dựa trên dữ liệu",
+        "D": "Từ quản lý bằng dữ liệu sang quản lý thủ công"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 33"
+      }
+    },
+    {
+      "id": "party-34",
+      "number": "34",
+      "question": "Nghị quyết số 18-NQ/TW về?",
+      "options": {
+        "A": "Xây dựng xã hội kỷ cương, an toàn, văn minh, hài hòa, phát triển.",
+        "B": "Xây dựng xã hội kỷ cương, an toàn, văn minh, phát triển hài hòa.",
+        "C": "Xây dựng xã hội kỷ cương, an toàn, văn minh, hài hòa và phát triển."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 34"
+      }
+    },
+    {
+      "id": "party-35",
+      "number": "35",
+      "question": "Theo Nghị quyết số 18-NQ/TW, hạnh phúc của Nhân dân được xác định là gì trong quản trị xã hội hiện đại?",
+      "options": {
+        "A": "Một chỉ tiêu tham khảo",
+        "B": "Mục tiêu cao nhất",
+        "C": "Một nhiệm vụ hỗ trợ",
+        "D": "Một tiêu chí phụ"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 35"
+      }
+    },
+    {
+      "id": "party-36",
+      "number": "36",
+      "question": "Theo Nghị quyết số 18-NQ/TW, an ninh con người được xác định như thế nào?",
+      "options": {
+        "A": "Là nhiệm vụ của lực lượng vũ trang",
+        "B": "Là mục tiêu, yêu cầu xuyên suốt của quá trình phát triển",
+        "C": "Là chỉ tiêu kinh tế",
+        "D": "Là nhiệm vụ cốt lõi đến năm 2030"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 36"
+      }
+    },
+    {
+      "id": "party-37",
+      "number": "37",
+      "question": "Nghị quyết số 22-NQ/TW về?",
+      "options": {
+        "A": "Chiến lược an ninh quốc gia.",
+        "B": "Chiến lược phát triển an ninh quốc gia.",
+        "C": "Tầm nhìn chiến lược an ninh quốc gia."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 37"
+      }
+    },
+    {
+      "id": "party-38",
+      "number": "38",
+      "question": "Theo Nghị quyết số 22-NQ/TW, lực lượng nào giữ vai trò nòng cốt trong bảo vệ an ninh quốc gia?",
+      "options": {
+        "A": "Quân đội nhân dân",
+        "B": "Công an nhân dân",
+        "C": "Dân quân tự vệ",
+        "D": "Mặt trận Tổ quốc Việt Nam"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 38"
+      }
+    },
+    {
+      "id": "party-39",
+      "number": "39",
+      "question": "Một điểm mới trong tư duy an ninh của Nghị quyết số 22-NQ/TW là chuyển từ 'quản lý từng nguy cơ' sang cách tiếp cận nào?",
+      "options": {
+        "A": "Loại bỏ mọi rủi ro bằng mọi giá",
+        "B": "Quản trị tương tác giữa các nguy cơ",
+        "C": "Tách riêng từng lĩnh vực an ninh",
+        "D": "Chỉ xử lý khi khủng hoảng xảy ra"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 39"
+      }
+    },
+    {
+      "id": "party-40",
+      "number": "40",
+      "question": "Nghị quyết số 21-NQ/TW về",
+      "options": {
+        "A": "Quan điểm, định hướng sửa đổi luật đất đai và các luật có liên quan",
+        "B": "Quan điểm, định hướng sửa đổi luật đất đai",
+        "C": "Quan điểm, định hướng sửa đổi luật đất đai và các luật"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 40"
+      }
+    },
+    {
+      "id": "party-41",
+      "number": "41",
+      "question": "Theo Nghị quyết số 21-NQ/TW, quyền sử dụng đất được xác định như thế nào?",
+      "options": {
+        "A": "Là quyền sở hữu đất đai",
+        "B": "Là một loại tài sản và hàng hóa đặc biệt nhưng không phải quyền sở hữu",
+        "C": "Là quyền khai thác tạm thời",
+        "D": "Không phải là tài sản"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 41"
+      }
+    },
+    {
+      "id": "party-42",
+      "number": "42",
+      "question": "Mục tiêu tổng quát của Nghị quyết số 21-NQ/TW yêu cầu chuyển mạnh từ tư duy quản lý hành chính sang tư duy nào?",
+      "options": {
+        "A": "Quản trị phát triển về đất đai",
+        "B": "Quản lý tập trung tuyệt đối",
+        "C": "Khoán trắng cho thị trường",
+        "D": "Quản lý thủ công"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 42"
+      }
+    },
+    {
+      "id": "party-43",
+      "number": "43",
+      "question": "Kết luận số 75-KL/TW về:",
+      "options": {
+        "A": "Bảo vệ môi trường và chủ động ứng phó với biến đổi khí hậu",
+        "B": "Bảo vệ môi trường và chủ động ứng phó với biến đổi khí hậu thời kỳ mới",
+        "C": "Bảo vệ môi trường và chủ động ứng phó với biến đổi khí hậu trong thời kỳ mới"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 43"
+      }
+    },
+    {
+      "id": "party-44",
+      "number": "44",
+      "question": "Theo Kết luận số 75-KL/TW, bảo vệ môi trường và ứng phó với biến đổi khí hậu được xác định như thế nào?",
+      "options": {
+        "A": "Chỉ là yêu cầu bảo đảm an sinh xã hội",
+        "B": "Là một động lực phát triển mới của nền kinh tế",
+        "C": "Là nhiệm vụ riêng của cơ quan quản lý môi trường",
+        "D": "Là nhiệm vụ hỗ trợ cho tăng trưởng kinh tế"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 44"
+      }
+    },
+    {
+      "id": "party-45",
+      "number": "45",
+      "question": "Kết luận số 75-KL/TW yêu cầu chuyển từ tư duy ứng phó sang tư duy nào?",
+      "options": {
+        "A": "Chủ động kiến tạo phát triển",
+        "B": "Chủ động kiểm soát hậu quả",
+        "C": "Chủ động thích nghi từng bước",
+        "D": "Chủ động điều chỉnh tăng trưởng"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 45"
+      }
+    },
+    {
+      "id": "party-46",
+      "number": "46",
+      "question": "Kết luận số 76-KL/TW về:",
+      "options": {
+        "A": "Tiếp tục hoàn thiện, vận hành hiệu quả mô hình tổ chức tổng thể của hệ thống chính trị, mô hình chính quyền địa phương 2 cấp.",
+        "B": "Tiếp tục hoàn thiện, vận hành hiệu quả mô hình chính quyền địa phương 2 cấp.",
+        "C": "Tiếp tục hoàn thiện, vận hành hiệu quả mô hình tổ chức của hệ thống chính trị, chính quyền địa phương 2 cấp."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 46"
+      }
+    },
+    {
+      "id": "party-47",
+      "number": "47",
+      "question": "Theo Kết luận số 76-KL/TW, thước đo quan trọng kiểm định sự thành công của mô hình mới là gì?",
+      "options": {
+        "A": "Số lượng cán bộ cấp tỉnh",
+        "B": "Năng lực thực thi của cán bộ cấp xã",
+        "C": "Số lượng đơn vị sự nghiệp công lập",
+        "D": "Quy mô ngân sách trung ương"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 47"
+      }
+    },
+    {
+      "id": "party-48",
+      "number": "48",
+      "question": "Quy định số 208-QĐ/TW ngày 26/7/2026 được ban hành để thay thế Quy định nào?",
+      "options": {
+        "A": "Quy định số 19-QĐ/TW",
+        "B": "Quy định số 20-QĐ/TW ngày 08/4/2026",
+        "C": "Quy định số 37-QĐ/TW",
+        "D": "Quy định số 332-QĐ/TW"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 48"
+      }
+    },
+    {
+      "id": "party-49",
+      "number": "49",
+      "question": "Theo Quy định số 208-QĐ/TW, thẩm quyền xem xét, quyết định kết nạp đảng viên tại đảng ủy cơ sở thuộc về cơ quan nào?",
+      "options": {
+        "A": "Tập thể đảng ủy cơ sở",
+        "B": "Ban thường vụ đảng ủy cơ sở",
+        "C": "Cấp ủy cấp tỉnh",
+        "D": "Chi ủy trực thuộc"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 49"
+      }
+    },
+    {
+      "id": "party-50",
+      "number": "50",
+      "question": "Quy định số 207-QĐ/TW về:",
+      "options": {
+        "A": "Những điều đảng viên không được làm",
+        "B": "Những điều cấm đối với đảng viên",
+        "C": "Trách nhiệm nêu gương của cán bộ, đảng viên, nhất là cán bộ lãnh đạo chủ chốt các cấp"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 50"
+      }
+    },
+    {
+      "id": "party-51",
+      "number": "51",
+      "question": "Nghị quyết số 20-NQ/TW Hội nghị lần thứ ba Ban Chấp hành Trung ương Đảng khóa XIV ngày 28/7/2026 của Ban Chấp hành Trung ương về:",
+      "options": {
+        "A": "Chiến lược phát triển bền vững kinh tế biển Việt Nam",
+        "B": "Xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh",
+        "C": "Xây dựng và phát triển Việt Nam trở thành quốc gia biển"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 51"
+      }
+    },
+    {
+      "id": "party-52",
+      "number": "52",
+      "question": "Nghị quyết số 20-NQ/TW xác định tư duy mới về phát triển quốc gia biển mạnh thể hiện ở bao nhiêu nội dung?",
+      "options": {
+        "A": "04 nội dung",
+        "B": "05 nội dung",
+        "C": "06 nội dung",
+        "D": "07 nội dung"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 52"
+      }
+    },
+    {
+      "id": "party-53",
+      "number": "53",
+      "question": "Theo Nghị quyết số 20-NQ/TW, biển được xác định là gì?",
+      "options": {
+        "A": "Không gian khai thác tài nguyên chủ yếu",
+        "B": "Không gian phát triển chiến lược và nơi hình thành các cực tăng trưởng, ngành kinh tế và động lực phát triển mới",
+        "C": "Khu vực dành riêng cho phát triển kinh tế thủy sản",
+        "D": "Không gian dự trữ phát triển trong dài hạn"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 53"
+      }
+    },
+    {
+      "id": "party-54",
+      "number": "54",
+      "question": "Đâu là đột phá chiến lược trong xây dựng và phát triển Việt Nam trở thành quốc gia biển mạnh?",
+      "options": {
+        "A": "Tăng số lượng đội tàu khai thác xa bờ",
+        "B": "Hoàn thiện thể chế phát triển quốc gia biển mạnh",
+        "C": "Mở rộng đô thị ven biển",
+        "D": "Tăng khai thác tài nguyên biển"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 54"
+      }
+    },
+    {
+      "id": "party-55",
+      "number": "55",
+      "question": "Nghị quyết số 20-NQ/TW đề ra bao nhiêu nhóm nhiệm vụ, giải pháp?",
+      "options": {
+        "A": "07 nhóm",
+        "B": "08 nhóm",
+        "C": "09 nhóm",
+        "D": "10 nhóm"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 55"
+      }
+    },
+    {
+      "id": "party-56",
+      "number": "56",
+      "question": "Theo Nghị quyết số 20-NQ/TW, phát triển quốc gia biển mạnh phải gắn kết chặt chẽ với nội dung nào sau đây?",
+      "options": {
+        "A": "Bảo đảm quốc phòng, an ninh và đối ngoại",
+        "B": "Chỉ phát triển kinh tế biển",
+        "C": "Chỉ tập trung bảo vệ môi trường",
+        "D": "Chỉ mở rộng hợp tác thương mại"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 56"
+      }
+    },
+    {
+      "id": "party-57",
+      "number": "57",
+      "question": "Nghị quyết số 20-NQ/TW xác định bao nhiêu nhóm quan điểm chỉ đạo?",
+      "options": {
+        "A": "04 nhóm",
+        "B": "05 nhóm",
+        "C": "06 nhóm",
+        "D": "07 nhóm"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 57"
+      }
+    },
+    {
+      "id": "party-58",
+      "number": "58",
+      "question": "Nghị quyết số 20-NQ/TW xác định bao nhiêu nhóm mục tiêu cụ thể?",
+      "options": {
+        "A": "05 nhóm",
+        "B": "06 nhóm",
+        "C": "07 nhóm",
+        "D": "08 nhóm"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 58"
+      }
+    },
+    {
+      "id": "party-59",
+      "number": "59",
+      "question": "Đâu là một trong 6 nhóm mục tiêu cụ thể của Nghị quyết số 20-NQ/TW?",
+      "options": {
+        "A": "Quản trị không gian biển, bảo vệ môi trường và phát triển bền vững",
+        "B": "Tăng khai thác tài nguyên biển bằng mọi giá",
+        "C": "Giảm đầu tư hạ tầng biển",
+        "D": "Thu hẹp hợp tác quốc tế về biển"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 59"
+      }
+    },
+    {
+      "id": "party-60",
+      "number": "60",
+      "question": "Theo Nghị quyết số 20-NQ/TW, khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số được xác định là gì đối với phát triển biển?",
+      "options": {
+        "A": "Yếu tố hỗ trợ thứ yếu",
+        "B": "Động lực chủ yếu",
+        "C": "Công cụ quản lý hành chính",
+        "D": "Nhiệm vụ riêng của doanh nghiệp"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 60"
+      }
+    },
+    {
+      "id": "party-61",
+      "number": "61",
+      "question": "Nghị quyết số 20-NQ/TW yêu cầu quản trị biển hiện đại dựa trên nền tảng nào?",
+      "options": {
+        "A": "Dữ liệu và quy hoạch không gian biển quốc gia",
+        "B": "Khai thác tự phát theo ngành",
+        "C": "Quản lý riêng biệt từng địa phương",
+        "D": "Chỉ dựa vào nguồn lực ngân sách"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 61"
+      }
+    },
+    {
+      "id": "party-62",
+      "number": "62",
+      "question": "Một trong 9 nhóm nhiệm vụ, giải pháp của Nghị quyết số 20-NQ/TW là gì?",
+      "options": {
+        "A": "Đột phá phát triển các ngành kinh tế biển hiện đại, xanh, thông minh và các ngành, lĩnh vực biển mới",
+        "B": "Giảm phát triển doanh nghiệp biển quy mô lớn",
+        "C": "Tách phát triển kinh tế biển khỏi quốc phòng, an ninh",
+        "D": "Hạn chế phát triển khoa học công nghệ biển"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 62"
+      }
+    },
+    {
+      "id": "party-63",
+      "number": "63",
+      "question": "Theo Nghị quyết số 20-NQ/TW, xây dựng lực lượng quản lý, bảo vệ, thực thi pháp luật trên biển, đảo theo hướng nào?",
+      "options": {
+        "A": "Đông về số lượng, phân tán",
+        "B": "Cách mạng, chính quy, tinh nhuệ, hiện đại",
+        "C": "Chủ yếu dựa vào lực lượng dân sự tự phát",
+        "D": "Giảm đầu tư trang bị"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 63"
+      }
+    },
+    {
+      "id": "party-64",
+      "number": "64",
+      "question": "Trong giải quyết các vấn đề phát sinh trên biển, Nghị quyết số 20-NQ/TW nhấn mạnh phương thức nào?",
+      "options": {
+        "A": "Biện pháp quân sự là chủ yếu",
+        "B": "Biện pháp hòa bình, phù hợp luật pháp quốc tế",
+        "C": "Đơn phương áp đặt",
+        "D": "Tạm dừng mọi hợp tác quốc tế"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 64"
+      }
+    },
+    {
+      "id": "party-65",
+      "number": "65",
+      "question": "Chương trình hành động số 34-CTr/TW xác định bao nhiêu chỉ tiêu chủ yếu giai đoạn 2026-2030?",
+      "options": {
+        "A": "30",
+        "B": "32",
+        "C": "35",
+        "D": "40"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 65"
+      }
+    },
+    {
+      "id": "party-66",
+      "number": "66",
+      "question": "Chương trình hành động số 34-CTr/TW xác định bao nhiêu nhiệm vụ, đề án, dự án, công trình quan trọng?",
+      "options": {
+        "A": "40",
+        "B": "42",
+        "C": "45",
+        "D": "50"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 66"
+      }
+    },
+    {
+      "id": "party-67",
+      "number": "67",
+      "question": "Theo Chương trình hành động số 34-CTr/TW, Quân ủy Trung ương được phân công chủ trì triển khai bao nhiêu nhiệm vụ?",
+      "options": {
+        "A": "07",
+        "B": "08",
+        "C": "09",
+        "D": "10"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 67"
+      }
+    },
+    {
+      "id": "party-68",
+      "number": "68",
+      "question": "Chỉ thị số 07-CT/TW của Bộ Chính trị về",
+      "options": {
+        "A": "Đẩy mạnh học tập, làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh trong giai đoạn phát triển mới",
+        "B": "Đẩy mạnh học tập, thực hành tư tưởng, đạo đức, phong cách Hồ Chí Minh trong giai đoạn phát triển mới",
+        "C": "Đẩy mạnh học tập, thực hành tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh trong giai đoạn phát triển mới"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 68"
+      }
+    },
+    {
+      "id": "party-69",
+      "number": "69",
+      "question": "Nội dung trọng tâm của Chỉ thị số 07-CT/TW là gì?",
+      "options": {
+        "A": "Đẩy mạnh nghiên cứu, tuyên truyền tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh",
+        "B": "Đẩy mạnh học tập, phổ biến tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh",
+        "C": "Đẩy mạnh học tập, thực hành tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh",
+        "D": "Đẩy mạnh học tập, thực hành tư tưởng, đạo đức, lý luận, quan điểm Hồ Chí Minh"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 69"
+      }
+    },
+    {
+      "id": "party-70",
+      "number": "70",
+      "question": "Theo Chỉ thị 07, học tập và làm theo Bác trong giai đoạn mới phải chuyển mạnh sang yêu cầu nào?",
+      "options": {
+        "A": "Thực hành định kỳ, có hướng dẫn, thiết thực, gắn với kết quả tham gia sinh hoạt chuyên đề",
+        "B": "Thực hành theo đợt, có đăng ký, thiết thực, gắn với chất lượng hồ sơ và báo cáo tổng kết",
+        "C": "Thực hành thường xuyên, tự giác, thiết thực, gắn với chất lượng, hiệu quả thực hiện nhiệm vụ",
+        "D": "Thực hành tập trung, theo chương trình, thiết thực, gắn với kết quả kiểm tra kiến thức lý luận"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 70"
+      }
+    },
+    {
+      "id": "party-71",
+      "number": "71",
+      "question": "Chỉ thị 07 yêu cầu lấy nội dung nào làm thước đo kết quả học tập, thực hành theo Bác?",
+      "options": {
+        "A": "Sản phẩm, tiến độ triển khai kế hoạch và mức độ đầy đủ của hồ sơ đăng ký thực hiện",
+        "B": "Sản phẩm, chất lượng, hiệu quả công việc và sự hài lòng của Nhân dân, doanh nghiệp",
+        "C": "Sản phẩm, kết quả kiểm tra kiến thức và mức độ tham gia của cán bộ, đảng viên",
+        "D": "Sản phẩm, số lượng mô hình đăng ký và kết quả bình xét phong trào tại cơ quan, đơn vị"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 71"
+      }
+    },
+    {
+      "id": "party-72",
+      "number": "72",
+      "question": "Theo Chỉ thị 07, học tập, thực hành theo Bác phải gắn với trách nhiệm nào của cán bộ, đảng viên?",
+      "options": {
+        "A": "Nêu gương, đạo đức công vụ, phương pháp làm việc khoa học, dân chủ, lấy thành tích cá nhân làm trọng tâm",
+        "B": "Nêu gương, đạo đức công vụ, phương pháp làm việc theo chỉ đạo một chiều, gần dân, sát dân, vì dân",
+        "C": "Đăng ký thi đua, hoàn thiện hồ sơ công vụ, phương pháp làm việc khoa học, dân chủ, gần dân, sát dân, vì dân",
+        "D": "Nêu gương, đạo đức công vụ, phương pháp làm việc khoa học, dân chủ, gần dân, sát dân, vì dân"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 72"
+      }
+    },
+    {
+      "id": "party-73",
+      "number": "73",
+      "question": "Nội dung cốt lõi của việc vận dụng tư tưởng Hồ Chí Minh theo Chỉ thị 07 là gì?",
+      "options": {
+        "A": "Vận dụng sáng tạo vào nhiệm vụ trọng tâm, đột phá chiến lược của địa phương, cơ quan, đơn vị",
+        "B": "Vận dụng sáng tạo vào việc hoàn thiện hồ sơ, tài liệu tuyên truyền của địa phương, cơ quan, đơn vị",
+        "C": "Vận dụng sáng tạo vào việc nâng cao kết quả kiểm tra kiến thức lý luận của địa phương, cơ quan, đơn vị",
+        "D": "Vận dụng sáng tạo vào việc chuẩn hóa nghi thức, tổ chức sinh hoạt chuyên đề của địa phương, cơ quan, đơn vị"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 73"
+      }
+    },
+    {
+      "id": "party-74",
+      "number": "74",
+      "question": "Chỉ thị 07 nhấn mạnh nhóm phẩm chất nào trong thực hành đạo đức, phương pháp, phong cách làm việc?",
+      "options": {
+        "A": "Dân chủ, khoa học, hiệu quả, sâu sát thực tiễn, gần dân, sát dân, vì dân",
+        "B": "Dân chủ, khoa học, hiệu quả, coi trọng quy trình, bám sát hồ sơ, đúng thẩm quyền",
+        "C": "Dân chủ, khoa học, hiệu quả, đề cao kinh nghiệm, giữ nguyên phương pháp, ổn định cách làm",
+        "D": "Dân chủ, khoa học, hiệu quả, ưu tiên tốc độ, coi trọng thành tích, đề cao kết quả cá nhân"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 74"
+      }
+    },
+    {
+      "id": "party-75",
+      "number": "75",
+      "question": "Ba nhóm nội dung trọng tâm trong trách nhiệm nêu gương theo Chỉ thị 07 gồm những nội dung nào?",
+      "options": {
+        "A": "Bản lĩnh chính trị, tư duy đổi mới và năng lực tổ chức thực hiện; đạo đức công vụ và kỷ luật thực thi; tinh thần hoàn thành chỉ tiêu thi đua",
+        "B": "Bản lĩnh chính trị, tư duy đổi mới và năng lực tổ chức thực hiện; đạo đức công vụ và kỷ luật thực thi; tinh thần phục vụ Nhân dân",
+        "C": "Bản lĩnh chính trị, tư duy đổi mới và năng lực tổ chức thực hiện; trình độ chuyên môn và thâm niên công tác; tinh thần phục vụ Nhân dân",
+        "D": "Bản lĩnh chính trị, năng lực quản lý hồ sơ và kinh nghiệm công tác; đạo đức công vụ và kỷ luật thực thi; tinh thần phục vụ Nhân dân"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 75"
+      }
+    },
+    {
+      "id": "party-76",
+      "number": "76",
+      "question": "Chỉ thị 07 yêu cầu đổi mới công tác nghiên cứu, tuyên truyền, giáo dục về tư tưởng, đạo đức, phương pháp, phong cách Hồ Chí Minh theo hướng nào?",
+      "options": {
+        "A": "Ứng dụng công nghệ số, trí tuệ nhân tạo; xây dựng hệ thống dữ liệu, học liệu số, hệ thống thống kê số lượt truy cập và báo cáo hoạt động",
+        "B": "Ứng dụng công nghệ số, trí tuệ nhân tạo; xây dựng hệ thống dữ liệu, học liệu số, kho lưu trữ bài giảng và hệ thống điểm danh trực tuyến",
+        "C": "Ứng dụng công nghệ số, trí tuệ nhân tạo; xây dựng hệ thống dữ liệu, học liệu số, nền tảng đối thoại và xử lý tình huống thực tiễn",
+        "D": "Ứng dụng công nghệ số, trí tuệ nhân tạo; xây dựng hệ thống dữ liệu, học liệu số, hệ thống thi đua theo số lượng tài liệu tuyên truyền"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 76"
+      }
+    },
+    {
+      "id": "party-77",
+      "number": "77",
+      "question": "Theo Chỉ thị 07, việc học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh phải chuyển mạnh theo hướng nào?",
+      "options": {
+        "A": "Chuyển sang thực hành thường xuyên, tự giác, thiết thực; gắn với chất lượng, hiệu quả phục vụ nhân dân và kết quả học tập, quán triệt nhiệm vụ.",
+        "B": "Chuyển sang học tập thường xuyên, tự giác, thiết thực; gắn với chất lượng, hiệu quả quán triệt nhiệm vụ và kết quả thực hành phục vụ nhân dân.",
+        "C": "Chuyển sang thực hành thường xuyên, tự giác, thiết thực; gắn với chất lượng, hiệu quả thực thi nhiệm vụ và kết quả phục vụ nhân dân.",
+        "D": "Chuyển sang học tập thường xuyên, tự giác, thiết thực; gắn với chất lượng, hiệu quả phục vụ nhân dân và kết quả quán triệt, thực thi nhiệm vụ."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 77"
+      }
+    },
+    {
+      "id": "party-78",
+      "number": "78",
+      "question": "Theo Chỉ thị 07, nội dung cốt lõi của việc học tập, thực hành theo Bác gắn với xây dựng văn hóa lãnh đạo, văn hóa công vụ là gì?",
+      "options": {
+        "A": "Vận dụng sáng tạo tư tưởng của Người vào thực hiện các nhiệm vụ trọng tâm, các đột phá chiến lược của mỗi địa phương, cơ quan, đơn vị.",
+        "B": "Vận dụng sáng tạo các nhiệm vụ trọng tâm, các đột phá chiến lược vào nghiên cứu tư tưởng của Người ở mỗi địa phương, cơ quan, đơn vị.",
+        "C": "Vận dụng sáng tạo tư tưởng của Người vào nghiên cứu các nhiệm vụ chiến lược, các đột phá trọng tâm của mỗi địa phương, cơ quan, đơn vị.",
+        "D": "Vận dụng sáng tạo các nhiệm vụ chiến lược, các đột phá trọng tâm vào thực hành tư tưởng của Người ở mỗi địa phương, cơ quan, đơn vị."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 78"
+      }
+    },
+    {
+      "id": "party-79",
+      "number": "79",
+      "question": "Chỉ thị 07 xác định như thế nào về vai trò và tác dụng của việc nêu gương?",
+      "options": {
+        "A": "Nêu gương phải trở thành phương thức củng cố niềm tin quan trọng; lấy uy tín để lan tỏa trách nhiệm, tạo sự nêu gương trong Đảng và hệ thống chính trị.",
+        "B": "Nêu gương phải trở thành phương thức tạo uy tín quan trọng; lấy trách nhiệm để củng cố sự nêu gương, lan tỏa niềm tin trong Đảng và hệ thống chính trị.",
+        "C": "Nêu gương phải trở thành phương thức lan tỏa trách nhiệm quan trọng; lấy niềm tin của nhân dân để tạo uy tín, củng cố sự nêu gương trong Đảng và hệ thống chính trị.",
+        "D": "Nêu gương phải trở thành phương thức lãnh đạo quan trọng; lấy sự nêu gương để tạo uy tín, lan tỏa trách nhiệm, củng cố niềm tin của nhân dân đối với Đảng và hệ thống chính trị."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 79"
+      }
+    },
+    {
+      "id": "party-80",
+      "number": "80",
+      "question": "Theo Chỉ thị 07, ba nhóm nội dung trọng tâm để cụ thể hóa trách nhiệm nêu gương thành tiêu chí đánh giá trong công tác cán bộ là gì?",
+      "options": {
+        "A": "Bản lĩnh chính trị, tư duy tổ chức và năng lực đổi mới; đạo đức thực thi và kỷ luật công vụ; tinh thần phục vụ nhân dân.",
+        "B": "Bản lĩnh chính trị, tư duy đổi mới và năng lực tổ chức thực hiện; đạo đức công vụ và kỷ luật thực thi; tinh thần phục vụ nhân dân.",
+        "C": "Bản lĩnh đổi mới, tư duy chính trị và năng lực tổ chức thực hiện; đạo đức công vụ và tinh thần thực thi; kỷ luật phục vụ nhân dân.",
+        "D": "Bản lĩnh chính trị, tư duy đổi mới và năng lực thực thi công vụ; đạo đức tổ chức và kỷ luật thực hiện; tinh thần phục vụ nhân dân."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 80"
+      }
+    },
+    {
+      "id": "party-81",
+      "number": "81",
+      "question": "Chỉ thị 07 được phổ biến đến đối tượng nào?",
+      "options": {
+        "A": "Cấp ủy và cán bộ chủ chốt",
+        "B": "Chi ủy và cán bộ lãnh đạo",
+        "C": "Chi bộ và các đảng viên",
+        "D": "Đảng ủy và đội ngũ báo cáo viên"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 81"
+      }
+    },
+    {
+      "id": "party-82",
+      "number": "82",
+      "question": "Chỉ thị số 76/CT-BQP của Bộ trưởng Bộ Quốc phòng ban hành ngày nào?",
+      "options": {
+        "A": "28/4/2026",
+        "B": "27/4/2026",
+        "C": "29/4/2026",
+        "D": "28/3/2026"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 82"
+      }
+    },
+    {
+      "id": "party-83",
+      "number": "83",
+      "question": "Chỉ thị số 76/CT-BQP tập trung tăng cường những mặt công tác nào?",
+      "options": {
+        "A": "Giáo dục chính trị, quản lý tổ chức, duy trì kỷ luật và bảo đảm an toàn",
+        "B": "Giáo dục chính trị, quản lý tư tưởng, duy trì kỷ luật và bảo đảm an toàn",
+        "C": "Giáo dục chính trị, quản lý tư tưởng, duy trì quân số và bảo đảm an toàn",
+        "D": "Giáo dục chính trị, quản lý tư tưởng, duy trì kỷ luật và bảo đảm đời sống"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 83"
+      }
+    },
+    {
+      "id": "party-84",
+      "number": "84",
+      "question": "Theo Chỉ thị 76, một nguyên nhân chủ yếu của hạn chế là gì?",
+      "options": {
+        "A": "Điều kiện cơ sở vật chất, trang thiết bị và kinh phí phục vụ hoạt động tập thể ở một số cơ quan, đơn vị còn hạn chế",
+        "B": "Khả năng huy động nguồn lực bên ngoài để hỗ trợ hoạt động tuyên truyền, giáo dục ở một số cơ quan, đơn vị còn hạn chế",
+        "C": "Năng lực lãnh đạo, chỉ đạo, kiểm tra, khắc phục khâu yếu của một số cấp ủy, chỉ huy còn hạn chế",
+        "D": "Điều kiện tổ chức giao lưu, trao đổi kinh nghiệm về công tác quản lý giữa một số cơ quan, đơn vị còn hạn chế"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 84"
+      }
+    },
+    {
+      "id": "party-85",
+      "number": "85",
+      "question": "Chỉ thị 76 yêu cầu cấp ủy, chỉ huy các cấp cần tập trung thực hiện nghiêm túc nội dung nào?",
+      "options": {
+        "A": "Quán triệt, triển khai thực hiện nghiêm túc, triệt để các nghị quyết, chỉ thị, kết luận của cấp ủy, chỉ huy đơn vị trong phạm vi nhiệm vụ chuyên môn.",
+        "B": "Quán triệt, triển khai thực hiện nghiêm túc, triệt để các nghị quyết, chỉ thị, kết luận của các tổ chức quần chúng về phong trào thi đua và hoạt động tập thể.",
+        "C": "Quán triệt, triển khai thực hiện nghiêm túc, triệt để các nghị quyết, chỉ thị, kết luận của các cơ quan tham mưu về công tác hậu cần, kỹ thuật của đơn vị.",
+        "D": "Quán triệt, triển khai thực hiện nghiêm túc, triệt để các nghị quyết, chỉ thị, kết luận của Đảng, Nhà nước, Quân ủy Trung ương, Bộ Quốc phòng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 85"
+      }
+    },
+    {
+      "id": "party-86",
+      "number": "86",
+      "question": "Theo Chỉ thị 76, công tác giáo dục chính trị, quản lý tư tưởng, chấp hành kỷ luật và bảo đảm an toàn được xác định là gì?",
+      "options": {
+        "A": "Nhiệm vụ chính trị trọng tâm và tiêu chí chủ yếu trong đánh giá mức độ hoàn thành nhiệm vụ",
+        "B": "Nhiệm vụ chính trị thường kỳ và tiêu chí tham khảo trong đánh giá mức độ hoàn thành nhiệm vụ",
+        "C": "Nhiệm vụ chuyên môn của cơ quan chính trị và tiêu chí bổ sung trong đánh giá mức độ hoàn thành nhiệm vụ",
+        "D": "Nhiệm vụ thi đua theo đợt và tiêu chí khuyến khích trong đánh giá mức độ hoàn thành nhiệm vụ"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 86"
+      }
+    },
+    {
+      "id": "party-87",
+      "number": "87",
+      "question": "Chỉ thị 76 yêu cầu toàn quân tổ chức đợt sinh hoạt chính trị nào?",
+      "options": {
+        "A": "Đợt sinh hoạt chính trị, đợt “chỉnh quân” tập trung",
+        "B": "Đợt sinh hoạt chính trị, đợt “chỉnh đốn” tổ chức",
+        "C": "Đợt sinh hoạt chính trị, đợt “chỉnh huấn” sâu rộng",
+        "D": "Đợt sinh hoạt chính trị, đợt “chỉnh lý” nhận thức"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 87"
+      }
+    },
+    {
+      "id": "party-88",
+      "number": "88",
+      "question": "Theo Chỉ thị 76, cán bộ, chiến sĩ toàn quân cần quán triệt sâu sắc tinh thần nào?",
+      "options": {
+        "A": "“6 dám”, “2 kiên định, 2 đẩy mạnh, 2 ngăn ngừa” và phương châm “5 vững”, “6 rõ”",
+        "B": "“7 dám”, “2 kiên định, 2 đẩy mạnh, 2 ngăn ngừa” và phương châm “5 vững”, “6 rõ”",
+        "C": "“7 dám”, “2 kiên định, 2 đẩy mạnh, 2 ngăn ngừa” và phương châm “6 vững”, “5 rõ”",
+        "D": "“7 dám”, “2 kiên định, 2 đột phá, 2 ngăn ngừa” và phương châm “5 vững”, “6 rõ”"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 88"
+      }
+    },
+    {
+      "id": "party-89",
+      "number": "89",
+      "question": "Trong Chỉ thị 76, “7 dám” gồm nội dung nào sau đây?",
+      "options": {
+        "A": "Dám nghĩ, dám nói, dám làm, dám phân cấp trách nhiệm, dám đổi mới sáng tạo, dám đương đầu khó khăn thử thách, dám hành động vì lợi ích chung",
+        "B": "Dám nghĩ, dám nói, dám làm, dám chịu trách nhiệm, dám đổi mới sáng tạo, dám đương đầu khó khăn thử thách, dám hành động vì lợi ích chung",
+        "C": "Dám nghĩ, dám nói, dám làm, dám chịu trách nhiệm, dám đổi mới sáng tạo, dám đương đầu khó khăn thử thách, dám hành động vì lợi ích của đơn vị mình",
+        "D": "Dám nghĩ, dám nói, dám làm, dám chịu trách nhiệm, dám đổi mới sáng tạo, dám lựa chọn nhiệm vụ có điều kiện thuận lợi, dám hành động vì lợi ích chung"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 89"
+      }
+    },
+    {
+      "id": "party-90",
+      "number": "90",
+      "question": "Theo Chỉ thị 76, người chỉ huy, chính ủy, chính trị viên các cấp chịu trách nhiệm chính về nội dung nào?",
+      "options": {
+        "A": "Chất lượng công tác giáo dục chính trị, quản lý quân số, duy trì chế độ và bảo đảm đời sống của cơ quan, đơn vị",
+        "B": "Chất lượng công tác giáo dục chính trị, quản lý tư tưởng, duy trì kỷ luật và bảo đảm an toàn của cơ quan, đơn vị",
+        "C": "Chất lượng công tác huấn luyện quân sự, quản lý tư tưởng, duy trì nền nếp và bảo đảm vật chất của cơ quan, đơn vị",
+        "D": "Chất lượng công tác giáo dục pháp luật, quản lý trang bị, duy trì kỷ luật và bảo đảm kỹ thuật của cơ quan, đơn vị"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 90"
+      }
+    },
+    {
+      "id": "party-91",
+      "number": "91",
+      "question": "Chỉ thị 76 yêu cầu chỉ huy và cơ quan cấp trên đối với đơn vị cấp dưới như thế nào?",
+      "options": {
+        "A": "Kiểm tra, nắm chắc tình hình, tăng cường kiểm tra đột xuất, chỉ huy cấp đại đội trở xuống nắm mọi hoạt động của đơn vị",
+        "B": "Kiểm tra, nắm chắc tình hình, ưu tiên kiểm tra theo lịch báo trước, chỉ huy cấp tiểu đoàn trở xuống nắm mọi hoạt động của đơn vị",
+        "C": "Kiểm tra, nắm chắc tình hình, tăng cường kiểm tra đột xuất, chỉ huy cấp tiểu đoàn trở xuống nắm mọi hoạt động của đơn vị",
+        "D": "Kiểm tra, nắm chắc tình hình, tăng cường kiểm tra đột xuất, chỉ huy cấp tiểu đoàn trở xuống nắm hoạt động trong giờ hành chính của đơn vị"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 91"
+      }
+    },
+    {
+      "id": "party-92",
+      "number": "92",
+      "question": "Theo Chỉ thị 76, cần tăng cường quản lý cán bộ, chiến sĩ thuộc quyền, nhất là trong thời gian và ở bộ phận nào?",
+      "options": {
+        "A": "Giờ huấn luyện, ngày làm việc, bộ phận công tác tập trung",
+        "B": "Giờ học tập, ngày trực ban, bộ phận làm việc tại sở chỉ huy",
+        "C": "Giờ nghỉ, ngày nghỉ, bộ phận công tác nhỏ lẻ",
+        "D": "Giờ giao ban, ngày kiểm tra, bộ phận thực hiện nhiệm vụ theo kế hoạch"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 92"
+      }
+    },
+    {
+      "id": "party-93",
+      "number": "93",
+      "question": "Chỉ thị 76 nhấn mạnh công tác tuyển quân, tuyển dụng, tuyển chọn, quy hoạch, đào tạo, bố trí, sử dụng cán bộ phải bảo đảm yêu cầu nào?",
+      "options": {
+        "A": "Không để xảy ra chậm tiến độ ảnh hưởng việc hoàn thành chỉ tiêu số lượng của cơ quan, đơn vị",
+        "B": "Không để xảy ra tiêu cực ảnh hưởng chất lượng đầu vào của cơ quan, đơn vị",
+        "C": "Không để xảy ra mất cân đối ảnh hưởng cơ cấu tuổi đời và thâm niên của cơ quan, đơn vị",
+        "D": "Không để xảy ra biến động ảnh hưởng sự ổn định vị trí công tác hiện có của cơ quan, đơn vị"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 93"
+      }
+    },
+    {
+      "id": "party-94",
+      "number": "94",
+      "question": "Theo Chỉ thị 76, công tác bảo vệ chính trị nội bộ, bí mật nhà nước, an ninh, an toàn phải được thực hiện thế nào?",
+      "options": {
+        "A": "Thực hiện nghiêm các quy định, phối hợp chặt chẽ giữa đơn vị với cấp ủy, chính quyền địa phương, các cơ sở cung ứng dịch vụ và doanh nghiệp liên kết",
+        "B": "Thực hiện nghiêm các quy định, phối hợp chặt chẽ giữa đơn vị với cơ quan chuyên môn trong nội bộ, theo từng tuyến nghiệp vụ độc lập",
+        "C": "Thực hiện nghiêm các quy định, phối hợp khi có vụ việc phát sinh giữa đơn vị với cấp ủy, chính quyền địa phương, gia đình và cơ quan chức năng",
+        "D": "Thực hiện nghiêm các quy định, phối hợp chặt chẽ giữa đơn vị với cấp ủy, chính quyền địa phương, gia đình và cơ quan chức năng"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 94"
+      }
+    },
+    {
+      "id": "party-95",
+      "number": "95",
+      "question": "Một yêu cầu của Chỉ thị 76 đối với xây dựng môi trường văn hóa trong Quân đội là gì?",
+      "options": {
+        "A": "Thực hiện theo đợt cao điểm, theo chỉ tiêu đăng ký Cuộc vận động xây dựng môi trường văn hóa tốt đẹp, lành mạnh, phong phú",
+        "B": "Thực hiện hiệu quả, thực chất Cuộc vận động xây dựng môi trường văn hóa tốt đẹp, lành mạnh, phong phú",
+        "C": "Thực hiện hiệu quả, thực chất Cuộc vận động xây dựng môi trường văn hóa đồng nhất về hình thức và mô hình tổ chức",
+        "D": "Tổng kết định kỳ, lấy số lượng hoạt động làm trọng tâm đối với Cuộc vận động xây dựng môi trường văn hóa tốt đẹp, lành mạnh, phong phú"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 95"
+      }
+    },
+    {
+      "id": "party-96",
+      "number": "96",
+      "question": "Chỉ thị số 676-CT/QUTW của Ban Thường vụ Quân ủy Trung ương ký ngày nào?",
+      "options": {
+        "A": "20/6/2026",
+        "B": "22/6/2026",
+        "C": "21/5/2026",
+        "D": "21/6/2026"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 96"
+      }
+    },
+    {
+      "id": "party-97",
+      "number": "97",
+      "question": "Chủ đề của Chỉ thị số 676-CT/QUTW là gì?",
+      "options": {
+        "A": "Tăng cường lãnh đạo, chỉ đạo tuyên truyền truyền thống “Bộ đội Cụ Hồ” thời kỳ mới",
+        "B": "Tăng cường lãnh đạo, chỉ đạo phát huy giá trị văn hóa “Bộ đội Cụ Hồ” thời kỳ mới",
+        "C": "Tăng cường lãnh đạo, chỉ đạo bồi dưỡng chuẩn mực đạo đức “Bộ đội Cụ Hồ” thời kỳ mới",
+        "D": "Tăng cường lãnh đạo, chỉ đạo xây dựng hệ thống thiết chế văn hóa về “Bộ đội Cụ Hồ” thời kỳ mới"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 97"
+      }
+    },
+    {
+      "id": "party-98",
+      "number": "98",
+      "question": "Theo Chỉ thị 676, việc phát huy phẩm chất “Bộ đội Cụ Hồ” những năm qua đã gắn kết chặt chẽ với nội dung nào?",
+      "options": {
+        "A": "Thực hiện nghị quyết, chỉ thị, kết luận, quy định của Đảng, Quân ủy Trung ương; học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh; phong trào thi đua cải cách hành chính và các cuộc vận động",
+        "B": "Thực hiện nghị quyết, chỉ thị, kết luận, quy định của Đảng, Quân ủy Trung ương; học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh; phong trào Thi đua Quyết thắng và các chương trình chuẩn hóa hồ sơ nghiệp vụ",
+        "C": "Thực hiện nghị quyết, chỉ thị, kết luận, quy định của các tổ chức quần chúng và cơ quan hành chính địa phương; học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh; phong trào Thi đua Quyết thắng và các cuộc vận động",
+        "D": "Thực hiện nghị quyết, chỉ thị, kết luận, quy định của Đảng, Quân ủy Trung ương; học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh; phong trào Thi đua Quyết thắng và các cuộc vận động"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 98"
+      }
+    },
+    {
+      "id": "party-99",
+      "number": "99",
+      "question": "Một hạn chế được Chỉ thị 676 nêu là gì?",
+      "options": {
+        "A": "Nhận thức về vị trí, vai trò phát huy phẩm chất “Bộ đội Cụ Hồ” trong toàn bộ đội ngũ cán bộ cấp chiến lược còn chưa đầy đủ",
+        "B": "Nhận thức về vị trí, vai trò phát huy phẩm chất “Bộ đội Cụ Hồ” ở các cơ quan ngoài Quân đội còn chưa đầy đủ",
+        "C": "Nhận thức về vị trí, vai trò phát huy phẩm chất “Bộ đội Cụ Hồ” ở một số cơ quan, đơn vị còn chưa đầy đủ",
+        "D": "Nhận thức về vị trí, vai trò phát huy phẩm chất “Bộ đội Cụ Hồ” trong đội ngũ cán bộ đã chuyển ngành còn chưa đầy đủ"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 99"
+      }
+    },
+    {
+      "id": "party-100",
+      "number": "100",
+      "question": "Chỉ thị 676 yêu cầu cấp ủy, chỉ huy các cơ quan, đơn vị tập trung lãnh đạo, chỉ đạo để cụ thể hóa chủ trương nào?",
+      "options": {
+        "A": "Xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, đồng bộ trên nền tảng hệ giá trị quốc gia, hệ giá trị văn hóa, hệ giá trị doanh nghiệp và chuẩn mực con người Việt Nam",
+        "B": "Xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, đồng bộ trên nền tảng hệ giá trị địa phương, hệ giá trị văn hóa, hệ giá trị gia đình và chuẩn mực con người Việt Nam",
+        "C": "Xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, đồng bộ trên nền tảng hệ giá trị quốc gia, hệ giá trị văn hóa, hệ giá trị gia đình và chuẩn mực riêng của từng đơn vị",
+        "D": "Xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc, đồng bộ trên nền tảng hệ giá trị quốc gia, hệ giá trị văn hóa, hệ giá trị gia đình và chuẩn mực con người Việt Nam"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 100"
+      }
+    },
+    {
+      "id": "party-101",
+      "number": "101",
+      "question": "Theo Chỉ thị 676, kết quả phát huy giá trị văn hóa “Bộ đội Cụ Hồ” thời kỳ mới là tiêu chí gì?",
+      "options": {
+        "A": "Một trong những tiêu chí khuyến khích để đánh giá kết quả hoàn thành nhiệm vụ của cấp ủy, chỉ huy, cán bộ, đảng viên, đoàn viên, hội viên, nhất là người đứng đầu",
+        "B": "Tiêu chí duy nhất để đánh giá kết quả hoàn thành nhiệm vụ của cấp ủy, chỉ huy, cán bộ, đảng viên, đoàn viên, hội viên, nhất là người đứng đầu",
+        "C": "Một trong những tiêu chí bắt buộc để đánh giá kết quả hoàn thành nhiệm vụ của cơ quan chính trị và đội ngũ cán bộ làm công tác văn hóa, tuyên truyền",
+        "D": "Một trong những tiêu chí bắt buộc để đánh giá kết quả hoàn thành nhiệm vụ của cấp ủy, chỉ huy, cán bộ, đảng viên, đoàn viên, hội viên, nhất là người đứng đầu"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 101"
+      }
+    },
+    {
+      "id": "party-102",
+      "number": "102",
+      "question": "Chỉ thị 676 yêu cầu triển khai học tập và thực hiện chuyên đề có tên gọi nào?",
+      "options": {
+        "A": "Phát huy giá trị văn hóa “Bộ đội Cụ Hồ” thời kỳ mới",
+        "B": "Phát huy chuẩn mực đạo đức “Bộ đội Cụ Hồ” thời kỳ mới",
+        "C": "Phát huy truyền thống cách mạng “Bộ đội Cụ Hồ” thời kỳ mới",
+        "D": "Xây dựng môi trường văn hóa “Bộ đội Cụ Hồ” thời kỳ mới"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 102"
+      }
+    },
+    {
+      "id": "party-103",
+      "number": "103",
+      "question": "Theo Chỉ thị 676, việc tu dưỡng, rèn luyện theo chuẩn mực “Bộ đội Cụ Hồ” thời kỳ mới phải trở thành gì?",
+      "options": {
+        "A": "Nhu cầu tự thân, ý thức tự giác, việc làm thường xuyên, hằng ngày của cán bộ, đảng viên và quần chúng",
+        "B": "Nhu cầu tự thân, ý thức tự giác, việc làm định kỳ, hằng tháng của cán bộ, đảng viên và quần chúng",
+        "C": "Nhu cầu tự thân, ý thức tự giác, việc làm theo các đợt tập huấn của cán bộ, đảng viên và quần chúng",
+        "D": "Nhu cầu tự thân, ý thức tự giác, việc làm vào dịp sơ kết, tổng kết của cán bộ, đảng viên và quần chúng"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 103"
+      }
+    },
+    {
+      "id": "party-104",
+      "number": "104",
+      "question": "Chỉ thị 676 yêu cầu khơi dậy mạnh mẽ tinh thần nào?",
+      "options": {
+        "A": "Yêu nước, tự chủ, tự tin, hợp tác, liên kết, tự hào dân tộc và truyền thống anh hùng của Quân đội",
+        "B": "Yêu nước, tự chủ, tự tin, tự lực, tự cường, tự hào địa phương và truyền thống anh hùng của Quân đội",
+        "C": "Yêu nước, tự chủ, tự tin, tự lực, tự cường, tự hào dân tộc và truyền thống anh hùng của Quân đội",
+        "D": "Yêu nước, tự chủ, tự tin, tự lực, tự cường, tự hào dân tộc và kinh nghiệm quản lý của đơn vị"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 104"
+      }
+    },
+    {
+      "id": "party-105",
+      "number": "105",
+      "question": "Theo Chỉ thị 676, “2 kiên định” gồm nội dung nào?",
+      "options": {
+        "A": "Kiên định đường lối quân sự, quốc phòng của Đảng; kiên định xây dựng Quân đội vững mạnh về tổ chức",
+        "B": "Kiên định đường lối phát triển kinh tế của Đảng; kiên định xây dựng Quân đội vững mạnh về chính trị",
+        "C": "Kiên định đường lối quân sự, quốc phòng của Đảng; kiên định xây dựng Quân đội vững mạnh về chính trị",
+        "D": "Kiên định đường lối đối ngoại của Đảng; kiên định xây dựng Quân đội vững mạnh về chuyên môn."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 105"
+      }
+    },
+    {
+      "id": "party-106",
+      "number": "106",
+      "question": "Theo Chỉ thị 676, “2 đẩy mạnh” gồm nội dung nào?",
+      "options": {
+        "A": "Đẩy mạnh xây dựng QĐND cách mạng, chính quy, tinh nhuệ, từng bước hiện đại; đẩy mạnh hội nhập quốc tế và đối ngoại quốc phòng",
+        "B": "Đẩy mạnh xây dựng QĐND cách mạng, chính quy, tinh nhuệ, hiện đại; đẩy mạnh hợp tác kinh tế và đối ngoại nhân dân.",
+        "C": "Đẩy mạnh xây dựng QĐND cách mạng, chính quy, tinh nhuệ, hiện đại; đẩy mạnh hội nhập quốc tế và đối ngoại quốc phòng.",
+        "D": "Đẩy mạnh xây dựng QĐND chính quy, tinh gọn, cơ động, chuyên nghiệp; đẩy mạnh hội nhập quốc tế và đối ngoại quốc phòng."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 106"
+      }
+    },
+    {
+      "id": "party-107",
+      "number": "107",
+      "question": "Theo Chỉ thị 676, “5 vững” gồm nội dung nào?",
+      "options": {
+        "A": "Chính trị vững, kỷ luật vững, tổ chức vững, nghệ thuật quân sự vững, đời sống bộ đội vững.",
+        "B": "Chính trị vững, kỷ luật vững, công nghệ vững, huấn luyện vững, đời sống bộ đội vững.",
+        "C": "Chính trị vững, kỷ luật vững, công nghệ vững, nghệ thuật quân sự vững, đời sống bộ đội vững",
+        "D": "Chính trị vững, kỷ luật vững, công nghệ vững, nghệ thuật quân sự vững, hậu cần vững."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 107"
+      }
+    },
+    {
+      "id": "party-108",
+      "number": "108",
+      "question": "Quy chế giáo dục chính trị trong QĐND và Dân quân tự vệ Việt Nam được ban hành kèm theo quyết định số nào?",
+      "options": {
+        "A": "1016/QĐ-CT",
+        "B": "1017/QĐ-CT",
+        "C": "1019/QĐ-CT",
+        "D": "1018/QĐ-CT"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 108"
+      }
+    },
+    {
+      "id": "party-109",
+      "number": "109",
+      "question": "Theo Quy chế 1018, công tác giáo dục chính trị là hình thức cơ bản của công tác nào?",
+      "options": {
+        "A": "Công tác tổ chức",
+        "B": "Công tác cán bộ",
+        "C": "Công tác dân vận",
+        "D": "Công tác tư tưởng"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 109"
+      }
+    },
+    {
+      "id": "party-110",
+      "number": "110",
+      "question": "Một nguyên tắc cơ bản tổ chức giáo dục chính trị là gì?",
+      "options": {
+        "A": "Đặt dưới sự lãnh đạo, chỉ đạo của Ban Tuyên giáo và Dân vận Trung ương, Bộ Quốc phòng, Tổng cục Chính trị và cấp ủy, chính ủy, chính trị viên, người chỉ huy các cấp",
+        "B": "Đặt dưới sự lãnh đạo, chỉ đạo của Quân ủy Trung ương, Bộ Quốc phòng, Bộ Giáo dục và Đào tạo và cấp ủy, chính ủy, chính trị viên, người chỉ huy các cấp",
+        "C": "Đặt dưới sự lãnh đạo, chỉ đạo của Quân ủy Trung ương, Bộ Quốc phòng, Tổng cục Chính trị và ủy ban nhân dân và cơ quan giáo dục địa phương các cấp",
+        "D": "Đặt dưới sự lãnh đạo, chỉ đạo của Quân ủy Trung ương, Bộ Quốc phòng, Tổng cục Chính trị và cấp ủy, chính ủy, chính trị viên, người chỉ huy các cấp"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 110"
+      }
+    },
+    {
+      "id": "party-111",
+      "number": "111",
+      "question": "Chất lượng, hiệu quả công tác giáo dục chính trị theo Quy chế 1018 là một tiêu chí để đánh giá nội dung nào?",
+      "options": {
+        "A": "Mức độ hoàn thành kế hoạch học tập của các lớp bồi dưỡng và chất lượng cán bộ, đảng viên, tổ chức đảng, đoàn viên, hội viên, tổ chức quần chúng",
+        "B": "Mức độ hoàn thành nhiệm vụ của đơn vị, cá nhân và chất lượng tài liệu, giáo án, thiết bị, học liệu và cơ sở vật chất",
+        "C": "Mức độ hoàn thành nhiệm vụ của cơ quan tuyên huấn và chất lượng chuyên môn của giảng viên, báo cáo viên",
+        "D": "Mức độ hoàn thành nhiệm vụ của đơn vị, cá nhân và chất lượng cán bộ, đảng viên, tổ chức đảng, đoàn viên, hội viên, tổ chức quần chúng"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 111"
+      }
+    },
+    {
+      "id": "party-112",
+      "number": "112",
+      "question": "Đối tượng áp dụng của Quy định 19-QĐ/TW là ai?",
+      "options": {
+        "A": "Các tổ chức đảng và cán bộ lãnh đạo, quản lý trong Đảng",
+        "B": "Các cơ quan tham mưu của Đảng và cán bộ làm công tác tuyên giáo",
+        "C": "Các tổ chức đảng và cán bộ, đảng viên trong Đảng",
+        "D": "Các tổ chức cơ sở đảng và đảng viên giữ chức vụ cấp ủy viên"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 112"
+      }
+    },
+    {
+      "id": "party-113",
+      "number": "113",
+      "question": "Quy định 19 yêu cầu kiên định những nội dung nào?",
+      "options": {
+        "A": "Mục tiêu lý tưởng cách mạng, kinh nghiệm quản lý, các nguyên tắc tổ chức hoạt động của Đảng",
+        "B": "Mục tiêu lý tưởng cách mạng, nền tảng tư tưởng, các phương pháp điều hành công việc hành chính",
+        "C": "Mục tiêu lý tưởng cách mạng, nền tảng tư tưởng, các nguyên tắc tổ chức hoạt động của Đảng",
+        "D": "Các chỉ tiêu kế hoạch nhiệm kỳ, nền tảng tư tưởng, các nguyên tắc tổ chức hoạt động của Đảng"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 113"
+      }
+    },
+    {
+      "id": "party-114",
+      "number": "114",
+      "question": "“4 kiên định” trong Quy định 19 không bao gồm nội dung nào sau đây?",
+      "options": {
+        "A": "Kiên định lợi ích cục bộ của từng địa phương",
+        "B": "Kiên định đường lối đổi mới của Đảng",
+        "C": "Kiên định, vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh",
+        "D": "Kiên định mục tiêu độc lập dân tộc và chủ nghĩa xã hội"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 114"
+      }
+    },
+    {
+      "id": "party-115",
+      "number": "115",
+      "question": "Theo Quy định 19, công tác chính trị, tư tưởng phải gắn chặt, liên thông với những công tác nào?",
+      "options": {
+        "A": "Tổ chức, cán bộ, quản lý tài chính nội bộ, kiểm tra, giám sát, dân vận và thực tiễn thực hiện nhiệm vụ chính trị",
+        "B": "Tổ chức, cán bộ, bảo vệ chính trị nội bộ, thanh tra, kiểm toán, quản lý ngân sách và thực tiễn thực hiện nhiệm vụ chính trị",
+        "C": "Tổ chức, cán bộ, bảo vệ chính trị nội bộ, kiểm tra, giám sát, dân vận và việc hoàn thiện thủ tục hành chính nội bộ",
+        "D": "Tổ chức, cán bộ, bảo vệ chính trị nội bộ, kiểm tra, giám sát, dân vận và thực tiễn thực hiện nhiệm vụ chính trị"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 115"
+      }
+    },
+    {
+      "id": "party-116",
+      "number": "116",
+      "question": "Quy định 19 định nghĩa “bảo vệ nền tảng tư tưởng của Đảng” là hoạt động như thế nào?",
+      "options": {
+        "A": "Định kỳ theo nhiệm kỳ nhằm giữ vững, phát triển, khẳng định giá trị khoa học, cách mạng của chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, đường lối của Đảng; đấu tranh phản bác quan điểm sai trái, thù địch",
+        "B": "Chủ động, thường xuyên nhằm giữ vững, phát triển, khẳng định giá trị văn học, nghệ thuật của chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, đường lối của Đảng; đấu tranh phản bác quan điểm sai trái, thù địch",
+        "C": "Chủ động, thường xuyên nhằm giữ vững, phát triển, khẳng định giá trị khoa học, cách mạng của chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, đường lối của Đảng; đấu tranh phản bác quan điểm sai trái, thù địch",
+        "D": "Chủ động, thường xuyên nhằm giữ vững, phát triển, khẳng định giá trị khoa học, cách mạng của chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, đường lối của Đảng; tổng hợp, lưu trữ các ý kiến khác nhau để tham khảo"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 116"
+      }
+    },
+    {
+      "id": "party-117",
+      "number": "117",
+      "question": "Quy định 19 xác định cấp ủy, tập thể lãnh đạo, người đứng đầu chịu trách nhiệm cao nhất trong nội dung nào?",
+      "options": {
+        "A": "Đánh giá về chuyên môn, nghiệp vụ của tổ chức đảng và cán bộ, đảng viên thuộc quyền quản lý theo phân cấp",
+        "B": "Đánh giá về chính trị, tư tưởng của tổ chức đảng và cán bộ, đảng viên thuộc quyền quản lý theo phân cấp",
+        "C": "Đánh giá về chính trị, tư tưởng của tổ chức đảng và cán bộ, đảng viên thuộc quyền quản lý theo đề nghị của cơ quan báo chí",
+        "D": "Đánh giá về chính trị, tư tưởng của mọi tổ chức đảng và đảng viên trên địa bàn, không phụ thuộc phân cấp"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 117"
+      }
+    },
+    {
+      "id": "party-118",
+      "number": "118",
+      "question": "Nghị quyết số 05-NQ/TW được ban hành tại hội nghị nào?",
+      "options": {
+        "A": "Hội nghị lần thứ hai Ban Chấp hành Trung ương Đảng khóa XIII",
+        "B": "Hội nghị lần thứ ba Ban Chấp hành Trung ương Đảng khóa XIV",
+        "C": "Hội nghị lần thứ hai Ban Chấp hành Trung ương Đảng khóa XIV",
+        "D": "Hội nghị lần thứ ba Ban Chấp hành Trung ương Đảng khóa XIII"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 118"
+      }
+    },
+    {
+      "id": "party-119",
+      "number": "119",
+      "question": "Theo Nghị quyết 05, kiểm tra, giám sát là một trong những nội dung nào của Đảng?",
+      "options": {
+        "A": "Phương thức, chức năng lãnh đạo quan trọng nhất; cơ chế để Đảng tự chỉnh đốn, tự hoàn thiện và nâng cao năng lực lãnh đạo, cầm quyền",
+        "B": "Biện pháp nghiệp vụ riêng của ủy ban kiểm tra; cơ chế để Đảng tự chỉnh đốn, tự hoàn thiện và nâng cao năng lực lãnh đạo, cầm quyền",
+        "C": "Phương thức, chức năng lãnh đạo quan trọng nhất; cơ chế để cơ quan hành chính trực tiếp điều hành hoạt động của tổ chức đảng",
+        "D": "Phương thức, chức năng lãnh đạo quan trọng nhất; cơ chế để tập trung thẩm quyền xử lý mọi công việc vào cơ quan kiểm tra chuyên trách"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 119"
+      }
+    },
+    {
+      "id": "party-120",
+      "number": "120",
+      "question": "Theo Nghị quyết 05, công tác kiểm tra, giám sát, kỷ luật đảng phải được tiến hành như thế nào?",
+      "options": {
+        "A": "Định kỳ, theo nhiệm kỳ, toàn diện, đồng bộ, dân chủ, khách quan, công tâm, thận trọng, chặt chẽ, chính xác, nghiêm minh",
+        "B": "Chủ động, kịp thời, toàn diện, đồng bộ, dân chủ, khách quan, công tâm, thận trọng, chặt chẽ, chính xác, nghiêm minh",
+        "C": "Chủ động, kịp thời, toàn diện, đồng bộ, theo đánh giá của cơ quan bị kiểm tra, thận trọng, chặt chẽ, chính xác, nghiêm minh",
+        "D": "Chủ động, kịp thời, toàn diện, đồng bộ, dân chủ, khách quan, công tâm, thận trọng, chặt chẽ, linh hoạt theo thành tích của đối tượng"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 120"
+      }
+    },
+    {
+      "id": "party-121",
+      "number": "121",
+      "question": "Nghị quyết 05 nhấn mạnh tăng cường loại giám sát nào ngay từ đầu?",
+      "options": {
+        "A": "Giám sát thường xuyên",
+        "B": "Giám sát chuyên đề",
+        "C": "Giám sát định kỳ",
+        "D": "Giám sát đột xuất"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 121"
+      }
+    },
+    {
+      "id": "party-122",
+      "number": "122",
+      "question": "Mục tiêu của Nghị quyết 05 là nâng cao chất lượng, hiệu lực, hiệu quả công tác kiểm tra, giám sát gắn với nội dung nào?",
+      "options": {
+        "A": "Phân cấp quyền lực; ngăn chặn, đẩy lùi tham nhũng, lãng phí, tiêu cực, lợi ích nhóm, suy thoái, tự diễn biến, tự chuyển hóa",
+        "B": "Kiểm soát quyền lực; ngăn chặn, đẩy lùi tham nhũng, lãng phí, tiêu cực, chậm tiến độ, tồn đọng thủ tục và ách tắc trong điều hành",
+        "C": "Kiểm soát quyền lực; ngăn chặn, đẩy lùi tham nhũng, lãng phí, tiêu cực, lợi ích nhóm, suy thoái, tự diễn biến, tự chuyển hóa",
+        "D": "Kiểm soát quyền lực; ngăn chặn, đẩy lùi trùng lặp nhiệm vụ, chồng chéo quy trình, mất cân đối nguồn lực, suy thoái, tự diễn biến, tự chuyển hóa"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 122"
+      }
+    },
+    {
+      "id": "party-123",
+      "number": "123",
+      "question": "Nghị quyết 05 đặt ra yêu cầu gì đối với cấp ủy, tổ chức đảng các cấp, nhất là người đứng đầu, trong tổ chức thực hiện công tác kiểm tra, giám sát?",
+      "options": {
+        "A": "Định kỳ, theo kế hoạch, thận trọng, tập trung tổ chức thực hiện vào kỳ tổng kết",
+        "B": "Chuyên trách, phân công, ủy nhiệm, giao cơ quan kiểm tra chịu trách nhiệm tổ chức thực hiện",
+        "C": "Thường xuyên, gương mẫu, quyết liệt, thể hiện trách nhiệm cao trong tổ chức thực hiện",
+        "D": "Theo chuyên đề, theo vụ việc, linh hoạt, tổ chức thực hiện khi có yêu cầu của cấp trên"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 123"
+      }
+    },
+    {
+      "id": "party-124",
+      "number": "124",
+      "question": "Theo Nghị quyết 05, công khai kết quả kiểm tra, giám sát, thi hành kỷ luật trong Đảng nhằm góp phần gì?",
+      "options": {
+        "A": "Thông tin, thống kê, tổng hợp, đối chiếu, hoàn thiện hồ sơ lưu trữ các vụ việc",
+        "B": "Thông báo, phân loại, đánh giá, xếp hạng, so sánh kết quả giữa các cơ quan kiểm tra",
+        "C": "Đấu tranh, ngăn chặn, giáo dục, răn đe, đẩy lùi các hành vi vi phạm",
+        "D": "Tuyên truyền, tổng kết, biểu dương, nhân rộng, ưu tiên ghi nhận thành tích của cơ quan kiểm tra"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 124"
+      }
+    },
+    {
+      "id": "party-125",
+      "number": "125",
+      "question": "Chủ đề của Nghị quyết số 04-NQ/TW là gì?",
+      "options": {
+        "A": "Tiếp tục tăng cường sự quản lý của cơ quan hành chính đối với công tác phòng, chống tham nhũng, lãng phí, tiêu cực trong giai đoạn mới",
+        "B": "Tiếp tục tăng cường sự lãnh đạo của Đảng đối với công tác phòng, chống tham nhũng, buôn lậu, gian lận thương mại trong giai đoạn mới",
+        "C": "Tiếp tục tăng cường sự lãnh đạo của Đảng đối với công tác kiểm tra, giám sát và thi hành kỷ luật đảng trong giai đoạn mới",
+        "D": "Tiếp tục tăng cường sự lãnh đạo của Đảng đối với công tác phòng, chống tham nhũng, lãng phí, tiêu cực trong giai đoạn mới"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 125"
+      }
+    },
+    {
+      "id": "party-126",
+      "number": "126",
+      "question": "Nghị quyết 04 đặt công tác phòng, chống tham nhũng, lãng phí, tiêu cực dưới sự lãnh đạo nào?",
+      "options": {
+        "A": "Lãnh đạo trực tiếp, toàn diện của Đảng và sự giám sát của Nhân dân",
+        "B": "Lãnh đạo tập trung của cơ quan thanh tra và sự giám sát của tổ chức đảng",
+        "C": "Lãnh đạo thống nhất của cơ quan hành chính và sự giám sát của cơ quan kiểm toán",
+        "D": "Lãnh đạo theo phân cấp của chính quyền và sự giám sát của cơ quan tư pháp"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 126"
+      }
+    },
+    {
+      "id": "party-127",
+      "number": "127",
+      "question": "Nghị quyết 04 xác định kiểm soát quyền lực có vai trò như thế nào?",
+      "options": {
+        "A": "Căn bản",
+        "B": "Trọng tâm",
+        "C": "Đột phá",
+        "D": "Cốt lõi"
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 127"
+      }
+    },
+    {
+      "id": "party-128",
+      "number": "128",
+      "question": "Theo Nghị quyết 04, việc xử lý vi phạm phải bảo đảm yêu cầu nào?",
+      "options": {
+        "A": "Nghiêm minh, kịp thời, nhân văn, thuyết phục, không có vùng cấm, xem xét ngoại lệ theo thành tích",
+        "B": "Nghiêm minh, kịp thời, nhân văn, thuyết phục, phân biệt theo cấp quản lý, không có ngoại lệ",
+        "C": "Nghiêm minh, kịp thời, nhân văn, thuyết phục, không có vùng cấm, không có ngoại lệ",
+        "D": "Nghiêm minh, kịp thời, nhân văn, thuyết phục, không có vùng cấm, áp dụng miễn trừ theo chức vụ"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 128"
+      }
+    },
+    {
+      "id": "party-129",
+      "number": "129",
+      "question": "Một trụ cột trọng tâm trong xây dựng quốc gia liêm chính theo Nghị quyết 04 là gì?",
+      "options": {
+        "A": "Thể chế liêm chính, nền công vụ liêm chính, đội ngũ cán bộ, đảng viên, công chức, viên chức liêm chính",
+        "B": "Thể chế quản lý tập trung, nền công vụ liêm chính, đội ngũ cán bộ, đảng viên, công chức, viên chức liêm chính",
+        "C": "Thể chế liêm chính, nền công vụ theo cơ chế xin - cho, đội ngũ cán bộ, đảng viên, công chức, viên chức liêm chính",
+        "D": "Thể chế liêm chính, nền công vụ liêm chính, đội ngũ cán bộ, đảng viên, công chức, viên chức được đánh giá theo thâm niên"
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 129"
+      }
+    },
+    {
+      "id": "party-130",
+      "number": "130",
+      "question": "Nghị quyết 04 yêu cầu người đứng đầu, cán bộ lãnh đạo, quản lý phải như thế nào?",
+      "options": {
+        "A": "Đăng ký theo đợt việc tu dưỡng, rèn luyện chuẩn mực đạo đức cách mạng; cần, kiệm, liêm, chính, chí công vô tư",
+        "B": "Đi đầu trong tu dưỡng, rèn luyện chuẩn mực đạo đức cách mạng; cần, kiệm, liêm, chính, chí công vô tư",
+        "C": "Báo cáo định kỳ kết quả tu dưỡng, rèn luyện chuẩn mực đạo đức cách mạng; cần, kiệm, liêm, chính, chí công vô tư",
+        "D": "Hướng dẫn cấp dưới tu dưỡng, rèn luyện chuẩn mực đạo đức cách mạng; cần, kiệm, liêm, chính, chí công vô tư"
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 130"
+      }
+    },
+    {
+      "id": "party-131",
+      "number": "131",
+      "question": "Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không?",
+      "options": {
+        "1": "Bị nghiêm cấm.",
+        "2": "Không bị nghiêm cấm.",
+        "3": "Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông."
+      },
+      "correct_answer": "1",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 131"
+      }
+    },
+    {
+      "id": "party-132",
+      "number": "132",
+      "question": "Hành vi giao xe ô tô, mô tô cho người nào sau đây tham gia giao thông đường bộ bị nghiêm cấm?",
+      "options": {
+        "1": "Người chưa đủ tuổi theo quy định.",
+        "2": "Người không có giấy phép lái xe.",
+        "3": "Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm.",
+        "4": "Cả ba ý trên."
+      },
+      "correct_answer": "4",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 132"
+      }
+    },
+    {
+      "id": "party-133",
+      "number": "133",
+      "question": "Tại nơi có vạch kẻ đường hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường, người điều khiển phương tiện tham gia giao thông phải thực hiện như thế nào?",
+      "options": {
+        "1": "Giảm tốc độ và nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường bảo đảm an toàn.",
+        "2": "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho người đi bộ, xe lăn của người khuyết tật qua đường.",
+        "3": "Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua."
+      },
+      "correct_answer": "2",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 133"
+      }
+    },
+    {
+      "id": "party-134",
+      "number": "134",
+      "question": "Khi chuyển làn đường, người lái xe phải bật đèn tín hiệu báo rẽ như thế nào là đúng quy tắc giao thông?",
+      "options": {
+        "1": "Khi bắt đầu chuyển làn đường.",
+        "2": "Trước khi thay đổi làn đường.",
+        "3": "Sau khi thay đổi làn đường."
+      },
+      "correct_answer": "2",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 134"
+      }
+    },
+    {
+      "id": "party-135",
+      "number": "135",
+      "question": "Người lái xe không được lùi xe ở những khu vực nào dưới đây?",
+      "options": {
+        "1": "Ở đường một chiều, khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường.",
+        "2": "Nơi đường bộ giao nhau, đường bộ giao nhau cùng mức với đường sắt.",
+        "3": "Nơi tầm nhìn bị che khuất, trong hầm đường bộ, trên đường cao tốc.",
+        "4": "Cả ba ý trên."
+      },
+      "correct_answer": "4",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 135"
+      }
+    },
+    {
+      "id": "party-136",
+      "number": "136",
+      "question": "Người lái xe, người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải thực hiện quy định nào dưới đây?",
+      "options": {
+        "1": "Đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách.",
+        "2": "Người lái xe phải đội mũ bảo hiểm, người được chở trên xe không nhất thiết phải đội mũ bảo hiểm.",
+        "3": "Phải đội mũ bảo hiểm nhưng không nhất thiết phải cài quai."
+      },
+      "correct_answer": "1",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 136"
+      }
+    },
+    {
+      "id": "party-137",
+      "number": "137",
+      "question": "Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, người lái xe phải nhường đường như thế nào là đúng quy tắc giao thông?",
+      "options": {
+        "1": "Nhường đường cho xe đi đến từ bên phải.",
+        "2": "Nhường đường cho xe đi đến từ bên trái.",
+        "3": "Không phải nhường đường."
+      },
+      "correct_answer": "2",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 137"
+      }
+    },
+    {
+      "id": "party-138",
+      "number": "138",
+      "question": "Khi có tín hiệu của xe ưu tiên, người và phương tiện tham gia giao thông đường bộ phải tuân thủ quy định nào dưới đây?",
+      "options": {
+        "1": "Giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường.",
+        "2": "Tăng tốc độ và đi sát lề đường bên phải để nhường đường.",
+        "3": "Giảm tốc độ, đi sát lề đường bên trái để nhường đường."
+      },
+      "correct_answer": "1",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 138"
+      }
+    },
+    {
+      "id": "party-139",
+      "number": "139",
+      "question": "Khi tới đường ngang không có người gác, chắn đường bộ, chuông, đèn tín hiệu, người tham gia giao thông đường bộ phải làm gì để bảo đảm an toàn?",
+      "options": {
+        "1": "Dừng lại về bên phải đường của mình, trước vạch dừng xe và quan sát hai phía, khi không có phương tiện giao thông đường sắt tới mới được đi qua.",
+        "2": "Quan sát hai phía, khi không có phương tiện giao thông đường sắt tới thì nhanh chóng đi qua.",
+        "3": "Dừng lại khoảng cách tối thiểu 3 mét tính từ ray đường sắt gần nhất, khi không có phương tiện giao thông đường sắt tới thì nhanh chóng đi qua."
+      },
+      "correct_answer": "1",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 139"
+      }
+    },
+    {
+      "id": "party-140",
+      "number": "140",
+      "question": "Khi xe gặp sự cố kỹ thuật trên đường cao tốc, bạn phải xử lý như thế nào để bảo đảm an toàn giao thông?",
+      "options": {
+        "1": "Bật đèn tín hiệu khẩn cấp, dừng xe ngay lập tức và đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.",
+        "2": "Bật tín hiệu khẩn cấp, lập tức đưa xe vào làn đường xe chạy bên phải trong cùng, đặt biển báo hiệu nguy hiểm để cảnh báo cho các xe khác.",
+        "3": "Dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc."
+      },
+      "correct_answer": "3",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 140"
+      }
+    },
+    {
+      "id": "party-141",
+      "number": "141",
+      "question": "Theo Luật Phòng thủ dân sự, nội dung nào không thuộc biện pháp khắc phục hậu quả thảm họa, sự cố?",
+      "options": {
+        "A": "Tổ chức tìm kiếm người mất tích, cứu chữa người bị thương.",
+        "B": "Tiêu hủy mầm bệnh, vệ sinh môi trường.",
+        "C": "Tổ chức diễn tập phòng thủ dân sự.",
+        "D": "Sửa chữa, khôi phục công trình hạ tầng thiết yếu."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 141"
+      }
+    },
+    {
+      "id": "party-142",
+      "number": "142",
+      "question": "Theo Luật Phòng thủ dân sự, mục tiêu cao nhất của hoạt động phòng thủ dân sự là gì?",
+      "options": {
+        "A": "Phát triển kinh tế địa phương.",
+        "B": "Bảo vệ tài nguyên thiên nhiên.",
+        "C": "Bảo vệ tính mạng, sức khỏe, tài sản của Nhân dân.",
+        "D": "Mở rộng hợp tác quốc tế."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 142"
+      }
+    },
+    {
+      "id": "party-143",
+      "number": "143",
+      "question": "Theo Luật Phòng thủ dân sự, lực lượng phòng thủ dân sự gồm?",
+      "options": {
+        "A": "Lực lượng chuyên trách và lực lượng dự bị động viên.",
+        "B": "Lực lượng nòng cốt và lực lượng rộng rãi.",
+        "C": "Lực lượng quân đội và công an.",
+        "D": "Lực lượng chuyên trách và dân quân tự vệ."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 143"
+      }
+    },
+    {
+      "id": "party-144",
+      "number": "144",
+      "question": "Luật Phòng thủ dân sự áp dụng đối với đối tượng nào?",
+      "options": {
+        "A": "Công dân Việt Nam.",
+        "B": "Cơ quan nhà nước, các đoàn thể.",
+        "C": "Tổ chức, cá nhân Việt Nam.",
+        "D": "Tổ chức, cá nhân Việt Nam, tổ chức quốc tế và cá nhân nước ngoài hoạt động trên lãnh thổ Việt Nam."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 144"
+      }
+    },
+    {
+      "id": "party-145",
+      "number": "145",
+      "question": "Theo Luật Phòng thủ dân sự, nguyên tắc quan trọng trong hoạt động phòng thủ dân sự là gì?",
+      "options": {
+        "A": "Ứng phó là chính.",
+        "B": "Chuẩn bị từ sớm, từ xa, phòng là chính.",
+        "C": "Khắc phục hậu quả là chính.",
+        "D": "Huy động toàn bộ nguồn lực ngay từ đầu."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 145"
+      }
+    },
+    {
+      "id": "party-146",
+      "number": "146",
+      "question": "Theo Luật Phòng thủ dân sự, phương châm được thực hiện trong phòng thủ dân sự là gì?",
+      "options": {
+        "A": "Ba sẵn sàng.",
+        "B": "Năm chủ động.",
+        "C": "Bốn tại chỗ.",
+        "D": "Ba bám, bốn cùng."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 146"
+      }
+    },
+    {
+      "id": "party-147",
+      "number": "147",
+      "question": "Theo Luật Phòng thủ dân sự, phòng thủ dân sự cấp độ 3 được áp dụng khi nào?",
+      "options": {
+        "A": "Sự cố trong phạm vi xã.",
+        "B": "Sự cố trong phạm vi huyện.",
+        "C": "Sự cố vượt khả năng ứng phó của cấp tỉnh.",
+        "D": "Sự cố nhỏ, ít thiệt hại."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 147"
+      }
+    },
+    {
+      "id": "party-148",
+      "number": "148",
+      "question": "Theo Luật Phòng thủ dân sự, hành vi nào sau đây bị nghiêm cấm trong hoạt động phòng thủ dân sự?",
+      "options": {
+        "A": "Tham gia cứu nạn cứu hộ.",
+        "B": "Hỗ trợ người bị thiệt hại.",
+        "C": "Đưa tin sai sự thật về sự cố, thảm họa.",
+        "D": "Cung cấp thông tin cho cơ quan có thẩm quyền."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 148"
+      }
+    },
+    {
+      "id": "party-149",
+      "number": "149",
+      "question": "Theo Luật Phòng thủ dân sự, Cơ quan thường trực của Ban Chỉ đạo Phòng thủ dân sự quốc gia là cơ quan nào?",
+      "options": {
+        "A": "Bộ Công an.",
+        "B": "Bộ Quốc phòng.",
+        "C": "Bộ Nội vụ.",
+        "D": "Bộ Tài chính."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 149"
+      }
+    },
+    {
+      "id": "party-150",
+      "number": "150",
+      "question": "Theo Luật Phòng thủ dân sự, Cơ quan thường trực của Ban Chỉ huy phòng thủ dân sự địa phương là ai?",
+      "options": {
+        "A": "Công an cùng cấp.",
+        "B": "Văn phòng UBND.",
+        "C": "Cơ quan quân sự cùng cấp.",
+        "D": "Sở Nội vụ."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 150"
+      }
+    },
+    {
+      "id": "party-151",
+      "number": "151",
+      "question": "Theo Luật Phòng thủ dân sự, lực lượng nòng cốt của phòng thủ dân sự gồm?",
+      "options": {
+        "A": "Công chức và viên chức.",
+        "B": "Dân quân tự vệ và dân phòng.",
+        "C": "Thanh niên xung phong.",
+        "D": "Người lao động trong doanh nghiệp."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 151"
+      }
+    },
+    {
+      "id": "party-152",
+      "number": "152",
+      "question": "Theo Luật Phòng thủ dân sự, một trong các quyền của cá nhân trong hoạt động phòng thủ dân sự là gì?",
+      "options": {
+        "A": "Từ chối chấp hành huy động.",
+        "B": "Được tiếp cận thông tin về phòng thủ dân sự theo quy định của pháp luật.",
+        "C": "Tự quyết định cấp độ phòng thủ dân sự.",
+        "D": "Ban bố tình trạng khẩn cấp."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 152"
+      }
+    },
+    {
+      "id": "party-153",
+      "number": "153",
+      "question": "Theo Luật Phòng thủ dân sự, một trong các nghĩa vụ của cá nhân là gì?",
+      "options": {
+        "A": "Không cần tham gia diễn tập",
+        "B": "Chỉ tham gia khi tự nguyện",
+        "C": "Tham gia đào tạo, huấn luyện, diễn tập khi có yêu cầu của cơ quan có thẩm quyền",
+        "D": "Chỉ tham gia khi có thù lao"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 153"
+      }
+    },
+    {
+      "id": "party-154",
+      "number": "154",
+      "question": "Theo Luật Phòng thủ dân sự, tổ chức, cá nhân nước ngoài tham gia cứu trợ tại Việt Nam phải làm gì?",
+      "options": {
+        "A": "Đăng ký hoạt động với cơ quan có thẩm quyền của Việt Nam.",
+        "B": "Xin phép chính quyền cấp xã.",
+        "C": "Xin phép Bộ Ngoại giao nước họ.",
+        "D": "Được bảo lãnh bởi doanh nghiệp Việt Nam."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 154"
+      }
+    },
+    {
+      "id": "party-155",
+      "number": "155",
+      "question": "Theo Luật Phòng thủ dân sự, một trong những chính sách của Nhà nước về phòng thủ dân sự là gì?",
+      "options": {
+        "A": "Hạn chế nghiên cứu khoa học.",
+        "B": "Khuyến khích, tạo điều kiện ủng hộ vật chất, tài chính, tinh thần cho hoạt động phòng thủ dân sự trên nguyên tắc tự nguyện.",
+        "C": "Cấm huy động nguồn lực xã hội.",
+        "D": "Giảm đầu tư trang thiết bị phòng thủ dân sự."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 155"
+      }
+    },
+    {
+      "id": "party-156",
+      "number": "156",
+      "question": "Việt Nam chính thức cử lực lượng tham gia hoạt động gìn giữ hòa bình Liên hợp quốc từ thời điểm nào?",
+      "options": {
+        "A": "Tháng 5/2013.",
+        "B": "Tháng 6/2013.",
+        "C": "Tháng 6/2014.",
+        "D": "Tháng 9/2015."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 156"
+      }
+    },
+    {
+      "id": "party-157",
+      "number": "157",
+      "question": "Một điểm mới quan trọng của Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc năm 2025 so với Nghị quyết số 130/2020/QH14 của Quốc hội là gì?",
+      "options": {
+        "A": "Bỏ quy định về hợp tác quốc tế.",
+        "B": "Bổ sung đối tượng dân sự tham gia lực lượng gìn giữ hòa bình Liên hợp quốc.",
+        "C": "Thu hẹp đối tượng tham gia.",
+        "D": "Chỉ cho phép lực lượng quân đội tham gia."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 157"
+      }
+    },
+    {
+      "id": "party-158",
+      "number": "158",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, hình thức tham gia hoạt động gìn giữ hòa bình Liên hợp quốc gồm những hình thức nào?",
+      "options": {
+        "A": "Quân sự và dân sự.",
+        "B": "Cá nhân và đơn vị.",
+        "C": "Trong nước và ngoài nước.",
+        "D": "Thường xuyên và đột xuất."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 158"
+      }
+    },
+    {
+      "id": "party-159",
+      "number": "159",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, một trong những chức năng của lực lượng Việt Nam tham gia hoạt động gìn giữ hòa bình Liên hợp quốc là gì?",
+      "options": {
+        "A": "Quản lý lãnh thổ nước sở tại.",
+        "B": "Duy trì, bảo vệ hòa bình khu vực và thế giới.",
+        "C": "Thực hiện nhiệm vụ tác chiến tiến công.",
+        "D": "Bảo vệ lợi ích kinh tế quốc gia."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 159"
+      }
+    },
+    {
+      "id": "party-160",
+      "number": "160",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, lực lượng Việt Nam tham gia hoạt động gìn giữ hòa bình Liên hợp quốc gồm?",
+      "options": {
+        "A": "Lực lượng quân sự và lực lượng công an.",
+        "B": "Lực lượng vũ trang và lực lượng dân sự.",
+        "C": "Lực lượng chuyên trách và lực lượng dự bị.",
+        "D": "Lực lượng thường trực và lực lượng huy động."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 160"
+      }
+    },
+    {
+      "id": "party-161",
+      "number": "161",
+      "question": "Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc đã mở rộng đối tượng tham gia lực lượng gìn giữ hòa bình Liên hợp quốc bằng việc bổ sung nhóm đối tượng nào?",
+      "options": {
+        "A": "Cán bộ, công chức, viên chức.",
+        "B": "Học sinh, sinh viên.",
+        "C": "Người lao động trong doanh nghiệp.",
+        "D": "Người lao động tự do."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 161"
+      }
+    },
+    {
+      "id": "party-162",
+      "number": "162",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, cơ quan chủ trì, phối hợp với các bộ, ngành, địa phương chịu trách nhiệm trước Chính phủ về quản lý nhà nước đối với hoạt động này là.",
+      "options": {
+        "A": "Bộ Ngoại giao.",
+        "B": "Bộ Nội vụ.",
+        "C": "Bộ Quốc phòng.",
+        "D": "Bộ Công an."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 162"
+      }
+    },
+    {
+      "id": "party-163",
+      "number": "163",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, cơ quan nào quyết định việc cử, điều chỉnh, gia hạn nhiệm kỳ công tác và rút lực lượng vũ trang tham gia gìn giữ hòa bình Liên hợp quốc?",
+      "options": {
+        "A": "Chính phủ.",
+        "B": "Thủ tướng Chính phủ.",
+        "C": "Bộ Quốc phòng.",
+        "D": "Hội đồng Quốc phòng và An ninh."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 163"
+      }
+    },
+    {
+      "id": "party-164",
+      "number": "164",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, Thủ tướng Chính phủ quyết định việc cử, điều chỉnh, gia hạn nhiệm kỳ công tác và rút đối tượng nào?",
+      "options": {
+        "A": "Toàn bộ lực lượng tham gia.",
+        "B": "Chỉ lực lượng quân đội.",
+        "C": "Chỉ lực lượng công an.",
+        "D": "Lực lượng dân sự."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 164"
+      }
+    },
+    {
+      "id": "party-165",
+      "number": "165",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, trong trường hợp khẩn cấp, Bộ trưởng Bộ Quốc phòng và Bộ trưởng Bộ Công an có thẩm quyền nào?",
+      "options": {
+        "A": "Quyết định giải thể phái bộ.",
+        "B": "Quyết định rút lực lượng thuộc quyền về nước.",
+        "C": "Quyết định thành lập phái bộ mới.",
+        "D": "Quyết định thay đổi nhiệm vụ của Liên hợp quốc."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 165"
+      }
+    },
+    {
+      "id": "party-166",
+      "number": "166",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, một trong những nội dung huấn luyện, đào tạo đối với lực lượng tham gia gìn giữ hòa bình Liên hợp quốc là gì?",
+      "options": {
+        "A": "Huấn luyện tác chiến chiến lược.",
+        "B": "Ngoại ngữ, bình đẳng giới và các kỹ năng khác.",
+        "C": "Quản lý hành chính nhà nước.",
+        "D": "Điều tra hình sự."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 166"
+      }
+    },
+    {
+      "id": "party-167",
+      "number": "167",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, chính sách của Nhà nước đối với nữ giới tham gia hoạt động gìn giữ hòa bình Liên hợp quốc được quy định như thế nào?",
+      "options": {
+        "A": "Khuyến khích và ưu tiên nữ giới tham gia.",
+        "B": "Chỉ tuyển nữ giới vào lực lượng dân sự.",
+        "C": "Hạn chế nữ giới tham gia lực lượng.",
+        "D": "Không quy định chính sách đối với nữ giới."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 167"
+      }
+    },
+    {
+      "id": "party-168",
+      "number": "168",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, một trong những yêu cầu quan trọng khi Việt Nam tham gia lực lượng gìn giữ hòa bình Liên hợp quốc là gì?",
+      "options": {
+        "A": "Bảo đảm lợi ích kinh tế của doanh nghiệp Việt Nam ở nước ngoài.",
+        "B": "Phù hợp với Hiến chương Liên hợp quốc, pháp luật quốc tế, pháp luật Việt Nam và điều ước quốc tế mà Việt Nam là thành viên.",
+        "C": "Ưu tiên triển khai lực lượng quân sự trước lực lượng dân sự.",
+        "D": "Chỉ tham gia các phái bộ tại khu vực châu Á."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 168"
+      }
+    },
+    {
+      "id": "party-169",
+      "number": "169",
+      "question": "Theo Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc, việc cử lực lượng tham gia hoạt động gìn giữ hòa bình Liên hợp quốc phải bảo đảm yêu cầu nào?",
+      "options": {
+        "A": "Không làm ảnh hưởng đến khả năng sẵn sàng chiến đấu và thực hiện nhiệm vụ của cơ quan, đơn vị.",
+        "B": "Chỉ lựa chọn cán bộ giữ chức vụ chỉ huy.",
+        "C": "Chỉ cử lực lượng quân đội tham gia.",
+        "D": "Ưu tiên số lượng hơn chất lượng."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 169"
+      }
+    },
+    {
+      "id": "party-170",
+      "number": "170",
+      "question": "Một trong những mục tiêu quan trọng của việc ban hành Luật Tham gia lực lượng gìn giữ hòa bình của Liên hợp quốc là gì?",
+      "options": {
+        "A": "Mở rộng hoạt động kinh tế đối ngoại.",
+        "B": "Tăng cường đầu tư quốc phòng ở nước ngoài.",
+        "C": "Hoàn thiện cơ sở pháp lý cho việc tham gia lực lượng gìn giữ hòa bình Liên hợp quốc.",
+        "D": "Xây dựng lực lượng dự bị động viên."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 170"
+      }
+    },
+    {
+      "id": "party-171",
+      "number": "171",
+      "question": "Loại nào dưới đây không thuộc các loại tình trạng khẩn cấp được Luật Tình trạng khẩn cấp năm 2025 quy định?",
+      "options": {
+        "A": "Tình trạng khẩn cấp về thảm họa.",
+        "B": "Tình trạng khẩn cấp về quốc phòng.",
+        "C": "Tình trạng khẩn cấp về an ninh quốc gia, trật tự, an toàn xã hội.",
+        "D": "Tình trạng khẩn cấp về kinh tế."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 171"
+      }
+    },
+    {
+      "id": "party-172",
+      "number": "172",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, người ra quyết định ứng phó trong tình trạng khẩn cấp không phải chịu trách nhiệm khi nào?",
+      "options": {
+        "A": "Khi quyết định gây thiệt hại nhỏ.",
+        "B": "Khi được cấp trên đồng ý bằng văn bản.",
+        "C": "Khi quyết định dựa trên thông tin có được tại thời điểm ra quyết định, đúng thẩm quyền và không có động cơ vụ lợi.",
+        "D": "Khi quyết định được đa số cơ quan liên quan thống nhất."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 172"
+      }
+    },
+    {
+      "id": "party-173",
+      "number": "173",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, cơ quan có thẩm quyền quyết định ban bố tình trạng khẩn cấp là ai?",
+      "options": {
+        "A": "Chính phủ.",
+        "B": "Quốc hội.",
+        "C": "Ủy ban Thường vụ Quốc hội.",
+        "D": "Chủ tịch nước."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 173"
+      }
+    },
+    {
+      "id": "party-174",
+      "number": "174",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, chủ thể có thẩm quyền công bố tình trạng khẩn cấp căn cứ vào nghị quyết của Ủy ban Thường vụ Quốc hội là ai?",
+      "options": {
+        "A": "Thủ tướng Chính phủ.",
+        "B": "Chủ tịch Quốc hội.",
+        "C": "Bộ trưởng Bộ Quốc phòng.",
+        "D": "Chủ tịch nước."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 174"
+      }
+    },
+    {
+      "id": "party-175",
+      "number": "175",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, thông tin về tình trạng khẩn cấp phải được thực hiện như thế nào?",
+      "options": {
+        "A": "Chỉ công bố trên Cổng thông tin Chính phủ.",
+        "B": "Chỉ thông báo cho các cơ quan liên quan.",
+        "C": "Thông báo ngay trên phương tiện thông tin đại chúng và niêm yết công khai tại địa bàn được đặt trong tình trạng khẩn cấp.",
+        "D": "Chỉ công bố khi có yêu cầu."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 175"
+      }
+    },
+    {
+      "id": "party-176",
+      "number": "176",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, chủ thể có thẩm quyền quyết định áp dụng các biện pháp trong tình trạng khẩn cấp là gì?",
+      "options": {
+        "A": "Chủ tịch nước.",
+        "B": "Bộ trưởng Bộ Quốc phòng.",
+        "C": "Thủ tướng Chính phủ.",
+        "D": "Chủ tịch UBND cấp tỉnh."
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 176"
+      }
+    },
+    {
+      "id": "party-177",
+      "number": "177",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, đối tượng nào được ưu tiên trong cứu trợ, hỗ trợ khẩn cấp?",
+      "options": {
+        "A": "Người có thu nhập thấp",
+        "B": "Người làm việc trong khu vực công, các đối tượng nhạy cảm dễ bị tổn thương.",
+        "C": "Người có nguy cơ bị ảnh hưởng đến tính mạng, sức khỏe, đặc biệt là đối tượng dễ bị tổn thương",
+        "D": "Người đang kinh doanh"
+      },
+      "correct_answer": "C",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 177"
+      }
+    },
+    {
+      "id": "party-178",
+      "number": "178",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, quy định bao nhiêu loại tình trạng khẩn cấp?",
+      "options": {
+        "A": "02 loại.",
+        "B": "03 loại.",
+        "C": "04 loại.",
+        "D": "05 loại."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 178"
+      }
+    },
+    {
+      "id": "party-179",
+      "number": "179",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, trong tình trạng khẩn cấp về an ninh quốc gia, trật tự, an toàn xã hội, cơ quan chỉ huy, điều hành là gì?",
+      "options": {
+        "A": "Ban Chỉ huy Phòng thủ dân sự.",
+        "B": "Ban Chỉ huy Bảo vệ an ninh quốc gia.",
+        "C": "Bộ Quốc phòng.",
+        "D": "UBND cấp tỉnh."
+      },
+      "correct_answer": "B",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 179"
+      }
+    },
+    {
+      "id": "party-180",
+      "number": "180",
+      "question": "Theo Luật Tình trạng khẩn cấp năm 2025, cơ quan nào là đầu mối chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về tình trạng khẩn cấp?",
+      "options": {
+        "A": "Bộ Công an.",
+        "A2": "Bộ Nội vụ.",
+        "C": "Văn phòng Chính phủ.",
+        "D": "Bộ Quốc phòng."
+      },
+      "correct_answer": "D",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 180"
+      }
+    },
+    {
+      "id": "party-181",
+      "number": "181",
+      "question": "Luật Thanh tra (sửa đổi) năm 2025 đã kết thúc hoạt động của những cơ quan thanh tra nào ở các Bộ, cơ quan thuộc Chính phủ và địa phương?",
+      "options": {
+        "A": "Kết thúc hoạt động của Thanh tra Bộ, Thanh tra Tổng cục, Cục thuộc Bộ, Thanh tra sở và Thanh tra huyện.",
+        "B": "Kết thúc hoạt động của Thanh tra Chính phủ, Thanh tra Bộ Công an, Thanh tra Bộ Quốc phòng, Thanh tra tỉnh.",
+        "C": "Kết thúc hoạt động của Thanh tra Ngân hàng Nhà nước, Thanh tra Cơ yếu và các cơ quan Thanh tra quân khu.",
+        "D": "Kết thúc hoạt động của Thanh tra Chính phủ và toàn bộ hệ thống cơ quan Thanh tra tỉnh trên cả nước."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 181"
+      }
+    },
+    {
+      "id": "party-182",
+      "number": "182",
+      "question": "Sự thay đổi quan trọng nào về mặt khái niệm đã được thực hiện trong Luật Thanh tra năm 2025 (sửa đổi)?",
+      "options": {
+        "A": "Sửa đổi khái niệm “thanh tra”, không quy định riêng các khái niệm thanh tra hành chính, thanh tra chuyên ngành.",
+        "B": "Giữ nguyên khái niệm “thanh tra” cũ và mở rộng thêm các loại hình thanh tra tư nhân, thanh tra độc lập.",
+        "C": "Bỏ hoàn toàn khái niệm “thanh tra” và thay thế bằng khái niệm “kiểm tra nhà nước” trong toàn bộ văn bản.",
+        "D": "Quy định rõ ràng phân loại 05 khái niệm thanh tra riêng biệt cho từng cấp quản lý hành chính nhà nước."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 182"
+      }
+    },
+    {
+      "id": "party-183",
+      "number": "183",
+      "question": "Theo khoản 1 Điều 2 Luật Thanh tra năm 2025 (sửa đổi), khái niệm “Thanh tra” được định nghĩa chuẩn xác như thế nào?",
+      "options": {
+        "A": "Là hoạt động xem xét, đánh giá, kết luận, kiến nghị xử lý đối với việc thực hiện chính sách, pháp luật, nhiệm vụ.",
+        "B": "Là hoạt động kiểm tra, xử phạt, thu hồi tài sản vi phạm đối với mọi cá nhân, tổ chức trên lãnh thổ Việt Nam.",
+        "C": "Là hoạt động điều tra, truy tố, xét xử các hành vi vi phạm pháp luật hành chính và hình sự của đối tượng.",
+        "D": "Là hoạt động giám sát, đôn đốc, hướng dẫn các cơ quan nhà nước thực hiện đúng chức năng, nhiệm vụ được giao."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 183"
+      }
+    },
+    {
+      "id": "party-184",
+      "number": "184",
+      "question": "Theo Điều 7 Luật Thanh tra năm 2025 (sửa đổi), hệ thống các cơ quan thanh tra bao gồm những cơ quan nào?",
+      "options": {
+        "A": "Thanh tra Chính phủ; Thanh tra tỉnh; Thanh tra Quân đội, Công an, Ngân hàng Nhà nước, Cơ yếu; Điều ước quốc tế.",
+        "B": "Thanh tra Chính phủ; Thanh tra các Bộ; Thanh tra các Tổng cục; Thanh tra các Sở và Thanh tra các Huyện.",
+        "C": "Thanh tra Chính phủ; Thanh tra các Bộ; Thanh tra tỉnh; Thanh tra Huyện và các Ban Thanh tra nhân dân.",
+        "D": "Thanh tra Chính phủ; Thanh tra Ủy ban Thường vụ Quốc hội; Thanh tra Tòa án nhân dân; Thanh tra Kiểm toán."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 184"
+      }
+    },
+    {
+      "id": "party-185",
+      "number": "185",
+      "question": "Khi thực hiện sắp xếp tinh gọn bộ máy, Thanh tra Chính phủ sẽ tiếp nhận thêm chức năng, nhiệm vụ của những cơ quan nào?",
+      "options": {
+        "A": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của 12 Thanh tra Bộ không tiếp tục duy trì cơ quan thanh tra.",
+        "B": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của toàn bộ hệ thống Thanh tra tỉnh, thành phố trực thuộc Trung ương.",
+        "C": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của Thanh tra Bộ Công an, Thanh tra Bộ Quốc phòng và Ngân hàng.",
+        "D": "Tiếp nhận thêm chức năng, nhiệm vụ của Kiểm toán Nhà nước và cơ quan Điều tra hình sự thuộc Bộ Công an."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 185"
+      }
+    },
+    {
+      "id": "party-186",
+      "number": "186",
+      "question": "Khi thực hiện sắp xếp tinh gọn bộ máy, Thanh tra tỉnh sẽ tiếp nhận thêm chức năng, nhiệm vụ của những cơ quan nào?",
+      "options": {
+        "A": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của Thanh tra cấp huyện và Thanh tra các sở trên địa bàn tỉnh.",
+        "B": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của Thanh tra Chính phủ giao lại cho địa phương thực hiện.",
+        "C": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của các cơ quan Tòa án nhân dân và Viện kiểm sát nhân dân cấp tỉnh.",
+        "D": "Tiếp nhận thêm chức năng, nhiệm vụ thanh tra của Thanh tra Bộ Quốc phòng và Thanh tra Bộ Công an trên địa bàn."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 186"
+      }
+    },
+    {
+      "id": "party-187",
+      "number": "187",
+      "question": "Luật Thanh tra năm 2025 bổ sung nhiệm vụ, quyền hạn nào cho Tổng Thanh tra Chính phủ nhằm tăng cường mối quan hệ công tác khi tiến hành thanh tra?",
+      "options": {
+        "A": "Đề nghị Bộ trưởng, Thủ trưởng cơ quan ngang Bộ cử công chức có chuyên môn phù hợp tham gia Đoàn thanh tra.",
+        "B": "Trực tiếp bổ nhiệm, miễn nhiệm Chánh Thanh tra các tỉnh, thành phố trực thuộc trung ương trên cả nước.",
+        "C": "Quyết định đình chỉ hoạt động của các Bộ, cơ quan ngang Bộ khi phát hiện có dấu hiệu vi phạm nghiêm trọng.",
+        "D": "Quyết định thay đổi kết luận kiểm toán của Kiểm toán Nhà nước nếu có sự trùng lặp về phạm vi thanh tra."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 187"
+      }
+    },
+    {
+      "id": "party-188",
+      "number": "188",
+      "question": "Luật Thanh tra năm 2025 bổ sung nhiệm vụ, quyền hạn nào cho Chánh Thanh tra tỉnh nhằm bảo đảm năng lực cho Đoàn thanh tra?",
+      "options": {
+        "A": "Đề nghị Giám đốc Sở, Chủ tịch UBND cấp cơ sở cử công chức có chuyên môn phù hợp tham gia Đoàn thanh tra.",
+        "B": "Trực tiếp điều động, bổ nhiệm, kỷ luật Chủ tịch Ủy ban nhân dân cấp xã và Giám đốc các Sở trên địa bàn.",
+        "C": "Quyết định bãi bỏ các Nghị quyết của Hội đồng nhân dân cấp tỉnh nếu có nội dung trái với quy định thanh tra.",
+        "D": "Phân công Thanh tra viên cấp tỉnh đảm nhiệm chức danh Trưởng công an cấp huyện khi tiến hành thanh tra."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 188"
+      }
+    },
+    {
+      "id": "party-189",
+      "number": "189",
+      "question": "Quy định mới về chuyển thông tin cho cơ quan điều tra trong hoạt động thanh tra tại điểm d khoản 2 Điều 39 Luật Thanh tra 2025 được nêu như thế nào?",
+      "options": {
+        "A": "Trường hợp phát hiện có dấu hiệu tội phạm nhưng chưa xác định hậu quả thì kết luận rõ và chuyển thông tin.",
+        "B": "Trường hợp phát hiện có dấu hiệu tội phạm phải tạm dừng toàn bộ cuộc thanh tra để chờ cơ quan điều tra trả lời.",
+        "C": "Chỉ được chuyển thông tin sau khi đã ban hành kết luận thanh tra chính thức và có ý kiến của Thủ trưởng hành chính.",
+        "D": "Bắt buộc phải xác định chính xác 100% mức độ thiệt hại kinh tế mới được phép chuyển hồ sơ sang cơ quan điều tra."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 189"
+      }
+    },
+    {
+      "id": "party-190",
+      "number": "190",
+      "question": "Luật Thanh tra 2025 quy định cơ chế phân cấp như thế nào đối với việc thanh tra quản lý, sử dụng vốn, tài sản nhà nước tại doanh nghiệp?",
+      "options": {
+        "A": "Thanh tra Chính phủ và Thanh tra tỉnh chủ động thanh tra sau khi báo cáo Thủ trưởng cơ quan quản lý cùng cấp.",
+        "B": "Bắt buộc phải có sự đồng ý bằng văn bản của Thủ tướng Chính phủ mới được tiến hành thanh tra doanh nghiệp.",
+        "C": "Cấm các cơ quan thanh tra tiến hành thanh tra tại các doanh nghiệp nhà nước đã thực hiện cổ phần hóa.",
+        "D": "Giao toàn bộ thẩm quyền thanh tra vốn, tài sản nhà nước tại doanh nghiệp cho Bộ Tài chính độc lập thực hiện."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 190"
+      }
+    },
+    {
+      "id": "party-191",
+      "number": "191",
+      "question": "Nghị định số 216/2025/NĐ-CP được Chính phủ ban hành ngày 05/8/2025 quy định về nội dung cơ bản nào?",
+      "options": {
+        "A": "Quy định chi tiết một số điều và hướng dẫn thi hành Luật Thanh tra nhằm triển khai đồng bộ Luật Thanh tra.",
+        "B": "Quy định về tổ chức và hoạt động của Thanh tra quốc phòng trong Quân đội nhân dân Việt Nam hiện nay.",
+        "C": "Quy định về tổ chức và hoạt động thanh tra Công an nhân dân trong lực lượng Công an nhân dân hiện nay.",
+        "D": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực thanh tra, giải quyết khiếu nại, tố cáo toàn quốc."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 191"
+      }
+    },
+    {
+      "id": "party-192",
+      "number": "192",
+      "question": "Nghị định số 284/2025/NĐ-CP do Chính phủ ban hành ngày 03/11/2025 quy định về tổ chức và hoạt động của cơ quan nào?",
+      "options": {
+        "A": "Quy định về tổ chức và hoạt động của Thanh tra quốc phòng, thay thế cho Nghị định số 33/2014/NĐ-CP trước đây.",
+        "B": "Quy định về tổ chức và hoạt động của Thanh tra ngành Ngân hàng Nhà nước Việt Nam trong thời kỳ mới.",
+        "C": "Quy định về tổ chức và hoạt động của Thanh tra Cơ yếu thuộc Ban Cơ yếu Chính phủ theo Luật Thanh tra mới.",
+        "D": "Quy định về tổ chức và hoạt động của Thanh tra theo điều ước quốc tế mà Việt Nam là quốc gia thành viên."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 192"
+      }
+    },
+    {
+      "id": "party-193",
+      "number": "193",
+      "question": "Theo Nghị định số 284/2025/NĐ-CP, cơ quan Thanh tra quốc phòng bao gồm những cấp tổ chức nào?",
+      "options": {
+        "A": "Cơ quan Thanh tra Bộ Quốc phòng; Thanh tra quốc phòng Quân khu; Thanh tra Bộ Tư lệnh Thủ đô Hà Nội.",
+        "B": "Cơ quan Thanh tra Bộ Quốc phòng; Thanh tra các Sư đoàn; Thanh tra các Trung đoàn và Thanh tra Ban CHQS cấp huyện.",
+        "C": "Cơ quan Thanh tra Bộ Quốc phòng; Thanh tra các Quân đoàn; Thanh tra các Binh chủng và Thanh tra Học viện.",
+        "D": "Cơ quan Thanh tra Bộ Quốc phòng; Thanh tra Bộ Tổng Tham mưu; Thanh tra Tổng cục Chính trị và các Tổng cục."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 193"
+      }
+    },
+    {
+      "id": "party-194",
+      "number": "194",
+      "question": "Theo Điều 3 Nghị định số 284/2025/NĐ-CP, Thanh tra quốc phòng có chức năng cơ bản nào sau đây?",
+      "options": {
+        "A": "Giúp Thủ trưởng cơ quan cùng cấp quản lý nhà nước về thanh tra, tiếp công dân, giải quyết KNTC, phòng chống TNC.",
+        "B": "Thực hiện nhiệm vụ điều tra các vụ án hình sự nguy hiểm phát sinh trong và ngoài lực lượng Quân đội nhân dân.",
+        "C": "Trực tiếp chỉ đạo công tác tác chiến, huấn luyện sẵn sàng chiến đấu đối với các đơn vị lực lượng vũ trang.",
+        "D": "Thẩm định, phê duyệt ngân sách quốc phòng và quyết toán thu chi tài chính hàng năm của các quân khu."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 194"
+      }
+    },
+    {
+      "id": "party-195",
+      "number": "195",
+      "question": "Thanh tra Bộ Quốc phòng là cơ quan có vị trí pháp lý như thế nào theo Nghị định số 284/2025/NĐ-CP?",
+      "options": {
+        "A": "Là cơ quan trực thuộc Bộ Quốc phòng, giúp Bộ trưởng Bộ Quốc phòng quản lý nhà nước về công tác thanh tra.",
+        "B": "Là đơn vị sự nghiệp công lập trực thuộc Bộ Tổng Tham mưu Quân đội nhân dân Việt Nam quản lý trực tiếp.",
+        "C": "Là cơ quan chuyên môn độc lập hoàn toàn trực thuộc Tổng Thanh tra Chính phủ đặt tại Bộ Quốc phòng.",
+        "D": "Là cơ quan tham mưu thuộc Tổng cục Chính trị chịu sự chỉ đạo trực tiếp của Ủy ban Kiểm tra Quân ủy Trung ương."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 195"
+      }
+    },
+    {
+      "id": "party-196",
+      "number": "196",
+      "question": "Trong hoạt động thanh tra, Thanh tra Bộ Quốc phòng có nhiệm vụ, quyền hạn nào đối với các doanh nghiệp trong Quân đội?",
+      "options": {
+        "A": "Thanh tra đối với các doanh nghiệp do Bộ trưởng quyết định thành lập hoặc được giao trực tiếp quản lý.",
+        "B": "Không có thẩm quyền thanh tra doanh nghiệp quân đội mà giao toàn bộ cho Thanh tra Bộ Tài chính thực hiện.",
+        "C": "Chỉ thanh tra khi có yêu cầu bằng văn bản của Cơ quan Điều tra hình sự Bộ Quốc phòng gửi đề nghị.",
+        "D": "Chỉ thanh tra các doanh nghiệp quân đội hoạt động thuần túy trong lĩnh vực sản xuất kinh tế thương mại."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 196"
+      }
+    },
+    {
+      "id": "party-197",
+      "number": "197",
+      "question": "Thanh tra Bộ Quốc phòng có thẩm quyền gì đối với các kết luận thanh tra do Chánh Thanh tra Quân khu ban hành khi cần thiết?",
+      "options": {
+        "A": "Kiểm tra tính chính xác, hợp pháp của các kết luận thanh tra và quyết định xử lý sau thanh tra đó.",
+        "B": "Trực tiếp hủy bỏ ngay lập tức mà không cần thông qua trình tự kiểm tra hay xác minh lại nội dung.",
+        "C": "Yêu cầu Chánh Thanh tra Chính phủ ra quyết định thay thế kết luận thanh tra của Chánh Thanh tra Quân khu.",
+        "D": "Báo cáo Tòa án Quân sự Trung ương để tiến hành thủ tục hủy bỏ kết luận thanh tra theo thẩm quyền tư pháp."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 197"
+      }
+    },
+    {
+      "id": "party-198",
+      "number": "198",
+      "question": "Chánh Thanh tra Bộ Quốc phòng có quyền hạn nào sau đây đối với các văn bản, quy định trái pháp luật phát hiện qua thanh tra?",
+      "options": {
+        "A": "Kiến nghị Bộ trưởng Bộ Quốc phòng đình chỉ thi hành quyết định trái pháp luật trong lĩnh vực quản lý.",
+        "B": "Trực tiếp ban hành quyết định hủy bỏ tất cả các văn bản quy phạm pháp luật của các Bộ, ngành có liên quan.",
+        "C": "Báo cáo Chủ tịch nước để ban hành Lệnh bãi bỏ văn bản trái pháp luật của các cơ quan quản lý nhà nước.",
+        "D": "Quyết định xử phạt vi phạm hành chính hình thức phạt tù đối với người ban hành văn bản trái pháp luật."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 198"
+      }
+    },
+    {
+      "id": "party-199",
+      "number": "199",
+      "question": "Thanh tra Quân khu là cơ quan có vị trí và chức năng như thế nào theo Điều 9 Nghị định số 284/2025/NĐ-CP?",
+      "options": {
+        "A": "Là cơ quan trực thuộc Quân khu, giúp Tư lệnh Quân khu quản lý, chỉ đạo về công tác thanh tra, tiếp công dân.",
+        "B": "Là cơ quan trực thuộc Thanh tra Chính phủ đặt cơ sở làm việc tại Bộ Tư lệnh Quân khu để thực hiện thanh tra.",
+        "C": "Là đơn vị chuyên trách phòng chống tội phạm hình sự thuộc Binh chủng Hóa học và Tác chiến điện tử.",
+        "D": "Là cơ quan trực thuộc Ủy ban nhân dân cấp tỉnh nơi Quân khu đóng quân để thanh tra quốc phòng địa phương."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 199"
+      }
+    },
+    {
+      "id": "party-200",
+      "number": "200",
+      "question": "Trước khi trình Tư lệnh Quân khu cho ý kiến về chủ trương kế hoạch thanh tra, Thanh tra Quân khu phải thực hiện bước nào?",
+      "options": {
+        "A": "Xây dựng dự thảo kế hoạch thanh tra, báo cáo Thanh tra Bộ Quốc phòng xem xét, cho ý kiến trước.",
+        "B": "Gửi dự thảo kế hoạch thanh tra lấy ý kiến thống nhất của Ủy ban nhân dân các tỉnh trên địa bàn quân khu.",
+        "C": "Báo cáo xin ý kiến thẩm định bằng văn bản của Thanh tra Chính phủ và Bộ Tư pháp theo trình tự pháp luật.",
+        "D": "Công khai dự thảo kế hoạch thanh tra trên các phương tiện thông tin đại chúng trong thời hạn 30 ngày."
+      },
+      "correct_answer": "A",
+      "source": {
+        "location": "2. TLĐK - Bộ 200 câu hỏi cho người lao động là Đảng viên.docx, câu 200"
+      }
+    }
+  ]
+}
