@@ -2,6 +2,7 @@ import {NextRequest,NextResponse} from 'next/server';
 import {memberSession} from '../../../lib/member-session';
 import {bookDb} from '../../../lib/question-books-server';
 import {politicsBanks,politicsCatalog} from '../../../lib/politics-server';
+import {mixedQuestionIds,type PoliticsQuestion} from '../../../lib/politics-config';
 import {sampleQuestions} from '../../../lib/practice';
 export const dynamic='force-dynamic';
 const json=(d:unknown,status=200)=>NextResponse.json(d,{status,headers:{'Cache-Control':'private, no-store'}});
@@ -19,7 +20,20 @@ export async function GET(req:NextRequest){try{
 export async function POST(req:NextRequest){if(req.headers.get('origin')!==req.nextUrl.origin)return json({error:'Yêu cầu không hợp lệ.'},403);try{
  const raw=await req.text();if(raw.length>3000)return json({error:'Yêu cầu quá lớn.'},413);const p=JSON.parse(raw),me=await profile(req);if(!me)return json({error:'Vui lòng đăng nhập để thi.'},401);
  if(p.op==='assign'){if(me.role!=='admin')return json({error:'Chỉ cán bộ phụ trách được cấp quyền.'},403);if(!/^[a-f0-9-]{36}$/i.test(p.person)||!['','command','party','public'].includes(p.audience))return json({error:'Chọn tài khoản và đối tượng hợp lệ.'},400);return json(await rpc({op:'assign',actor:me.id,person:p.person,audience:p.audience}));}
- if(p.op==='start'){const bank=politicsBanks[p.audience];if(!bank||!['100','all'].includes(p.package))return json({error:'Bộ câu hỏi hoặc gói thi chưa sẵn sàng.'},400);return json(await rpc({op:'start',actor:me.id,audience:p.audience,version:bank.version,full:p.package==='all'||bank.questions.length<=100,questions:sampleQuestions(bank.questions,p.package==='all'?bank.questions.length:Math.min(100,bank.questions.length))}));}
+ if(p.op==='start'){
+  const bank=politicsBanks[p.audience];if(!bank||!['100','all','mixed'].includes(p.package)||p.package==='mixed'&&p.audience!=='command')return json({error:'Bộ câu hỏi hoặc gói thi chưa sẵn sàng.'},400);
+  let questions;
+  if(p.package==='mixed'){
+   const latest=(await bookDb('politics_attempts?person_id=eq.'+me.id+'&audience=eq.command&bank_version=eq.'+bank.version+'&status=eq.done&order=finished_at.desc,id.desc&limit=1&select=questions,answers'))[0];
+   const previous:PoliticsQuestion[]=latest?.questions||[],answers:Record<string,string>=latest?.answers||{};
+   const wrong=previous.filter(q=>answers[q.id]!==q.correct_answer).map(q=>q.id);
+   const seen=new Set(previous.map(q=>q.id));
+   const ids=mixedQuestionIds(bank.questions.map(q=>q.id),wrong,100,bank.questions.filter(q=>!seen.has(q.id)).map(q=>q.id));
+   const byId=new Map(bank.questions.map(q=>[q.id,q]));questions=ids.map(id=>byId.get(id)!);
+  }else questions=sampleQuestions(bank.questions,p.package==='all'?bank.questions.length:Math.min(100,bank.questions.length));
+  return json(await rpc({op:'start',actor:me.id,audience:p.audience,version:bank.version,full:p.package==='all'||bank.questions.length<=100,questions}));
+ }
+
  if(!['resume','answer','discard'].includes(p.op)||! /^[a-f0-9-]{36}$/i.test(p.id)||p.op==='answer'&&(!Number.isInteger(p.cursor)||p.cursor<0||typeof p.answer!=='string'||p.answer.length>3))return json({error:'Yêu cầu không hợp lệ.'},400);
  return json(await rpc({op:p.op,actor:me.id,id:p.id,cursor:p.cursor,answer:p.answer}));
  }catch(e){return json({error:(e as Error).message},400);}}
