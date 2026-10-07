@@ -6,17 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prebuild": "node scripts/prepare-pdf.cjs",
-    "predev": "node scripts/prepare-pdf.cjs"
+    "prebuild": "node scripts/prepare-pdf.cjs && node scripts/prepare-ocr.cjs",
+    "predev": "node scripts/prepare-pdf.cjs && node scripts/prepare-ocr.cjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1138.0",
     "@aws-sdk/s3-request-presigner": "^3.1138.0",
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/vie": "1.0.0",
     "exceljs": "^4.4.0",
     "jszip": "^3.10.2",
     "next": "16.3.4",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tesseract.js": "7.0.0"
   },
   "devDependencies": {
     "@types/node": "22.20.2",

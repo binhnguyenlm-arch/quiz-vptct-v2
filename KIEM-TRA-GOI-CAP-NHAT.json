@@ -1,0 +1,62 @@
+[
+  {
+    "file": "app/api/tra-cuu/route.ts",
+    "sha256": "d7d40ae719ada24a02f5ce5788415e2aa46779e44f5161c95a5d505eb705d42c"
+  },
+  {
+    "file": "app/cong-cu/tra-cuu/page.tsx",
+    "sha256": "da6baeea650d551bc59ba27025f036baa8d54c3d7eb9f031e34dce71ad84e6bd"
+  },
+  {
+    "file": "components/Lookup.tsx",
+    "sha256": "3bf20756ee62644adb7a3f52316c56546a7178e92ae7b9b08e8e906c8b9355c8"
+  },
+  {
+    "file": "components/Lookup.module.css",
+    "sha256": "e29824ec1634aecaf4630436bf90aa2115e6cc624e159e818e3bd34940073edd"
+  },
+  {
+    "file": "components/ToolsMenu.tsx",
+    "sha256": "9a52c1adc9785c9b62e3cb9d196aec780a5022fc3d0d8f56042872b5e8585ede"
+  },
+  {
+    "file": "lib/lookup-match.ts",
+    "sha256": "15d34a4d43c075bc993ddac8127ab7b5deb65ef7ec309513249ed5e1363def1a"
+  },
+  {
+    "file": "lib/lookup-ocr.ts",
+    "sha256": "ac37c790b436d47812a6292655db8a96999a812d6296467ef15fd780c6bc95f1"
+  },
+  {
+    "file": "lib/login-navigation.ts",
+    "sha256": "70defdf14252afe215f08e7bdf164aa9f3126526be10f4f707d849b48c658b13"
+  },
+  {
+    "file": "scripts/prepare-ocr.cjs",
+    "sha256": "ef6c57adf033cecc9c4583a1bdf49f877609e04e5d64ff536c7b4805fc60008a"
+  },
+  {
+    "file": "supabase/027-lookup-permissions.sql",
+    "sha256": "f63a7f53f5325902913adcaf330111755dd4b1c9032d8d6c66b14e75e6c99018"
+  },
+  {
+    "file": "tests/lookup.test.mjs",
+    "sha256": "e9d5cdc854238b8b274250f733aa16f42247ad80929b66a390e745e0d3f9b926"
+  },
+  {
+    "file": "package.json",
+    "sha256": "bf6ba8d8c2550e0c35bf69d3c4a086a62012d865b88b249a5095517724ff1248"
+  },
+  {
+    "file": "package-lock.json",
+    "sha256": "6cf0626db8b963150427165d9f67e46e197c18bcfbf8e5e8198dd811180bb806"
+  },
+  {
+    "file": ".gitignore",
+    "sha256": "c4efaef28cf25845c148222ea0ef3fe82bdc24de730861a35d667a0f4e88e266"
+  },
+  {
+    "file": "HUONG-DAN-TRA-CUU.md",
+    "sha256": "924f77630ea03fea893fe3f03491a2074a3f4c383ef0224b5edf942ecd30f987"
+  }
+]

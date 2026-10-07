@@ -9,3 +9,4 @@ out/
 public/pdfjs/cmaps/
 public/pdfjs/standard_fonts/
 public/pdfjs/wasm/
+public/ocr/
