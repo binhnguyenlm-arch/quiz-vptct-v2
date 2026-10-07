@@ -21,7 +21,7 @@ export async function POST(req:NextRequest){if(req.headers.get('origin')!==req.n
  const raw=await req.text();if(raw.length>3000)return json({error:'Yêu cầu quá lớn.'},413);const p=JSON.parse(raw),me=await profile(req);if(!me)return json({error:'Vui lòng đăng nhập để thi.'},401);
  if(p.op==='assign'){if(me.role!=='admin')return json({error:'Chỉ cán bộ phụ trách được cấp quyền.'},403);if(!/^[a-f0-9-]{36}$/i.test(p.person)||!['','command','party','public'].includes(p.audience))return json({error:'Chọn tài khoản và đối tượng hợp lệ.'},400);return json(await rpc({op:'assign',actor:me.id,person:p.person,audience:p.audience}));}
  if(p.op==='start'){
-  const bank=politicsBanks[p.audience];if(!bank||!['100','all','mixed'].includes(p.package)||p.package==='mixed'&&p.audience!=='command')return json({error:'Bộ câu hỏi hoặc gói thi chưa sẵn sàng.'},400);
+  const bank=politicsBanks[p.audience];if(!bank||!['50','100','all','mixed'].includes(p.package)||p.package==='mixed'&&p.audience!=='command')return json({error:'Bộ câu hỏi hoặc gói thi chưa sẵn sàng.'},400);
   let questions;
   if(p.package==='mixed'){
    const latest=(await bookDb('politics_attempts?person_id=eq.'+me.id+'&audience=eq.command&bank_version=eq.'+bank.version+'&status=eq.done&order=finished_at.desc,id.desc&limit=1&select=questions,answers'))[0];
@@ -30,8 +30,8 @@ export async function POST(req:NextRequest){if(req.headers.get('origin')!==req.n
    const seen=new Set(previous.map(q=>q.id));
    const ids=mixedQuestionIds(bank.questions.map(q=>q.id),wrong,100,bank.questions.filter(q=>!seen.has(q.id)).map(q=>q.id));
    const byId=new Map(bank.questions.map(q=>[q.id,q]));questions=ids.map(id=>byId.get(id)!);
-  }else questions=sampleQuestions(bank.questions,p.package==='all'?bank.questions.length:Math.min(100,bank.questions.length));
-  return json(await rpc({op:'start',actor:me.id,audience:p.audience,version:bank.version,full:p.package==='all'||bank.questions.length<=100,questions}));
+  }else questions=sampleQuestions(bank.questions,p.package==='all'?bank.questions.length:Math.min(p.package==='50'?50:100,bank.questions.length));
+  return json(await rpc({op:'start',actor:me.id,audience:p.audience,version:bank.version,package:p.package,full:p.package==='all'||questions.length===bank.questions.length,questions}));
  }
 
  if(!['resume','answer','discard'].includes(p.op)||! /^[a-f0-9-]{36}$/i.test(p.id)||p.op==='answer'&&(!Number.isInteger(p.cursor)||p.cursor<0||typeof p.answer!=='string'||p.answer.length>3))return json({error:'Yêu cầu không hợp lệ.'},400);
