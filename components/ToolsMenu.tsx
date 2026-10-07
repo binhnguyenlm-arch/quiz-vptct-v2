@@ -11,5 +11,7 @@ export default function ToolsMenu(){
  <div id={id} hidden={!open} className={styles.panel}>
  <Link href="/cong-cu/bao-ban-ngay" onClick={()=>setOpen(false)}>Báo ban ngày <span aria-hidden="true">→</span></Link>
  <Link href="/cong-cu/lich-ctd-ctct" onClick={()=>setOpen(false)}>Lịch CTĐ, CTCT Văn phòng <span aria-hidden="true">→</span></Link>
+ <Link href="/cong-cu/tra-cuu" onClick={()=>setOpen(false)}>Tra cứu <span aria-hidden="true">→</span></Link>
  </div></div>;
 }
+
