@@ -1,7 +1,7 @@
 export const politicsAudiences=[{id:'command',title:'Diện Binh đoàn quản lý'},{id:'party',title:'Đảng viên'},{id:'public',title:'Quần chúng'}] as const;
 export const questionSeconds=120;
 export type PoliticsQuestion={id:string;number:string;question:string;options:Record<string,string>;correct_answer:string;source:{location:string}};
-export type PracticeState={remaining:string[];wrong:string[];completed:number;round:{id?:string;ids:string[];index:number;answers:Record<string,string>;deadline:number;timeouts:number;status:'active'|'done'|'aborted';review:boolean}|null};
+export type PracticeState={remaining:string[];wrong:string[];bookmarked?:string[];completed:number;round:{id?:string;ids:string[];index:number;answers:Record<string,string>;deadline:number;timeouts:number;status:'active'|'done'|'aborted';review:boolean}|null};
 export function newPractice(ids:string[]):PracticeState{return {remaining:ids,wrong:[],completed:0,round:null};}
 function shuffleIds(ids:string[]){const result=[...ids];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
 export function mixedQuestionIds(all:string[],wrong:string[],count:number,unseen:string[]=[]){
@@ -23,4 +23,12 @@ export function advancePractice(state:PracticeState,questions:PoliticsQuestion[]
  const wrong=new Set(s.wrong);for(const id of r.ids){const q=questions.find(q=>q.id===id);if(q&&r.answers[id]===q.correct_answer)wrong.delete(id);else wrong.add(id);}
  s.wrong=[...wrong];const newlyStudied=s.remaining.filter(id=>r.ids.includes(id)).length;s.remaining=s.remaining.filter(id=>!r.ids.includes(id));s.completed+=newlyStudied;
  }return s;
+}
+
+export function togglePracticeBookmark(state:PracticeState,id:string):PracticeState{const ids=new Set(state.bookmarked||[]);if(ids.has(id))ids.delete(id);else ids.add(id);return {...state,bookmarked:[...ids]};}
+export function beginBookmarkedPractice(state:PracticeState,count=100):PracticeState{
+ const ids=[...new Set(state.bookmarked||[])];
+ if(!ids.length)return state;
+ const next=beginPractice({...state,remaining:ids,round:null},count);
+ return {...state,round:{...next.round!,review:true}};
 }
