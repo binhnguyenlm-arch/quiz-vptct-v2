@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import LookupCamera from './LookupCamera';
 import {useEffect,useRef,useState} from 'react';
 import {findLookup,makeLookupIndex,type LookupHit,type LookupResult} from '../lib/lookup-match';
 import {prepareLookupReader,type LookupReader} from '../lib/lookup-ocr';
@@ -12,6 +13,7 @@ async function api(view='',init?:RequestInit){const r=await fetch('/api/tra-cuu'
 export default function Lookup(){
  const [access,setAccess]=useState<Access|null>(null),[error,setError]=useState(''),[busy,setBusy]=useState(false),[progress,setProgress]=useState(''),[result,setResult]=useState<LookupResult|null>(null),[selected,setSelected]=useState<LookupHit|null>(null),[manual,setManual]=useState(false);
  const [people,setPeople]=useState<Person[]|null>(null),[grants,setGrants]=useState<string[]>([]),[filter,setFilter]=useState(''),[saving,setSaving]=useState(''),[adminMessage,setAdminMessage]=useState('');
+ const [cameraOpen,setCameraOpen]=useState(false);
  const [ready,setReady]=useState(false),[preparing,setPreparing]=useState(false),[elapsed,setElapsed]=useState<number|null>(null),[hasStarted,setHasStarted]=useState(false);
  const reader=useRef<LookupReader|null>(null),prepAbort=useRef<AbortController|null>(null),prepGeneration=useRef(0),allowed=useRef(false),mounted=useRef(true);
  const camera=useRef<HTMLInputElement>(null),library=useRef<HTMLInputElement>(null),index=useRef<ReturnType<typeof makeLookupIndex>|null>(null),abort=useRef<AbortController|null>(null),generation=useRef(0);
@@ -47,7 +49,7 @@ export default function Lookup(){
  async function grant(person:string,allowed:boolean){setSaving(person);setAdminMessage('');try{await api('',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({person,allowed})});setGrants(g=>allowed?[...g.filter(x=>x!==person),person]:g.filter(x=>x!==person));await check();setAdminMessage('Đã cập nhật quyền.');}catch(e){setAdminMessage((e as Error).message);}finally{setSaving('');}}
  async function choose(hit:LookupHit){try{if((await check()).allowed){setSelected(hit);setManual(true);}}catch(e){setError((e as Error).message);}}
  return <main className={styles.wrap}>
-  <Link href="/" className={styles.back}>← Trang chủ</Link><header className={styles.header}><span>CÔNG CỤ VĂN PHÒNG</span><h1>Tra cứu</h1></header>
+  {cameraOpen&&access?.allowed&&<LookupCamera onClose={()=>setCameraOpen(false)} onFallback={()=>{setCameraOpen(false);camera.current?.click();}} onCapture={file=>{setCameraOpen(false);void capture(file);}}/>}<Link href="/" className={styles.back}>← Trang chủ</Link><header className={styles.header}><span>CÔNG CỤ VĂN PHÒNG</span><h1>Tra cứu</h1></header>
   {error&&<p role="alert" className={styles.error}>{error}</p>}
   {!access&&!error&&<p role="status">Đang kiểm tra tài khoản…</p>}
   {!access&&error&&<button onClick={()=>{setError('');void check().catch(e=>setError(e.message));}}>Thử kết nối lại</button>}
@@ -55,21 +57,23 @@ export default function Lookup(){
   {access?.me&&!access.allowed&&<section className={styles.card}><p>Tài khoản chưa được cấp quyền sử dụng. Vui lòng liên hệ cán bộ phụ trách.</p></section>}
   {access?.allowed&&<>
    {!hasStarted&&<div className={ready?styles.ready:styles.preparing} role="status" aria-live="polite"><strong>{ready?'ĐÃ SẴN SÀNG':'VUI LÒNG CHƯA BẮT ĐẦU VÀO THI'}</strong><p>{ready?'Đã tải xong ngân hàng câu hỏi và bộ nhận dạng. Bạn có thể bắt đầu vào thi.':'Hệ thống đang chuẩn bị. Chỉ bắt đầu vào thi khi thông báo chuyển sang “Đã sẵn sàng”.'}</p></div>}
-   <p className={styles.intro}>Chụp riêng một câu hỏi, rõ nội dung và tất cả phương án. Đáp án được lấy từ ngân hàng 900 câu của ba đối tượng.</p>
+   <p className={styles.intro}>Ưu tiên chụp rõ phần câu hỏi. Chỉ cần thêm phương án khi có các câu gần giống nhau. Đáp án được lấy từ ngân hàng 900 câu của ba đối tượng.</p>
    <input ref={camera} type="file" accept="image/*" capture="environment" onChange={picked} className={styles.input} aria-label="Chụp câu hỏi"/>
    <input ref={library} type="file" accept="image/*" onChange={picked} className={styles.input} aria-label="Chọn ảnh từ thư viện"/>
    {busy?<section className={styles.card} aria-live="polite"><div className={styles.loader}/><p>{progress||'Đang xử lý…'}</p><p>Tự dừng sau tối đa 20 giây nếu chưa có kết quả.</p><button onClick={clear}>Hủy nhận dạng</button></section>:<>
     {selected&&<section className={styles.answer} aria-live="polite"><span>{manual?'Câu do bạn xác nhận':'Đã tìm thấy câu phù hợp'}</span><strong className={styles.letter}>{(!manual&&selected.imageAnswer)||selected.question.correct_answer}</strong><p className={styles.correct}>{selected.question.options[selected.question.correct_answer]}</p><p>Độ khớp {Math.round(selected.score*100)}% · Câu {selected.question.number} · {names[selected.question.audience]}</p><small>{!manual&&selected.imageAnswer?'Chữ cái theo phương án nhận dạng trong ảnh.':'Chữ cái theo thứ tự trong ngân hàng; đối chiếu nội dung nếu đề đổi thứ tự.'}</small><details><summary>Xem câu hỏi và phương án chuẩn</summary><Question hit={selected} answer/></details></section>}
     {result&&!selected&&<section className={styles.card}><p role="status">{result.reason}</p>{result.hits.map(hit=><article className={styles.candidate} key={hit.question.id}><span>Độ khớp {Math.round(hit.score*100)}% · {names[hit.question.audience]} · Câu {hit.question.number}</span><Question hit={hit}/><button onClick={()=>void choose(hit)}>Đây là câu tôi cần tra cứu</button></article>)}</section>}
     {elapsed!==null&&<p className={styles.timing}>Đã xử lý trong {elapsed.toFixed(1).replace('.',',')} giây</p>}
-    <div className={styles.actions}><button disabled={!ready} className={styles.primary} onClick={()=>{clear();setError('');camera.current?.click();}}>📷 {result?'CHỤP CÂU TIẾP THEO':'CHỤP CÂU HỎI'}</button><button disabled={!ready} className={styles.secondary} onClick={()=>{clear();setError('');library.current?.click();}}>Chọn ảnh từ thư viện</button></div>
+    <div className={styles.actions}><button disabled={!ready} className={styles.primary} onClick={()=>{clear();setError('');setCameraOpen(true);}}>📷 {result?'CHỤP CÂU TIẾP THEO':'CHỤP CÂU HỎI'}</button><button disabled={!ready} className={styles.secondary} onClick={()=>{clear();setError('');library.current?.click();}}>Chọn ảnh từ thư viện</button></div>
     {!ready&&<p role="status">{preparing?'Đang chuẩn bị sẵn để tra cứu nhanh. Lần đầu cần tải bộ nhận dạng tiếng Việt.':'Bộ nhận dạng chưa sẵn sàng.'}</p>}
     {!ready&&!preparing&&<button onClick={()=>{setError('');void prepare();}}>Chuẩn bị lại</button>}
    </>}
-   <details className={styles.help}><summary>Hướng dẫn sử dụng</summary><ol><li>Đặt điện thoại thẳng, đủ sáng; chụp trọn một câu và các phương án. Có thể chọn ảnh chụp màn hình.</li><li>Đối chiếu nội dung đáp án, nhất là khi đề đổi thứ tự A/B/C/D. Câu chưa rõ sẽ cần bạn xác nhận.</li><li>Chọn “Chụp câu tiếp theo” để bắt đầu lượt mới. Ảnh chỉ được xử lý trên thiết bị, không gửi lên máy chủ và không lưu lịch sử.</li></ol><p>Độ khớp thể hiện mức giống nội dung, không phải cam kết xác suất đúng. Lần đầu cần mạng để tải bộ nhận dạng tiếng Việt. Ảnh nghiêng, mờ hoặc chữ nhỏ có thể cần chụp lại.</p></details>
+   <details className={styles.help}><summary>Hướng dẫn sử dụng</summary><ol><li>Đợi thông báo sẵn sàng, mở camera rồi căn phần câu hỏi vào khung. Chỉ phần trong khung được nhận dạng; kéo thanh điều chỉnh để mở rộng khung khi cần thêm đáp án. Cũng có thể chọn ảnh chụp màn hình.</li><li>Đối chiếu nội dung đáp án, nhất là khi đề đổi thứ tự A/B/C/D. Câu chưa rõ sẽ cần bạn xác nhận.</li><li>Chọn “Chụp câu tiếp theo” để bắt đầu lượt mới. Ảnh chỉ được xử lý trên thiết bị, không gửi lên máy chủ và không lưu lịch sử.</li></ol><p>Độ khớp thể hiện mức giống nội dung, không phải cam kết xác suất đúng. Lần đầu cần mạng để tải bộ nhận dạng tiếng Việt. Ảnh nghiêng, mờ hoặc chữ nhỏ có thể cần chụp lại.</p></details>
   </>}
   {access?.me?.admin&&<section className={styles.admin}><button onClick={()=>people?setPeople(null):void admin()}>Quản lý quyền Tra cứu {people?'▴':'▾'}</button>{adminMessage&&<p role="status">{adminMessage}</p>}{people&&<><p>Cấp riêng cho từng tài khoản. Cán bộ phụ trách cũng cần được cấp quyền để sử dụng.</p><label>Tìm tài khoản<input value={filter} onChange={e=>setFilter(e.target.value)} placeholder="Tên hoặc tên đăng nhập"/></label><ul>{people.filter(p=>(p.name+' '+p.username).toLocaleLowerCase('vi').includes(filter.toLocaleLowerCase('vi'))).map(p=><li key={p.id}><span>{p.name}<small>{p.username}</small></span><button disabled={!!saving} onClick={()=>void grant(p.id,!grants.includes(p.id))}>{saving===p.id?'Đang lưu…':grants.includes(p.id)?'Thu hồi':'Cấp quyền'}</button></li>)}</ul></>}</section>}
  </main>;
 }
 function Question({hit,answer=false}:{hit:LookupHit;answer?:boolean}){return <div><p><b>{hit.question.question}</b></p>{Object.entries(hit.question.options).map(([key,value])=><p key={key} style={answer&&key===hit.question.correct_answer?{color:'#126338',fontWeight:800}:undefined}>{key}. {value}</p>)}</div>;}
+
+
 
