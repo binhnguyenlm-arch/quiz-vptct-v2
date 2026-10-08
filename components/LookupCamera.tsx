@@ -17,8 +17,12 @@ export default function LookupCamera({onCapture,onClose,onFallback}:{onCapture:(
   finally{if(canvas){canvas.width=canvas.height=0;}}
  }
  return <dialog ref={dialog} className={styles.dialog} onCancel={e=>{e.preventDefault();onClose();}} aria-label="Camera chụp câu hỏi"><header><b>Căn phần câu hỏi vào khung</b><button onClick={onClose} aria-label="Đóng camera">✕</button></header>
- <div className={styles.preview}><video ref={video} muted playsInline aria-label="Hình ảnh camera"/><div ref={frame} className={styles.frame} style={{height:height+'%'}}><span>Chỉ nhận dạng bên trong khung</span></div>{!ready&&!error&&<p className={styles.loading}>Đang mở camera…</p>}</div>
+ <p className={styles.notice}>Lưu ý: Ưu tiên chụp trọn câu hỏi; cố gắng lấy đủ các phương án. Chụp thiếu nội dung có thể khiến việc xác nhận lâu hơn hoặc cần chụp lại. Nếu thiếu phương án, hãy đối chiếu nội dung đáp án, không chỉ chữ A/B/C/D.</p><div className={styles.preview}><video ref={video} muted playsInline aria-label="Hình ảnh camera"/><div ref={frame} className={styles.frame} style={{height:height+'%'}}></div>{!ready&&!error&&<p className={styles.loading}>Đang mở camera…</p>}</div>
  <footer>{error?<p role="alert">{error}</p>:<label>Điều chỉnh chiều cao khung<input type="range" min="20" max="85" value={height} onChange={e=>setHeight(Number(e.target.value))}/></label>}
  <button className={styles.shutter} disabled={!ready||!!error||shooting} onClick={()=>void shoot()}>{shooting?'Đang chụp…':'📷 CHỤP TRONG KHUNG'}</button><button onClick={()=>{stop();onFallback();}}>Dùng camera điện thoại / thư viện</button></footer></dialog>;
 }
+
+
+
+
 
