@@ -2,7 +2,7 @@
 export type LookupQuestion={id:string;number:string;audience:string;question:string;options:Record<string,string>;correct_answer:string};
 export type LookupHit={question:LookupQuestion;score:number;questionScore:number;optionScore:number;imageAnswer:string|null;sources:string[]};
 export type LookupResult={automatic:boolean;reason:string;hits:LookupHit[]};
-export function normalizeLookup(s:string){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');}
+export function normalizeLookup(s:string){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLowerCase().replace(/(\d)([a-z])/g,'$1 $2').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');}
 function stem(s:string){return normalizeLookup(s.replace(/^\s*(?:câu|cau|question)\s*\d+[.:)\s-]*/i,''));}
 function grams(s:string){const result=new Set<string>();for(let i=0;i<s.length-2;i++)result.add(s.slice(i,i+3));return result;}
 function overlap(a:Set<string>,b:Set<string>){let n=0;for(const t of a)if(b.has(t))n++;return a.size+b.size?2*n/(a.size+b.size):0;}
@@ -10,8 +10,22 @@ function similarity(a:string,b:string){if(!a||!b)return 0;if(a===b)return 1;cons
 export function parseLookupText(text:string){
  const chunks=text.replace(/\r/g,'').replace(/\s+([A-HĐa-hđ][.)])\s+/g,'\n$1 ').split('\n');
  const options:Record<string,string>={};let key='',question='';
- for(const line of chunks){const m=line.match(/^\s*([A-HĐa-hđ1-8])\s*[.)：:]\s*(.+)$/);if(m){key=m[1].toUpperCase();if(options[key])key+='2';options[key]=m[2];}else if(key)options[key]+=' '+line;else question+=' '+line;}
- return {question:question.trim(),options,multiple:(text.match(/(?:^|\n)\s*(?:Câu|Cau)\s*\d+\s*[.:)]/gi)||[]).length>1};
+ for(let line of chunks){
+  const n=normalizeLookup(line);
+  if(/(?:https?|vercel|\.pdf|\.docx)/i.test(line)||/^(?:thoi gian (?:toan|con)|chon mot dap an|cau \d+ (?:trong|tai lieu)|thu lai(?: ok)?$|ok$|xac nhan tra loi|dung luot thi|on tap va thi|search$)/.test(n))continue;
+  if(key&&/^(?:xac nhan|dung luot|thu lai)/.test(n))break;
+  line=line.replace(/^\s*[○◯◎◉©®oO0]\s+(?=[A-HĐa-hđ][.)：:])/,'');
+  const m=line.match(/^\s*([A-HĐa-hđ1-8])\s*[.)：:]\s*(.+)$/);
+  if(m){key=m[1].toUpperCase();if(options[key])key+='2';options[key]=m[2];}
+  else if(key){if(n.length>2)options[key]+=' '+line;}
+  else question+='\n'+line;
+ }
+ // The question paragraph often follows browser chrome/timers in a screen photo.
+ // Keep the complete paragraph (including wrapped lines), never just a substring.
+ const blocks=question.trim().split(/\n\s*\n/).filter(s=>s.trim());
+ const questioned=blocks.filter(s=>s.includes('?'));
+ if(questioned.length===1)question=questioned[0];
+ return {question:question.trim(),options,multiple:(text.match(/(?:^|\n)\s*(?:Câu|Cau)\s*\d+\s*[.:)]/gi)||[]).length>1||questioned.length>1};
 }
 function numbers(s:string){return (s.match(/\b\d+\b/g)||[]).join('|');}
 function criticalSame(a:string,b:string){return numbers(a)===numbers(b)&&['khong','chua','ngoai tru'].every(w=>a.includes(w)===b.includes(w));}
@@ -25,6 +39,13 @@ export function findLookup(text:string,index:ReturnType<typeof makeLookupIndex>)
  if(parsed.multiple)return {automatic:false,reason:'Ảnh có nhiều câu hỏi. Hãy chụp riêng một câu.',hits:[]};
  if(query.length<25||query.split(' ').length<5)return {automatic:false,reason:'Chưa đọc đủ nội dung câu hỏi. Hãy chụp gần và rõ hơn.',hits:[]};
  const shortlist=index.map(item=>({item,questionScore:similarity(query,item.text)})).filter(x=>x.questionScore>=.45).sort((a,b)=>b.questionScore-a.questionScore).slice(0,60);
+ const uniqueQuestion=shortlist[0];
+ // A unique near-exact complete question suffices. Do not infer the photographed
+ // option letter when options were not reliably read; show the bank letter + text.
+ if(uniqueQuestion&&uniqueQuestion.questionScore>=.985&&uniqueQuestion.questionScore-(shortlist[1]?.questionScore||0)>=.12&&criticalSame(query,uniqueQuestion.item.text)){
+  const {item,questionScore}=uniqueQuestion;
+  if(!opts.length)return {automatic:true,reason:'Khớp duy nhất theo nội dung câu hỏi.',hits:[{question:item.q,score:questionScore,questionScore,optionScore:0,imageAnswer:null,sources:item.sources}]};
+ }
  const scored=shortlist.map(({item,questionScore})=>{
   let optionScore=0,imageAnswer:string|null=null;const assigned=new Set<string>();let reliable=opts.length>=2;
   for(const [label,value] of opts){const ranked=item.options.map(([k,v])=>({k,v,score:similarity(value,v)})).sort((a,b)=>b.score-a.score);const best=ranked[0];optionScore+=best?.score||0;if(!best||best.score<.87||!criticalSame(value,best.v)||(ranked[1]&&best.score-ranked[1].score<.08)||assigned.has(best.k))reliable=false;if(best){assigned.add(best.k);if(best.k===item.q.correct_answer)imageAnswer=label;}}
@@ -38,7 +59,11 @@ export function findLookup(text:string,index:ReturnType<typeof makeLookupIndex>)
  }).sort((a,b)=>b.score-a.score);
  const first=scored[0];if(!first||first.score<.5)return {automatic:false,reason:'Không tìm thấy câu phù hợp trong ngân hàng. Hãy chụp lại đủ câu hỏi và phương án.',hits:[]};
  const gap=first.score-(scored[1]?.score||0),sameStem=scored.slice(1).some(h=>h.questionScore>first.questionScore-.035);
- const automatic=first.critical&&first.questionScore>=.91&&first.score>=.92&&gap>=.065&&(opts.length?first.reliable&&first.optionScore>=.87&&!!first.imageAnswer:!sameStem&&first.questionScore>=.985);
+ let automatic=first.critical&&first.questionScore>=.91&&first.score>=.92&&gap>=.065&&(opts.length?first.reliable&&first.optionScore>=.87&&!!first.imageAnswer:!sameStem&&first.questionScore>=.985);
+ const referenceReordered=uniqueQuestion&&uniqueQuestion.item.options.some(([,v])=>/\b(phuong an|dap an|ca|cau)\s+[a-h]\b/.test(v))&&opts.some(([label,value])=>uniqueQuestion.item.options.some(([k,v])=>k!==label&&similarity(value,v)>=.95&&similarity(value,normalizeLookup(uniqueQuestion.item.q.options[label]||''))<.8));
+ if(!automatic&&!referenceReordered&&uniqueQuestion&&uniqueQuestion.questionScore>=.985&&uniqueQuestion.questionScore-(shortlist[1]?.questionScore||0)>=.12&&criticalSame(query,uniqueQuestion.item.text)){
+  const {item,questionScore}=uniqueQuestion;return {automatic:true,reason:'Khớp duy nhất theo nội dung câu hỏi; đáp án theo ngân hàng.',hits:[{question:item.q,score:questionScore,questionScore,optionScore:0,imageAnswer:null,sources:item.sources}]};
+ }
  return {automatic,reason:automatic?'Đáp án từ ngân hàng chuẩn.':!first.critical?'Nội dung số liệu hoặc từ phủ định chưa khớp. Hãy chụp lại hoặc đối chiếu câu bên dưới.':sameStem?'Có các câu gần giống nhau. Hãy đối chiếu đủ câu hỏi và phương án trước khi chọn.':'Chưa đủ chắc chắn để hiện đáp án tự động. Hãy chụp lại hoặc chọn đúng câu bên dưới.',hits:scored.slice(0,4).map(({critical:_,reliable:__,...hit})=>hit)};
 }
 
