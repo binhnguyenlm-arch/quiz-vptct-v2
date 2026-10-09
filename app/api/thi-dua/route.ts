@@ -1,6 +1,7 @@
 import {requireUploads} from '../../../lib/usage-controls';
 import {NextRequest,NextResponse} from 'next/server';
 import {randomUUID} from 'node:crypto';
+import {validateAwardRange} from '../../../lib/awards-export';
 import {validateCampaign} from '../../../lib/commendations';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
@@ -11,6 +12,12 @@ async function admin(req:NextRequest){const token=req.cookies.get('learning_sess
 async function all(path:string){const rows:any[]=[];for(let offset=0;;offset+=1000){const page=await sb(path+'&limit=1000&offset='+offset);rows.push(...page);if(page.length<1000)return rows;}}
 export async function GET(req:NextRequest){try{
  const isAdmin=await admin(req),manage=req.nextUrl.searchParams.get('manage')==='1';if(manage&&!isAdmin)return NextResponse.json({error:'Vui lòng đăng nhập bằng tài khoản admin.'},{status:403});
+ const from=req.nextUrl.searchParams.get('from'),to=req.nextUrl.searchParams.get('to');
+ if(from!==null||to!==null){
+  try{validateAwardRange(from||'',to||'');}catch(e){return NextResponse.json({error:(e as Error).message},{status:400});}
+  const events=await all('/rest/v1/office_campaigns?select=id,title,date,description,collectives,honorees,published&published=eq.true&order=date.asc,id&date=gte.'+from+'&date=lte.'+to);
+  return NextResponse.json({events},{headers:{'Cache-Control':'no-store'}});
+ }
  const year=req.nextUrl.searchParams.get('year');if(year&&!/^(0|[12]\d{3})$/.test(year))return NextResponse.json({error:'Năm không hợp lệ.'},{status:400});
  const visibility=manage?'':'&published=eq.true';const dates=await all('/rest/v1/office_campaigns?select=date&order=date.desc.nullslast,id'+visibility);const years=[...new Set(dates.map(d=>d.date?Number(d.date.slice(0,4)):0))];
  const selected=year!==null?Number(year):years[0]??new Date().getFullYear();const scope=selected?'&date=gte.'+selected+'-01-01&date=lt.'+(selected+1)+'-01-01':'&date=is.null';
